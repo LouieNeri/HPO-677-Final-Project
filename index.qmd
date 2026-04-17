@@ -25,6 +25,14 @@ citation:
 number-sections: true
 ---
 
+```{r}
+#| label: setup
+#| include: false
+
+library(tidyverse)
+library(ggdag)
+```
+
 # Specific Aims
 
 Atopic dermatitis (AD) is a chronic inflammatory skin condition affecting an estimated 7% to 10% of adults in the United States [@silverberg_adult_2013]. Moderate-to-severe AD produces persistent pruritus, sleep disturbance, visible skin changes, and psychological distress, which together reduce quality of life and elevate the risk of depression and anxiety [@silverberg_patient_2018]. The disease burden experienced by patients extends well beyond what clinical severity scores capture.
@@ -81,7 +89,7 @@ This proposal advances the field in five respects.
 
 *Systematic evaluation of treatment effect heterogeneity.* A single average treatment effect can mask substantial variation across subgroups. This study formally tests whether benefits differ by age, sex, and race. Given documented disparities in AD treatment access across demographic groups [@tackett_structural_2020], this approach identifies subgroups that may experience differential benefits. Effect modification will be assessed through formal interaction tests rather than side-by-side comparison of significance labels across strata, the latter being a common but invalid way to establish that effects truly differ.
 
-*Methodological rigor in addressing confounding by indication.* Patients receiving dupilumab typically have more severe, refractory disease than those on conventional therapy. IPTW will create a pseudo-population in which measured baseline covariates are balanced across treatment groups, and covariate balance will be verified through standardized mean differences (threshold: SMD < 0.1) and propensity score overlap to evaluate positivity. E-value sensitivity analyses will quantify how strong an unmeasured confounder would need to be to explain away observed effects [@vanderweele_sensitivity_2017]. The combination provides a transparent framework for causal interpretation in an observational setting.
+*Methodological rigor in addressing confounding by indication.* Patients receiving dupilumab typically have more severe, refractory disease than those on conventional therapy. IPTW will create a pseudo-population in which measured baseline covariates are balanced across treatment groups, and covariate balance will be verified through standardized mean differences (threshold: SMD \< 0.1) and propensity score overlap to evaluate positivity. E-value sensitivity analyses will quantify how strong an unmeasured confounder would need to be to explain away observed effects [@vanderweele_sensitivity_2017]. The combination provides a transparent framework for causal interpretation in an observational setting.
 
 *Emphasis on clinical meaningfulness.* Interpretation will center on effect size, confidence interval width, and compatibility with established MCIDs (DLQI: 4 points, [@basra_determining_2015]; PHQ-9: 5 points, [@kroenke_phq-9_2001]), rather than on whether a result crosses a p-value threshold. Statistically significant findings do not guarantee clinically important effects, particularly in large samples where small differences can produce low p-values. Nonsignificant findings in smaller samples may reflect imprecision rather than absence of effect. Interpretation grounded in effect magnitude and clinical thresholds is more useful for treatment decisions than a binary significance label.
 
@@ -90,6 +98,62 @@ This proposal advances the field in five respects.
 ### Overview and conceptual model
 
 This prospective cohort study will compare patient-reported outcomes between adults with moderate-to-severe AD initiating dupilumab versus conventional therapy. The conceptual model serves as the organizing framework: treatment type (the primary exposure) affects disease activity, itch intensity, and sleep disturbance, which in turn influence DLQI and PHQ-9. Confounders including baseline disease severity, treatment history, insurance status, comorbidities, and socioeconomic factors affect both treatment selection and outcomes and must be addressed through propensity score methods. The model assigns each variable an explicit role as exposure, mediator, moderator, or confounder, which prevents the analysis from devolving into a list of variables without rationale and ensures every analytic decision ties back to the hypothesized causal structure.
+
+```{r}
+#| label: fig-conceptual-model
+#| fig-cap: "Conceptual model. The primary causal pathway runs from treatment through mediators to outcomes. Confounders influence both treatment selection and outcomes, creating the need for propensity score adjustment."
+#| warning: false
+#| message: false
+#| echo: false
+
+library(tidyverse)
+
+boxes <- tibble(
+  x = c(1, 4, 7, 4),
+  y = c(1, 1, 1, 3),
+  label = c(
+    "Treatment\nDupilumab vs. Conventional",
+    "Mediators\nDisease activity\nItch intensity\nSleep disturbance",
+    "Outcomes\nDLQI\nPHQ-9",
+    "Confounders\nBaseline severity\nTreatment history\nInsurance\nComorbidities\nSES\nAge\nSex\nRace"
+  )
+)
+
+arrows <- tibble(
+  x = c(1.8, 4.8, 3.6, 4.4),
+  y = c(1.0, 1.0, 2.7, 2.7),
+  xend = c(3.2, 6.2, 1.8, 6.2),
+  yend = c(1.0, 1.0, 1.4, 1.4)
+)
+
+ggplot() +
+  geom_segment(
+    data = arrows,
+    aes(x = x, y = y, xend = xend, yend = yend),
+    arrow = arrow(type = "closed"),
+    color = "gray50"
+  ) +
+  geom_curve(
+    aes(x = 1.5, y = 0.6, xend = 6.5, yend = 0.6),
+    curvature = 0.2,
+    arrow = arrow(type = "closed"),
+    color = "gray50"
+  ) +
+  geom_label(
+    data = boxes,
+    aes(x = x, y = y, label = label),
+    fill = "white"
+  ) +
+  annotate(
+    "text",
+    x = 4,
+    y = 0.35,
+    label = "direct effect",
+    hjust = 0.5
+  ) +
+  coord_cartesian(xlim = c(0, 8), ylim = c(0, 4)) +
+  theme_void()
+```
 
 ### Study design
 
@@ -106,7 +170,7 @@ DLQI and PHQ-9 will be extracted from routine clinical assessments documented at
 ### Variables and measurement
 
 | Variable Type | Variable | Description | Measurement | Scale |
-|---------------|----------|-------------|-------------|-------|
+|---------------|---------------|---------------|---------------|---------------|
 | Primary Exposure | Treatment group | Dupilumab vs. conventional therapy | EHR prescription records | Categorical |
 | Primary Outcome | Disease-specific QoL | DLQI change score (baseline to 12 months) | Range: 0-30 | Continuous |
 | Primary Outcome | Depressive symptoms | PHQ-9 change score (baseline to 12 months) | Range: 0-27 | Continuous |
@@ -131,7 +195,7 @@ A confounder is associated with both treatment selection and outcomes but does n
 
 ### Statistical analysis plan
 
-**Propensity score estimation.** A propensity score is the probability that a patient received a particular treatment given their observed baseline characteristics. It compresses multiple confounders into a single score between zero and one and functions as a balancing score: patients with similar scores have, on average, similar distributions of observed covariates regardless of which treatment they received. Propensity scores will be estimated via logistic regression with treatment group as the dependent variable and the following baseline covariates as predictors: age, sex, race/ethnicity, baseline EASI score, number of prior systemic therapy failures, disease duration, insurance type, depression/anxiety history, and relevant comorbidities. Variable selection is based on subject matter knowledge of likely confounders. After weighting, covariate balance will be assessed using standardized mean differences (threshold: SMD < 0.1) and propensity score overlap will be inspected visually to evaluate the positivity assumption, which requires a nonzero probability of receiving each treatment for every combination of covariates [@austin_introduction_2011].
+**Propensity score estimation.** A propensity score is the probability that a patient received a particular treatment given their observed baseline characteristics. It compresses multiple confounders into a single score between zero and one and functions as a balancing score: patients with similar scores have, on average, similar distributions of observed covariates regardless of which treatment they received. Propensity scores will be estimated via logistic regression with treatment group as the dependent variable and the following baseline covariates as predictors: age, sex, race/ethnicity, baseline EASI score, number of prior systemic therapy failures, disease duration, insurance type, depression/anxiety history, and relevant comorbidities. Variable selection is based on subject matter knowledge of likely confounders. After weighting, covariate balance will be assessed using standardized mean differences (threshold: SMD \< 0.1) and propensity score overlap will be inspected visually to evaluate the positivity assumption, which requires a nonzero probability of receiving each treatment for every combination of covariates [@austin_introduction_2011].
 
 **Primary analysis.** The average treatment effect on the treated (ATT) will be estimated using IPTW in weighted linear regression models. IPTW creates a pseudo-population in which measured covariates are balanced across treatment groups, approximating what randomization would achieve. Primary outcomes are 12-month change scores for DLQI and PHQ-9. Point estimates will be reported with 95% confidence intervals, and clinical significance will be evaluated against established MCIDs (DLQI: 4 points; PHQ-9: 5 points), focusing on whether confidence intervals exclude these thresholds and what effect sizes remain compatible with the data. Hypothesis testing at alpha = 0.05 will be reported, though a point estimate paired with its confidence interval is more informative for guiding treatment decisions than a binary significance label.
 
@@ -148,8 +212,8 @@ Demographic characteristics are likely to shape both treatment patterns and outc
 ### Potential challenges and solutions
 
 | Challenge | Proposed Solution |
-|-----------|-------------------|
-| Confounding by indication: dupilumab patients have more severe, refractory disease | IPTW with thorough covariate balance assessment (SMD < 0.1); doubly robust estimation as sensitivity analysis; E-value calculations for unmeasured confounding |
+|---------------------------|---------------------------------------------|
+| Confounding by indication: dupilumab patients have more severe, refractory disease | IPTW with thorough covariate balance assessment (SMD \< 0.1); doubly robust estimation as sensitivity analysis; E-value calculations for unmeasured confounding |
 | Missing PRO data from incomplete follow-up or inconsistent EHR documentation | Multiple imputation by chained equations with sensitivity analyses comparing complete-case results; evaluation of whether missingness patterns relate to patient characteristics or outcome risk |
 | Selection bias from differential out-of-pocket costs affecting who receives dupilumab | Include insurance status and socioeconomic indicators in propensity score model; assess residual imbalance post-weighting |
 | Treatment switching or discontinuation during follow-up | Intention-to-treat analysis as primary approach; per-protocol analysis as sensitivity check with documented switching rates and reasons |
@@ -160,14 +224,14 @@ Demographic characteristics are likely to shape both treatment patterns and outc
 ### Study timeline
 
 | Activity | Year 1 Q1-Q2 | Year 1 Q3-Q4 | Year 2 Q1-Q2 | Year 2 Q3-Q4 |
-|----------|:---:|:---:|:---:|:---:|
-| IRB approval and data access agreements | ✓ | | | |
-| Cohort identification and data extraction | ✓ | ✓ | | |
-| Propensity score estimation and balance assessment | | ✓ | | |
-| Primary analyses (Aims 1 and 2) | | ✓ | ✓ | |
-| Effect modification analyses (Aim 3) | | | ✓ | |
-| Sensitivity analyses and robustness checks | | | ✓ | |
-| Manuscript preparation and dissemination | | | ✓ | ✓ |
+|----|:--:|:--:|:--:|:--:|
+| IRB approval and data access agreements | ✓ |  |  |  |
+| Cohort identification and data extraction | ✓ | ✓ |  |  |
+| Propensity score estimation and balance assessment |  | ✓ |  |  |
+| Primary analyses (Aims 1 and 2) |  | ✓ | ✓ |  |
+| Effect modification analyses (Aim 3) |  |  | ✓ |  |
+| Sensitivity analyses and robustness checks |  |  | ✓ |  |
+| Manuscript preparation and dissemination |  |  | ✓ | ✓ |
 
 : Study timeline {#tbl-timeline}
 
