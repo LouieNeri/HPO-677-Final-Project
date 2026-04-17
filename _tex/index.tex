@@ -65,6 +65,7 @@
 
 
 \usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
 \usepackage{calc} % for calculating minipage widths
 % Correct order of tables after \paragraph or \subparagraph
 \usepackage{etoolbox}
@@ -467,7 +468,7 @@ confounder, which prevents the analysis from devolving into a list of
 variables without rationale and ensures every analytic decision ties
 back to the hypothesized causal structure.
 
-\phantomsection\label{cell-fig-conceptual-model}
+\protect\phantomsection\label{cell-fig-conceptual-model}
 \begin{figure}[H]
 
 \centering{
@@ -484,7 +485,7 @@ the need for propensity score adjustment.}
 \end{figure}%
 
 \textsubscript{Source:
-\href{https://LouieNeri.github.io/HPO-677-Final-Project/index-preview.html}{Article
+\href{https://LouieNeri.github.io/HPO-677-Final-Project/index.qmd.html}{Article
 Notebook}}
 
 \subsubsection{Study design}\label{study-design}
@@ -778,7 +779,7 @@ Manuscript preparation and dissemination & & & ✓ & ✓ \\
 
 \section{References}\label{references}
 
-\phantomsection\label{refs}
+\protect\phantomsection\label{refs}
 \begin{CSLReferences}{1}{0}
 \vspace{1em}
 

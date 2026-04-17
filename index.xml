@@ -1,63 +1,89 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8" ?>
 <!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving
 and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+
 <article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.2" article-type="other">
-  <front>
-    <journal-meta>
-      <journal-id/>
-      <journal-title-group>
-        <journal-title>NIH Grant Proposal</journal-title>
-      </journal-title-group>
-      <issn/>
-      <publisher>
-        <publisher-name/>
-      </publisher>
-    </journal-meta>
-    <article-meta>
-      <title-group>
-        <article-title>Comparing Patient-Reported Outcomes Between Dupilumab and
+
+<front>
+<journal-meta>
+<journal-id></journal-id>
+
+<journal-title-group>
+<journal-title>NIH Grant Proposal</journal-title>
+</journal-title-group>
+<issn></issn>
+
+<publisher>
+<publisher-name></publisher-name>
+</publisher>
+</journal-meta>
+
+
+<article-meta>
+
+
+<title-group>
+<article-title>Comparing Patient-Reported Outcomes Between Dupilumab and
 Conventional Therapy in Adults with Moderate-to-Severe Atopic
 Dermatitis</article-title>
-        <subtitle>HPO 677 Final Project - NIH Grant Proposal
+<subtitle>HPO 677 Final Project - NIH Grant Proposal
 (PAR-24-280)</subtitle>
-      </title-group>
-      <contrib-group>
-        <contrib contrib-type="author" corresp="yes">
-          <name>
-            <surname>Neri</surname>
-            <given-names>Louie</given-names>
-          </name>
-          <string-name>Louie Neri</string-name>
-          <xref ref-type="corresp" rid="cor-1">*</xref>
-        </contrib>
-      </contrib-group>
-      <author-notes>
-        <corresp id="cor-1"/>
-      </author-notes>
-      <pub-date date-type="pub" publication-format="electronic" iso-8601-date="2026-04-16">
-        <year>2026</year>
-        <month>4</month>
-        <day>16</day>
-      </pub-date>
-      <history/>
-      <abstract>
-        <p>This grant proposal compares patient-reported outcomes between
+</title-group>
+
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<name>
+<surname>Neri</surname>
+<given-names>Louie</given-names>
+</name>
+<string-name>Louie Neri</string-name>
+
+<xref ref-type="corresp" rid="cor-1">&#x002A;</xref>
+</contrib>
+</contrib-group>
+<author-notes>
+<corresp id="cor-1"></corresp>
+</author-notes>
+
+<pub-date date-type="pub" publication-format="electronic" iso-8601-date="2026-04-17">
+<year>2026</year>
+<month>4</month>
+<day>17</day>
+</pub-date>
+
+
+
+
+
+
+
+<history></history>
+
+
+<abstract>
+<p>This grant proposal compares patient-reported outcomes between
 dupilumab and conventional therapy in adults with moderate-to-severe
 atopic dermatitis using observational electronic health record data.</p>
-      </abstract>
-      <kwd-group kwd-group-type="author">
-        <kwd>Atopic dermatitis</kwd>
-        <kwd>Dupilumab</kwd>
-        <kwd>Patient-reported outcomes</kwd>
-        <kwd>Comparative effectiveness</kwd>
-        <kwd>Grant proposal</kwd>
-      </kwd-group>
-    </article-meta>
-  </front>
-  <body>
-    <sec id="specific-aims">
-      <title>1. Specific Aims</title>
-      <p>Atopic dermatitis (AD) is a chronic inflammatory skin condition
+</abstract>
+<kwd-group kwd-group-type="author">
+<kwd>Atopic dermatitis</kwd>
+<kwd>Dupilumab</kwd>
+<kwd>Patient-reported outcomes</kwd>
+<kwd>Comparative effectiveness</kwd>
+<kwd>Grant proposal</kwd>
+</kwd-group>
+
+
+
+
+</article-meta>
+
+</front>
+
+<body>
+<sec id="specific-aims">
+  <title>1. Specific Aims</title>
+  <p>Atopic dermatitis (AD) is a chronic inflammatory skin condition
   affecting an estimated 7% to 10% of adults in the United States
   (<xref alt="Silverberg and Hanifin 2013" rid="ref-silverberg_adult_2013" ref-type="bibr">Silverberg
   and Hanifin 2013</xref>). Moderate-to-severe AD produces persistent
@@ -67,7 +93,7 @@ atopic dermatitis using observational electronic health record data.</p>
   (<xref alt="Silverberg et al. 2018" rid="ref-silverberg_patient_2018" ref-type="bibr">Silverberg
   et al. 2018</xref>). The disease burden experienced by patients
   extends well beyond what clinical severity scores capture.</p>
-      <p>Dupilumab, a biologic therapy targeting IL-4 and IL-13 signaling,
+  <p>Dupilumab, a biologic therapy targeting IL-4 and IL-13 signaling,
   has reshaped the treatment landscape for moderate-to-severe AD since
   its FDA approval in 2017
   (<xref alt="Simpson et al. 2016" rid="ref-simpson_two_2016" ref-type="bibr">Simpson
@@ -81,7 +107,7 @@ atopic dermatitis using observational electronic health record data.</p>
   the 12-month time horizon relevant to clinical decision-making
   (<xref alt="Afshari et al. 2024" rid="ref-afshari_unraveling_2024" ref-type="bibr">Afshari
   et al. 2024</xref>).</p>
-      <p>This gap matters for three reasons. First, clinicians and patients
+  <p>This gap matters for three reasons. First, clinicians and patients
   making treatment decisions lack robust comparative data on outcomes
   that reflect what patients actually experience. Second, cost
   differences between biologic and conventional therapies are
@@ -94,7 +120,7 @@ atopic dermatitis using observational electronic health record data.</p>
   essential for shared decision-making that reflects both clinical
   effectiveness and the patient-centered consequences of treatment
   choice.</p>
-      <p>The long-term goal of this research is to generate real-world
+  <p>The long-term goal of this research is to generate real-world
   evidence on patient-centered outcomes that can inform treatment
   selection and health policy for adults with moderate-to-severe AD. The
   objective of this application is to compare changes in
@@ -109,8 +135,8 @@ atopic dermatitis using observational electronic health record data.</p>
   Rheumatic, and Skin Diseases, which seeks well-designed observational
   research that improves understanding of disease symptoms and outcomes
   important to patients with skin conditions.</p>
-      <p>The specific aims are:</p>
-      <p><bold>Aim 1: Compare 12-month changes in disease-specific quality
+  <p>The specific aims are:</p>
+  <p><bold>Aim 1: Compare 12-month changes in disease-specific quality
   of life between dupilumab and conventional therapy.</bold> Changes in
   the Dermatology Life Quality Index (DLQI)
   (<xref alt="Finlay and Khan 1994" rid="ref-finlay_dermatology_1994" ref-type="bibr">Finlay
@@ -122,22 +148,22 @@ atopic dermatitis using observational electronic health record data.</p>
   clinically important difference (MCID) of 4 points
   (<xref alt="Basra et al. 2015" rid="ref-basra_determining_2015" ref-type="bibr">Basra
   et al. 2015</xref>).</p>
-      <p><bold>Aim 2: Compare 12-month changes in depressive symptoms
+  <p><bold>Aim 2: Compare 12-month changes in depressive symptoms
   between dupilumab and conventional therapy.</bold> Changes in the
   Patient Health Questionnaire-9 (PHQ-9)
-  (<xref alt="Kroenke, Spitzer, and Williams 2001" rid="ref-kroenke_phq-9_2001" ref-type="bibr">Kroenke,
-  Spitzer, and Williams 2001</xref>) will be evaluated between treatment
-  groups using the same IPTW approach. The hypothesis is that
-  dupilumab-treated patients will show greater reductions in depressive
-  symptoms, consistent with the established relationship between skin
-  disease burden and psychological well-being.</p>
-      <p><bold>Aim 3: Examine whether treatment effects vary by age, sex,
+  (<xref alt="Kroenke et al. 2001" rid="ref-kroenke_phq-9_2001" ref-type="bibr">Kroenke
+  et al. 2001</xref>) will be evaluated between treatment groups using
+  the same IPTW approach. The hypothesis is that dupilumab-treated
+  patients will show greater reductions in depressive symptoms,
+  consistent with the established relationship between skin disease
+  burden and psychological well-being.</p>
+  <p><bold>Aim 3: Examine whether treatment effects vary by age, sex,
   and race.</bold> Prespecified interaction terms will test for effect
   modification by demographic characteristics. This aim will identify
   subgroups that may experience differential benefits and will surface
   potential disparities in treatment outcomes. Insurance status and
   socioeconomic factors will be examined as exploratory moderators.</p>
-      <p>The expected output is real-world comparative effectiveness
+  <p>The expected output is real-world comparative effectiveness
   evidence on patient-reported outcomes in AD that is directly relevant
   to clinical decision-making. Secondary contributions include
   characterizing disease symptom trajectories under routine care,
@@ -146,15 +172,15 @@ atopic dermatitis using observational electronic health record data.</p>
   that can inform efforts to reduce disparities in AD care. This work
   aligns with the NIAMS mission to improve outcomes and function in
   patients with skin conditions.</p>
-      <p/>
-    </sec>
-    <sec id="research-strategy">
-      <title>2. Research Strategy</title>
-      <sec id="significance">
-        <title>2.1 Significance</title>
-        <sec id="burden-of-atopic-dermatitis">
-          <title>2.1.1 Burden of atopic dermatitis</title>
-          <p>AD is the most common chronic inflammatory skin disease and
+  <p></p>
+</sec>
+<sec id="research-strategy">
+  <title>2. Research Strategy</title>
+  <sec id="significance">
+    <title>2.1 Significance</title>
+    <sec id="burden-of-atopic-dermatitis">
+      <title>2.1.1 Burden of atopic dermatitis</title>
+      <p>AD is the most common chronic inflammatory skin disease and
       affects a substantial proportion of US adults
       (<xref alt="Silverberg and Hanifin 2013" rid="ref-silverberg_adult_2013" ref-type="bibr">Silverberg
       and Hanifin 2013</xref>). The condition is characterized by
@@ -171,11 +197,11 @@ atopic dermatitis using observational electronic health record data.</p>
       experiential: how the disease affects daily activities,
       relationships, and emotional well-being rather than the specific
       values on a clinical severity scale.</p>
-        </sec>
-        <sec id="treatment-options-and-the-limits-of-current-evidence">
-          <title>2.1.2 Treatment options and the limits of current
+    </sec>
+    <sec id="treatment-options-and-the-limits-of-current-evidence">
+      <title>2.1.2 Treatment options and the limits of current
       evidence</title>
-          <p>Conventional therapy includes topical corticosteroids,
+      <p>Conventional therapy includes topical corticosteroids,
       calcineurin inhibitors, and systemic immunosuppressants such as
       cyclosporine, methotrexate, and mycophenolate mofetil. These
       agents can reduce disease severity but carry risks of long-term
@@ -189,10 +215,10 @@ atopic dermatitis using observational electronic health record data.</p>
       do not necessarily extend to the broader population seen in
       routine practice, where adherence is lower, comorbidities are
       common, and clinical monitoring is less frequent.</p>
-        </sec>
-        <sec id="gaps-in-patient-reported-outcomes-evidence">
-          <title>2.1.3 Gaps in patient-reported outcomes evidence</title>
-          <p>Despite growing adoption of dupilumab, head-to-head
+    </sec>
+    <sec id="gaps-in-patient-reported-outcomes-evidence">
+      <title>2.1.3 Gaps in patient-reported outcomes evidence</title>
+      <p>Despite growing adoption of dupilumab, head-to-head
       observational comparisons of patient-reported outcomes between
       biologic and conventional therapy in real-world settings remain
       limited. Most existing studies rely on clinician-assessed severity
@@ -211,10 +237,10 @@ atopic dermatitis using observational electronic health record data.</p>
       these two instruments produces a more complete picture of how
       treatments affect patients than either clinical severity scores or
       generic health measures alone.</p>
-        </sec>
-        <sec id="financial-toxicity-and-access-disparities">
-          <title>2.1.4 Financial toxicity and access disparities</title>
-          <p>Out-of-pocket costs for dupilumab vary widely depending on
+    </sec>
+    <sec id="financial-toxicity-and-access-disparities">
+      <title>2.1.4 Financial toxicity and access disparities</title>
+      <p>Out-of-pocket costs for dupilumab vary widely depending on
       insurance coverage, ranging from minimal copayments to several
       thousand dollars annually
       (<xref alt="Drucker et al. 2017" rid="ref-drucker_burden_2017" ref-type="bibr">Drucker
@@ -227,21 +253,21 @@ atopic dermatitis using observational electronic health record data.</p>
       dynamics must be accounted for when interpreting PRO differences
       between treatment groups and when designing future studies that
       address economic barriers to care.</p>
-        </sec>
-        <sec id="importance-to-the-field">
-          <title>2.1.5 Importance to the field</title>
-          <p>By generating the kind of observational evidence that
+    </sec>
+    <sec id="importance-to-the-field">
+      <title>2.1.5 Importance to the field</title>
+      <p>By generating the kind of observational evidence that
       PAR-24-280 is designed to support, this project will provide data
       that directly inform the design of future clinical studies in AD,
       including identification of appropriate primary endpoints and
       characterization of the subgroups most likely to benefit from
       biologic therapy.</p>
-        </sec>
-      </sec>
-      <sec id="innovation">
-        <title>2.2 Innovation</title>
-        <p>This proposal advances the field in five respects.</p>
-        <p><italic>Dual patient-reported outcome focus.</italic> Existing
+    </sec>
+  </sec>
+  <sec id="innovation">
+    <title>2.2 Innovation</title>
+    <p>This proposal advances the field in five respects.</p>
+    <p><italic>Dual patient-reported outcome focus.</italic> Existing
     comparative studies of AD treatments have predominantly relied on
     clinician-assessed severity endpoints
     (<xref alt="Chopra and Silverberg 2018" rid="ref-chopra_assessing_2018" ref-type="bibr">Chopra
@@ -254,7 +280,7 @@ atopic dermatitis using observational electronic health record data.</p>
     assessment. Pairing a condition-specific instrument with a mental
     health instrument is uncommon in comparative AD research and
     reflects the multidimensional nature of disease impact.</p>
-        <p><italic>Integration of mental health outcomes in dermatology
+    <p><italic>Integration of mental health outcomes in dermatology
     research.</italic> Depression is a recognized comorbidity of AD
     (<xref alt="Yu et al. 2018" rid="ref-yu_systematic_2018" ref-type="bibr">Yu
     et al. 2018</xref>), but few observational studies have
@@ -262,7 +288,7 @@ atopic dermatitis using observational electronic health record data.</p>
     treatment strategies. Including PHQ-9 as a primary endpoint
     alongside DLQI makes the psychological dimension of treatment
     benefit testable rather than assumed.</p>
-        <p><italic>Systematic evaluation of treatment effect
+    <p><italic>Systematic evaluation of treatment effect
     heterogeneity.</italic> A single average treatment effect can mask
     substantial variation across subgroups. This study formally tests
     whether benefits differ by age, sex, and race. Given documented
@@ -273,7 +299,7 @@ atopic dermatitis using observational electronic health record data.</p>
     assessed through formal interaction tests rather than side-by-side
     comparison of significance labels across strata, the latter being a
     common but invalid way to establish that effects truly differ.</p>
-        <p><italic>Methodological rigor in addressing confounding by
+    <p><italic>Methodological rigor in addressing confounding by
     indication.</italic> Patients receiving dupilumab typically have
     more severe, refractory disease than those on conventional therapy.
     IPTW will create a pseudo-population in which measured baseline
@@ -286,26 +312,26 @@ atopic dermatitis using observational electronic health record data.</p>
     (<xref alt="VanderWeele and Ding 2017" rid="ref-vanderweele_sensitivity_2017" ref-type="bibr">VanderWeele
     and Ding 2017</xref>). The combination provides a transparent
     framework for causal interpretation in an observational setting.</p>
-        <p><italic>Emphasis on clinical meaningfulness.</italic>
+    <p><italic>Emphasis on clinical meaningfulness.</italic>
     Interpretation will center on effect size, confidence interval
     width, and compatibility with established MCIDs (DLQI: 4 points,
     (<xref alt="Basra et al. 2015" rid="ref-basra_determining_2015" ref-type="bibr">Basra
     et al. 2015</xref>); PHQ-9: 5 points,
-    (<xref alt="Kroenke, Spitzer, and Williams 2001" rid="ref-kroenke_phq-9_2001" ref-type="bibr">Kroenke,
-    Spitzer, and Williams 2001</xref>)), rather than on whether a result
-    crosses a p-value threshold. Statistically significant findings do
-    not guarantee clinically important effects, particularly in large
+    (<xref alt="Kroenke et al. 2001" rid="ref-kroenke_phq-9_2001" ref-type="bibr">Kroenke
+    et al. 2001</xref>)), rather than on whether a result crosses a
+    p-value threshold. Statistically significant findings do not
+    guarantee clinically important effects, particularly in large
     samples where small differences can produce low p-values.
     Nonsignificant findings in smaller samples may reflect imprecision
     rather than absence of effect. Interpretation grounded in effect
     magnitude and clinical thresholds is more useful for treatment
     decisions than a binary significance label.</p>
-      </sec>
-      <sec id="approach">
-        <title>2.3 Approach</title>
-        <sec id="overview-and-conceptual-model">
-          <title>2.3.1 Overview and conceptual model</title>
-          <p>This prospective cohort study will compare patient-reported
+  </sec>
+  <sec id="approach">
+    <title>2.3 Approach</title>
+    <sec id="overview-and-conceptual-model">
+      <title>2.3.1 Overview and conceptual model</title>
+      <p>This prospective cohort study will compare patient-reported
       outcomes between adults with moderate-to-severe AD initiating
       dupilumab versus conventional therapy. The conceptual model serves
       as the organizing framework: treatment type (the primary exposure)
@@ -319,19 +345,17 @@ atopic dermatitis using observational electronic health record data.</p>
       analysis from devolving into a list of variables without rationale
       and ensures every analytic decision ties back to the hypothesized
       causal structure.</p>
-          <fig id="fig-conceptual-model">
-            <caption>
-              <p>Figure 1: Conceptual model. The primary causal
+      <fig id="fig-conceptual-model">
+        <caption><p>Figure 1: Conceptual model. The primary causal
         pathway runs from treatment through mediators to outcomes.
         Confounders influence both treatment selection and outcomes,
-        creating the need for propensity score adjustment.</p>
-            </caption>
-            <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-conceptual-model-1.png"/>
-          </fig>
-        </sec>
-        <sec id="study-design">
-          <title>2.3.2 Study design</title>
-          <p>A prospective cohort design is appropriate because randomizing
+        creating the need for propensity score adjustment.</p></caption>
+        <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-conceptual-model-1.png" />
+      </fig>
+    </sec>
+    <sec id="study-design">
+      <title>2.3.2 Study design</title>
+      <p>A prospective cohort design is appropriate because randomizing
       patients to dupilumab versus conventional therapy is neither
       practical nor ethical. Dupilumab is typically prescribed after
       conventional options have failed, and insurance authorization
@@ -341,17 +365,17 @@ atopic dermatitis using observational electronic health record data.</p>
       baseline and at 3, 6, and 12 months. Prospective collection
       ensures standardized outcome measurement rather than reliance on
       inconsistently documented chart data.</p>
-          <p>The principal threat to validity is confounding by indication.
+      <p>The principal threat to validity is confounding by indication.
       Dupilumab recipients tend to have more severe disease, meaning
       baseline differences between groups could bias observed
       associations. This is a structural problem that propensity score
       methods partially address for measured confounders but cannot
       address for unmeasured ones, which is why sensitivity analyses are
       essential.</p>
-        </sec>
-        <sec id="study-population-and-data-source">
-          <title>2.3.3 Study population and data source</title>
-          <p>EHR data from a large academic medical center with an active
+    </sec>
+    <sec id="study-population-and-data-source">
+      <title>2.3.3 Study population and data source</title>
+      <p>EHR data from a large academic medical center with an active
       dermatology specialty clinic will be used. EHR data add clinical
       detail that administrative claims often lack, including laboratory
       values, disease severity markers, and clinical notes that are
@@ -365,7 +389,7 @@ atopic dermatitis using observational electronic health record data.</p>
       agents, participation in interventional clinical trials during the
       study period, and diagnoses of other inflammatory skin conditions
       that could confound outcome assessment.</p>
-          <p>DLQI and PHQ-9 will be extracted from routine clinical
+      <p>DLQI and PHQ-9 will be extracted from routine clinical
       assessments documented at baseline and follow-up visits. Both
       instruments have established reliability, validity, and
       responsiveness, and both are widely used in clinical practice,
@@ -375,119 +399,117 @@ atopic dermatitis using observational electronic health record data.</p>
       systemic therapies), comorbidities including prior
       depression/anxiety diagnoses, insurance type, and socioeconomic
       indicators.</p>
-        </sec>
-        <sec id="variables-and-measurement">
-          <title>2.3.4 Variables and measurement</title>
-          <fig id="tbl-variables">
-            <caption>
-              <p>Table 1: Study variables and
-        measurement</p>
-            </caption>
-            <table-wrap>
-              <table>
-                <colgroup>
-                  <col width="20%"/>
-                  <col width="20%"/>
-                  <col width="20%"/>
-                  <col width="20%"/>
-                  <col width="20%"/>
-                </colgroup>
-                <thead>
-                  <tr>
-                    <th>Variable Type</th>
-                    <th>Variable</th>
-                    <th>Description</th>
-                    <th>Measurement</th>
-                    <th>Scale</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Primary Exposure</td>
-                    <td>Treatment group</td>
-                    <td>Dupilumab vs. conventional therapy</td>
-                    <td>EHR prescription records</td>
-                    <td>Categorical</td>
-                  </tr>
-                  <tr>
-                    <td>Primary Outcome</td>
-                    <td>Disease-specific QoL</td>
-                    <td>DLQI change score (baseline to 12 months)</td>
-                    <td>Range: 0-30</td>
-                    <td>Continuous</td>
-                  </tr>
-                  <tr>
-                    <td>Primary Outcome</td>
-                    <td>Depressive symptoms</td>
-                    <td>PHQ-9 change score (baseline to 12 months)</td>
-                    <td>Range: 0-27</td>
-                    <td>Continuous</td>
-                  </tr>
-                  <tr>
-                    <td>Confounder</td>
-                    <td>Age</td>
-                    <td>Patient age at enrollment</td>
-                    <td>Years</td>
-                    <td>Continuous</td>
-                  </tr>
-                  <tr>
-                    <td>Confounder</td>
-                    <td>Sex</td>
-                    <td>Male or female</td>
-                    <td>Self-report</td>
-                    <td>Categorical</td>
-                  </tr>
-                  <tr>
-                    <td>Confounder</td>
-                    <td>Race/ethnicity</td>
-                    <td>Race/ethnic group</td>
-                    <td>EHR demographics</td>
-                    <td>Categorical</td>
-                  </tr>
-                  <tr>
-                    <td>Confounder</td>
-                    <td>Baseline EASI score</td>
-                    <td>Disease severity at enrollment</td>
-                    <td>Range: 0-72</td>
-                    <td>Continuous</td>
-                  </tr>
-                  <tr>
-                    <td>Confounder</td>
-                    <td>Treatment history</td>
-                    <td>Prior systemic therapies</td>
-                    <td>Count</td>
-                    <td>Continuous</td>
-                  </tr>
-                  <tr>
-                    <td>Confounder</td>
-                    <td>Disease duration</td>
-                    <td>Years since AD diagnosis</td>
-                    <td>Years</td>
-                    <td>Continuous</td>
-                  </tr>
-                  <tr>
-                    <td>Confounder</td>
-                    <td>Insurance status</td>
-                    <td>Private, Medicare/Medicaid, or other</td>
-                    <td>EHR records</td>
-                    <td>Categorical</td>
-                  </tr>
-                  <tr>
-                    <td>Confounder</td>
-                    <td>Depression/anxiety history</td>
-                    <td>Documented prior diagnosis</td>
-                    <td>ICD codes</td>
-                    <td>Categorical</td>
-                  </tr>
-                </tbody>
-              </table>
-            </table-wrap>
-          </fig>
-        </sec>
-        <sec id="mediating-moderating-and-confounding-relationships">
-          <title>2.3.5 Mediating, moderating, and confounding
+    </sec>
+    <sec id="variables-and-measurement">
+      <title>2.3.4 Variables and measurement</title>
+      <fig id="tbl-variables">
+        <caption><p>Table 1: Study variables and
+        measurement</p></caption>
+        <table-wrap>
+          <table>
+            <colgroup>
+              <col width="20%" />
+              <col width="20%" />
+              <col width="20%" />
+              <col width="20%" />
+              <col width="20%" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Variable Type</th>
+                <th>Variable</th>
+                <th>Description</th>
+                <th>Measurement</th>
+                <th>Scale</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Primary Exposure</td>
+                <td>Treatment group</td>
+                <td>Dupilumab vs. conventional therapy</td>
+                <td>EHR prescription records</td>
+                <td>Categorical</td>
+              </tr>
+              <tr>
+                <td>Primary Outcome</td>
+                <td>Disease-specific QoL</td>
+                <td>DLQI change score (baseline to 12 months)</td>
+                <td>Range: 0-30</td>
+                <td>Continuous</td>
+              </tr>
+              <tr>
+                <td>Primary Outcome</td>
+                <td>Depressive symptoms</td>
+                <td>PHQ-9 change score (baseline to 12 months)</td>
+                <td>Range: 0-27</td>
+                <td>Continuous</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Age</td>
+                <td>Patient age at enrollment</td>
+                <td>Years</td>
+                <td>Continuous</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Sex</td>
+                <td>Male or female</td>
+                <td>Self-report</td>
+                <td>Categorical</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Race/ethnicity</td>
+                <td>Race/ethnic group</td>
+                <td>EHR demographics</td>
+                <td>Categorical</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Baseline EASI score</td>
+                <td>Disease severity at enrollment</td>
+                <td>Range: 0-72</td>
+                <td>Continuous</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Treatment history</td>
+                <td>Prior systemic therapies</td>
+                <td>Count</td>
+                <td>Continuous</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Disease duration</td>
+                <td>Years since AD diagnosis</td>
+                <td>Years</td>
+                <td>Continuous</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Insurance status</td>
+                <td>Private, Medicare/Medicaid, or other</td>
+                <td>EHR records</td>
+                <td>Categorical</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Depression/anxiety history</td>
+                <td>Documented prior diagnosis</td>
+                <td>ICD codes</td>
+                <td>Categorical</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </fig>
+    </sec>
+    <sec id="mediating-moderating-and-confounding-relationships">
+      <title>2.3.5 Mediating, moderating, and confounding
       relationships</title>
-          <p>These three variable roles are frequently conflated but require
+      <p>These three variable roles are frequently conflated but require
       different analytic strategies. A mediator is caused by the
       exposure and carries some portion of its effect to the outcome.
       Disease activity (EASI score change), itch intensity, and sleep
@@ -496,24 +518,24 @@ atopic dermatitis using observational electronic health record data.</p>
       conditioning on a mediator blocks the causal pathway through which
       treatment produces its effect, biasing the estimate toward the
       null.</p>
-          <p>A moderator changes the strength or direction of the
+      <p>A moderator changes the strength or direction of the
       treatment-outcome relationship and is sometimes called an effect
       modifier. Age, sex, and baseline disease severity are the
       hypothesized moderators, examined through prespecified interaction
       terms in Aim 3. A moderator does not need to be associated with
       the exposure. It only needs to change the exposure’s effect on the
       outcome.</p>
-          <p>A confounder is associated with both treatment selection and
+      <p>A confounder is associated with both treatment selection and
       outcomes but does not lie on the causal pathway. Confounders must
       be measured before exposure to avoid conditioning on
       post-treatment variables that could introduce bias. Insurance
       status, disease duration, treatment history, depression/anxiety
       history, and socioeconomic status are all confounders and will be
       included in the propensity score model.</p>
-        </sec>
-        <sec id="statistical-analysis-plan">
-          <title>2.3.6 Statistical analysis plan</title>
-          <p><bold>Propensity score estimation.</bold> A propensity score is
+    </sec>
+    <sec id="statistical-analysis-plan">
+      <title>2.3.6 Statistical analysis plan</title>
+      <p><bold>Propensity score estimation.</bold> A propensity score is
       the probability that a patient received a particular treatment
       given their observed baseline characteristics. It compresses
       multiple confounders into a single score between zero and one and
@@ -533,7 +555,7 @@ atopic dermatitis using observational electronic health record data.</p>
       receiving each treatment for every combination of covariates
       (<xref alt="Austin 2011" rid="ref-austin_introduction_2011" ref-type="bibr">Austin
       2011</xref>).</p>
-          <p><bold>Primary analysis.</bold> The average treatment effect on
+      <p><bold>Primary analysis.</bold> The average treatment effect on
       the treated (ATT) will be estimated using IPTW in weighted linear
       regression models. IPTW creates a pseudo-population in which
       measured covariates are balanced across treatment groups,
@@ -547,7 +569,7 @@ atopic dermatitis using observational electronic health record data.</p>
       reported, though a point estimate paired with its confidence
       interval is more informative for guiding treatment decisions than
       a binary significance label.</p>
-          <p><bold>Effect modification analysis (Aim 3).</bold> Prespecified
+      <p><bold>Effect modification analysis (Aim 3).</bold> Prespecified
       interaction terms for age, sex, and race will be included in
       regression models. Effect modification is established through the
       interaction test itself, not by comparing significance labels
@@ -555,17 +577,17 @@ atopic dermatitis using observational electronic health record data.</p>
       intervals will be reported to characterize the pattern of
       heterogeneity. Insurance status and socioeconomic factors will be
       examined as exploratory moderators.</p>
-          <p><bold>Missing data.</bold> Missing data will be handled using
+      <p><bold>Missing data.</bold> Missing data will be handled using
       multiple imputation by chained equations (MICE), under the
       assumption that data are missing at random conditional on observed
       covariates
-      (<xref alt="White, Royston, and Wood 2011" rid="ref-white_multiple_2011" ref-type="bibr">White,
-      Royston, and Wood 2011</xref>). Because EHR data often exhibit
-      missingness that is not completely at random, sensitivity analyses
-      will compare imputed results to complete-case analyses.
-      Substantial divergence between approaches will prompt more
-      cautious interpretation.</p>
-          <p><bold>Sensitivity and robustness analyses.</bold> Three
+      (<xref alt="White et al. 2011" rid="ref-white_multiple_2011" ref-type="bibr">White
+      et al. 2011</xref>). Because EHR data often exhibit missingness
+      that is not completely at random, sensitivity analyses will
+      compare imputed results to complete-case analyses. Substantial
+      divergence between approaches will prompt more cautious
+      interpretation.</p>
+      <p><bold>Sensitivity and robustness analyses.</bold> Three
       robustness checks are planned: (1) propensity score matching (1:1
       nearest-neighbor with caliper of 0.2 standard deviations of the
       logit of the propensity score) as an alternative to weighting; (2)
@@ -579,10 +601,10 @@ atopic dermatitis using observational electronic health record data.</p>
       and Ding 2017</xref>). The three assumptions underlying causal
       inference (exchangeability, positivity, and consistency) will be
       explicitly evaluated and discussed.</p>
-        </sec>
-        <sec id="influence-of-age-sex-and-race">
-          <title>2.3.7 Influence of age, sex, and race</title>
-          <p>Demographic characteristics are likely to shape both treatment
+    </sec>
+    <sec id="influence-of-age-sex-and-race">
+      <title>2.3.7 Influence of age, sex, and race</title>
+      <p>Demographic characteristics are likely to shape both treatment
       patterns and outcomes. Older versus younger adults may have
       different baseline quality of life and depressive symptom
       profiles, and age-related variation in insurance coverage and
@@ -600,866 +622,541 @@ atopic dermatitis using observational electronic health record data.</p>
       subgroups. Stratum-specific results will be interpreted through
       effect sizes and confidence intervals rather than significance
       labels alone.</p>
-        </sec>
-        <sec id="potential-challenges-and-solutions">
-          <title>2.3.8 Potential challenges and solutions</title>
-          <fig id="tbl-challenges">
-            <caption>
-              <p>Table 2: Potential challenges and proposed
-        solutions</p>
-            </caption>
-            <table-wrap>
-              <table>
-                <colgroup>
-                  <col width="38%"/>
-                  <col width="62%"/>
-                </colgroup>
-                <thead>
-                  <tr>
-                    <th>Challenge</th>
-                    <th>Proposed Solution</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Confounding by indication: dupilumab patients have
+    </sec>
+    <sec id="potential-challenges-and-solutions">
+      <title>2.3.8 Potential challenges and solutions</title>
+      <fig id="tbl-challenges">
+        <caption><p>Table 2: Potential challenges and proposed
+        solutions</p></caption>
+        <table-wrap>
+          <table>
+            <colgroup>
+              <col width="38%" />
+              <col width="62%" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Challenge</th>
+                <th>Proposed Solution</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Confounding by indication: dupilumab patients have
                 more severe, refractory disease</td>
-                    <td>IPTW with thorough covariate balance assessment (SMD
+                <td>IPTW with thorough covariate balance assessment (SMD
                 &lt; 0.1); doubly robust estimation as sensitivity
                 analysis; E-value calculations for unmeasured
                 confounding</td>
-                  </tr>
-                  <tr>
-                    <td>Missing PRO data from incomplete follow-up or
+              </tr>
+              <tr>
+                <td>Missing PRO data from incomplete follow-up or
                 inconsistent EHR documentation</td>
-                    <td>Multiple imputation by chained equations with
+                <td>Multiple imputation by chained equations with
                 sensitivity analyses comparing complete-case results;
                 evaluation of whether missingness patterns relate to
                 patient characteristics or outcome risk</td>
-                  </tr>
-                  <tr>
-                    <td>Selection bias from differential out-of-pocket costs
+              </tr>
+              <tr>
+                <td>Selection bias from differential out-of-pocket costs
                 affecting who receives dupilumab</td>
-                    <td>Include insurance status and socioeconomic
+                <td>Include insurance status and socioeconomic
                 indicators in propensity score model; assess residual
                 imbalance post-weighting</td>
-                  </tr>
-                  <tr>
-                    <td>Treatment switching or discontinuation during
+              </tr>
+              <tr>
+                <td>Treatment switching or discontinuation during
                 follow-up</td>
-                    <td>Intention-to-treat analysis as primary approach;
+                <td>Intention-to-treat analysis as primary approach;
                 per-protocol analysis as sensitivity check with
                 documented switching rates and reasons</td>
-                  </tr>
-                  <tr>
-                    <td>Insufficient sample size for subgroup analyses by
+              </tr>
+              <tr>
+                <td>Insufficient sample size for subgroup analyses by
                 race</td>
-                    <td>Report stratum-specific estimates with confidence
+                <td>Report stratum-specific estimates with confidence
                 intervals; acknowledge precision limitations
                 transparently; avoid interpreting nonsignificance as
                 absence of effect</td>
-                  </tr>
-                </tbody>
-              </table>
-            </table-wrap>
-          </fig>
-        </sec>
-        <sec id="study-timeline">
-          <title>2.3.9 Study timeline</title>
-          <fig id="tbl-timeline">
-            <caption>
-              <p>Table 3: Study timeline</p>
-            </caption>
-            <table-wrap>
-              <table>
-                <thead>
-                  <tr>
-                    <th>Activity</th>
-                    <th align="center">Year 1 Q1-Q2</th>
-                    <th align="center">Year 1 Q3-Q4</th>
-                    <th align="center">Year 2 Q1-Q2</th>
-                    <th align="center">Year 2 Q3-Q4</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>IRB approval and data access agreements</td>
-                    <td align="center">✓</td>
-                    <td align="center"/>
-                    <td align="center"/>
-                    <td align="center"/>
-                  </tr>
-                  <tr>
-                    <td>Cohort identification and data extraction</td>
-                    <td align="center">✓</td>
-                    <td align="center">✓</td>
-                    <td align="center"/>
-                    <td align="center"/>
-                  </tr>
-                  <tr>
-                    <td>Propensity score estimation and balance
-                assessment</td>
-                    <td align="center"/>
-                    <td align="center">✓</td>
-                    <td align="center"/>
-                    <td align="center"/>
-                  </tr>
-                  <tr>
-                    <td>Primary analyses (Aims 1 and 2)</td>
-                    <td align="center"/>
-                    <td align="center">✓</td>
-                    <td align="center">✓</td>
-                    <td align="center"/>
-                  </tr>
-                  <tr>
-                    <td>Effect modification analyses (Aim 3)</td>
-                    <td align="center"/>
-                    <td align="center"/>
-                    <td align="center">✓</td>
-                    <td align="center"/>
-                  </tr>
-                  <tr>
-                    <td>Sensitivity analyses and robustness checks</td>
-                    <td align="center"/>
-                    <td align="center"/>
-                    <td align="center">✓</td>
-                    <td align="center"/>
-                  </tr>
-                  <tr>
-                    <td>Manuscript preparation and dissemination</td>
-                    <td align="center"/>
-                    <td align="center"/>
-                    <td align="center">✓</td>
-                    <td align="center">✓</td>
-                  </tr>
-                </tbody>
-              </table>
-            </table-wrap>
-          </fig>
-          <p/>
-        </sec>
-      </sec>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </fig>
     </sec>
-  </body>
-  <back>
-    <ref-list>
-      <title>3. References</title>
-      <ref id="ref-afshari_unraveling_2024">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>Afshari</surname>
-              <given-names>Moeina</given-names>
-            </name>
-            <name>
-              <surname>Kolackova</surname>
-              <given-names>Martina</given-names>
-            </name>
-            <name>
-              <surname>Rosecka</surname>
-              <given-names>Michaela</given-names>
-            </name>
-            <name>
-              <surname>Čelakovská</surname>
-              <given-names>Jarmila</given-names>
-            </name>
-            <name>
-              <surname>Krejsek</surname>
-              <given-names>Jan</given-names>
-            </name>
-          </person-group>
-          <article-title>Unraveling the skin; a comprehensive review of atopic dermatitis, current understanding, and approaches</article-title>
-          <source>Front Immunol</source>
-          <year iso-8601-date="2024">2024</year>
-          <volume>15</volume>
-          <issn>1664-3224</issn>
-          <pub-id pub-id-type="doi">10.3389/fimmu.2024.1361005</pub-id>
-          <pub-id pub-id-type="pmid">38500882</pub-id>
-          <fpage>1361005</fpage>
-          <lpage/>
-        </element-citation>
-      </ref>
-      <ref id="ref-austin_introduction_2011">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>Austin</surname>
-              <given-names>Peter C.</given-names>
-            </name>
-          </person-group>
-          <article-title>An Introduction to Propensity Score Methods for Reducing the Effects of Confounding in Observational Studies</article-title>
-          <source>Multivariate Behav Res</source>
-          <year iso-8601-date="2011-05">2011</year>
-          <month>05</month>
-          <volume>46</volume>
-          <issue>3</issue>
-          <issn>1532-7906</issn>
-          <pub-id pub-id-type="doi">10.1080/00273171.2011.568786</pub-id>
-          <pub-id pub-id-type="pmid">21818162</pub-id>
-          <fpage>399</fpage>
-          <lpage>424</lpage>
-        </element-citation>
-      </ref>
-      <ref id="ref-chopra_assessing_2018">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>Chopra</surname>
-              <given-names>Rishi</given-names>
-            </name>
-            <name>
-              <surname>Silverberg</surname>
-              <given-names>Jonathan I.</given-names>
-            </name>
-          </person-group>
-          <article-title>Assessing the severity of atopic dermatitis in clinical trials and practice</article-title>
-          <source>Clin Dermatol</source>
-          <year iso-8601-date="2018">2018</year>
-          <volume>36</volume>
-          <issue>5</issue>
-          <issn>1879-1131</issn>
-          <pub-id pub-id-type="doi">10.1016/j.clindermatol.2018.05.012</pub-id>
-          <pub-id pub-id-type="pmid">30217273</pub-id>
-          <fpage>606</fpage>
-          <lpage>615</lpage>
-        </element-citation>
-      </ref>
-      <ref id="ref-drucker_burden_2017">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>Drucker</surname>
-              <given-names>Aaron M.</given-names>
-            </name>
-            <name>
-              <surname>Wang</surname>
-              <given-names>Annie R.</given-names>
-            </name>
-            <name>
-              <surname>Li</surname>
-              <given-names>Wen-Qing</given-names>
-            </name>
-            <name>
-              <surname>Sevetson</surname>
-              <given-names>Erika</given-names>
-            </name>
-            <name>
-              <surname>Block</surname>
-              <given-names>Julie K.</given-names>
-            </name>
-            <name>
-              <surname>Qureshi</surname>
-              <given-names>Abrar A.</given-names>
-            </name>
-          </person-group>
-          <article-title>The Burden of Atopic Dermatitis: Summary of a Report for the National Eczema Association</article-title>
-          <source>J Invest Dermatol</source>
-          <year iso-8601-date="2017-01">2017</year>
-          <month>01</month>
-          <volume>137</volume>
-          <issue>1</issue>
-          <issn>1523-1747</issn>
-          <pub-id pub-id-type="doi">10.1016/j.jid.2016.07.012</pub-id>
-          <pub-id pub-id-type="pmid">27616422</pub-id>
-          <fpage>26</fpage>
-          <lpage>30</lpage>
-        </element-citation>
-      </ref>
-      <ref id="ref-eckert_impact_2017">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>Eckert</surname>
-              <given-names>Laurent</given-names>
-            </name>
-            <name>
-              <surname>Gupta</surname>
-              <given-names>Shaloo</given-names>
-            </name>
-            <name>
-              <surname>Amand</surname>
-              <given-names>Caroline</given-names>
-            </name>
-            <name>
-              <surname>Gadkari</surname>
-              <given-names>Abhijit</given-names>
-            </name>
-            <name>
-              <surname>Mahajan</surname>
-              <given-names>Puneet</given-names>
-            </name>
-            <name>
-              <surname>Gelfand</surname>
-              <given-names>Joel M.</given-names>
-            </name>
-          </person-group>
-          <article-title>Impact of atopic dermatitis on health-related quality of life and productivity in adults in the United States: An analysis using the National Health and Wellness Survey</article-title>
-          <source>J Am Acad Dermatol</source>
-          <year iso-8601-date="2017-08">2017</year>
-          <month>08</month>
-          <volume>77</volume>
-          <issue>2</issue>
-          <issn>1097-6787</issn>
-          <pub-id pub-id-type="doi">10.1016/j.jaad.2017.04.019</pub-id>
-          <pub-id pub-id-type="pmid">28606711</pub-id>
-          <fpage>274</fpage>
-          <lpage>279.e3</lpage>
-        </element-citation>
-      </ref>
-      <ref id="ref-finlay_dermatology_1994">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>Finlay</surname>
-              <given-names>A. Y.</given-names>
-            </name>
-            <name>
-              <surname>Khan</surname>
-              <given-names>G. K.</given-names>
-            </name>
-          </person-group>
-          <article-title>Dermatology Life Quality Index (DLQI)–a simple practical measure for routine clinical use</article-title>
-          <source>Clin Exp Dermatol</source>
-          <year iso-8601-date="1994-05">1994</year>
-          <month>05</month>
-          <volume>19</volume>
-          <issue>3</issue>
-          <issn>0307-6938</issn>
-          <pub-id pub-id-type="doi">10.1111/j.1365-2230.1994.tb01167.x</pub-id>
-          <pub-id pub-id-type="pmid">8033378</pub-id>
-          <fpage>210</fpage>
-          <lpage>216</lpage>
-        </element-citation>
-      </ref>
-      <ref id="ref-kroenke_phq-9_2001">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>Kroenke</surname>
-              <given-names>Kurt</given-names>
-            </name>
-            <name>
-              <surname>Spitzer</surname>
-              <given-names>Robert L.</given-names>
-            </name>
-            <name>
-              <surname>Williams</surname>
-              <given-names>Janet B. W.</given-names>
-            </name>
-          </person-group>
-          <article-title>The PHQ-9</article-title>
-          <source>J GEN INTERN MED</source>
-          <year iso-8601-date="2001-09">2001</year>
-          <month>09</month>
-          <date-in-citation content-type="access-date">
-            <year iso-8601-date="2026-04-15">2026</year>
-            <month>04</month>
-            <day>15</day>
-          </date-in-citation>
-          <volume>16</volume>
-          <issue>9</issue>
-          <issn>1525-1497</issn>
-          <uri>https://doi.org/10.1046/j.1525-1497.2001.016009606.x</uri>
-          <pub-id pub-id-type="doi">10.1046/j.1525-1497.2001.016009606.x</pub-id>
-          <fpage>606</fpage>
-          <lpage>613</lpage>
-        </element-citation>
-      </ref>
-      <ref id="ref-eichenfield_guidelines_2014">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>Eichenfield</surname>
-              <given-names>Lawrence F.</given-names>
-            </name>
-            <name>
-              <surname>Tom</surname>
-              <given-names>Wynnis L.</given-names>
-            </name>
-            <name>
-              <surname>Berger</surname>
-              <given-names>Timothy G.</given-names>
-            </name>
-            <name>
-              <surname>Krol</surname>
-              <given-names>Alfons</given-names>
-            </name>
-            <name>
-              <surname>Paller</surname>
-              <given-names>Amy S.</given-names>
-            </name>
-            <name>
-              <surname>Schwarzenberger</surname>
-              <given-names>Kathryn</given-names>
-            </name>
-            <name>
-              <surname>Bergman</surname>
-              <given-names>James N.</given-names>
-            </name>
-            <name>
-              <surname>Chamlin</surname>
-              <given-names>Sarah L.</given-names>
-            </name>
-            <name>
-              <surname>Cohen</surname>
-              <given-names>David E.</given-names>
-            </name>
-            <name>
-              <surname>Cooper</surname>
-              <given-names>Kevin D.</given-names>
-            </name>
-            <name>
-              <surname>Cordoro</surname>
-              <given-names>Kelly M.</given-names>
-            </name>
-            <name>
-              <surname>Davis</surname>
-              <given-names>Dawn M.</given-names>
-            </name>
-            <name>
-              <surname>Feldman</surname>
-              <given-names>Steven R.</given-names>
-            </name>
-            <name>
-              <surname>Hanifin</surname>
-              <given-names>Jon M.</given-names>
-            </name>
-            <name>
-              <surname>Margolis</surname>
-              <given-names>David J.</given-names>
-            </name>
-            <name>
-              <surname>Silverman</surname>
-              <given-names>Robert A.</given-names>
-            </name>
-            <name>
-              <surname>Simpson</surname>
-              <given-names>Eric L.</given-names>
-            </name>
-            <name>
-              <surname>Williams</surname>
-              <given-names>Hywel C.</given-names>
-            </name>
-            <name>
-              <surname>Elmets</surname>
-              <given-names>Craig A.</given-names>
-            </name>
-            <name>
-              <surname>Block</surname>
-              <given-names>Julie</given-names>
-            </name>
-            <name>
-              <surname>Harrod</surname>
-              <given-names>Christopher G.</given-names>
-            </name>
-            <name>
-              <surname>Smith Begolka</surname>
-              <given-names>Wendy</given-names>
-            </name>
-            <name>
-              <surname>Sidbury</surname>
-              <given-names>Robert</given-names>
-            </name>
-          </person-group>
-          <article-title>Guidelines of care for the management of atopic dermatitis: Section 2. Management and treatment of atopic dermatitis with topical therapies</article-title>
-          <source>J Am Acad Dermatol</source>
-          <year iso-8601-date="2014-07">2014</year>
-          <month>07</month>
-          <volume>71</volume>
-          <issue>1</issue>
-          <issn>1097-6787</issn>
-          <pub-id pub-id-type="doi">10.1016/j.jaad.2014.03.023</pub-id>
-          <pub-id pub-id-type="pmid">24813302</pub-id>
-          <fpage>116</fpage>
-          <lpage>132</lpage>
-        </element-citation>
-      </ref>
-      <ref id="ref-silverberg_adult_2013">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>Silverberg</surname>
-              <given-names>Jonathan I.</given-names>
-            </name>
-            <name>
-              <surname>Hanifin</surname>
-              <given-names>Jon M.</given-names>
-            </name>
-          </person-group>
-          <article-title>Adult eczema prevalence and associations with asthma and other health and demographic factors: A US population-based study</article-title>
-          <source>J Allergy Clin Immunol</source>
-          <year iso-8601-date="2013-11">2013</year>
-          <month>11</month>
-          <volume>132</volume>
-          <issue>5</issue>
-          <issn>1097-6825</issn>
-          <pub-id pub-id-type="doi">10.1016/j.jaci.2013.08.031</pub-id>
-          <pub-id pub-id-type="pmid">24094544</pub-id>
-          <fpage>1132</fpage>
-          <lpage>1138</lpage>
-        </element-citation>
-      </ref>
-      <ref id="ref-silverberg_patient_2018">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>Silverberg</surname>
-              <given-names>Jonathan I.</given-names>
-            </name>
-            <name>
-              <surname>Gelfand</surname>
-              <given-names>Joel M.</given-names>
-            </name>
-            <name>
-              <surname>Margolis</surname>
-              <given-names>David J.</given-names>
-            </name>
-            <name>
-              <surname>Boguniewicz</surname>
-              <given-names>Mark</given-names>
-            </name>
-            <name>
-              <surname>Fonacier</surname>
-              <given-names>Luz</given-names>
-            </name>
-            <name>
-              <surname>Grayson</surname>
-              <given-names>Mitchell H.</given-names>
-            </name>
-            <name>
-              <surname>Simpson</surname>
-              <given-names>Eric L.</given-names>
-            </name>
-            <name>
-              <surname>Ong</surname>
-              <given-names>Peck Y.</given-names>
-            </name>
-            <name>
-              <surname>Chiesa Fuxench</surname>
-              <given-names>Zelma C.</given-names>
-            </name>
-          </person-group>
-          <article-title>Patient burden and quality of life in atopic dermatitis in US adults: A population-based cross-sectional study</article-title>
-          <source>Ann Allergy Asthma Immunol</source>
-          <year iso-8601-date="2018-09">2018</year>
-          <month>09</month>
-          <volume>121</volume>
-          <issue>3</issue>
-          <issn>1534-4436</issn>
-          <pub-id pub-id-type="doi">10.1016/j.anai.2018.07.006</pub-id>
-          <pub-id pub-id-type="pmid">30025911</pub-id>
-          <fpage>340</fpage>
-          <lpage>347</lpage>
-        </element-citation>
-      </ref>
-      <ref id="ref-simpson_two_2016">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>Simpson</surname>
-              <given-names>Eric L.</given-names>
-            </name>
-            <name>
-              <surname>Bieber</surname>
-              <given-names>Thomas</given-names>
-            </name>
-            <name>
-              <surname>Guttman-Yassky</surname>
-              <given-names>Emma</given-names>
-            </name>
-            <name>
-              <surname>Beck</surname>
-              <given-names>Lisa A.</given-names>
-            </name>
-            <name>
-              <surname>Blauvelt</surname>
-              <given-names>Andrew</given-names>
-            </name>
-            <name>
-              <surname>Cork</surname>
-              <given-names>Michael J.</given-names>
-            </name>
-            <name>
-              <surname>Silverberg</surname>
-              <given-names>Jonathan I.</given-names>
-            </name>
-            <name>
-              <surname>Deleuran</surname>
-              <given-names>Mette</given-names>
-            </name>
-            <name>
-              <surname>Kataoka</surname>
-              <given-names>Yoko</given-names>
-            </name>
-            <name>
-              <surname>Lacour</surname>
-              <given-names>Jean-Philippe</given-names>
-            </name>
-            <name>
-              <surname>Kingo</surname>
-              <given-names>Külli</given-names>
-            </name>
-            <name>
-              <surname>Worm</surname>
-              <given-names>Margitta</given-names>
-            </name>
-            <name>
-              <surname>Poulin</surname>
-              <given-names>Yves</given-names>
-            </name>
-            <name>
-              <surname>Wollenberg</surname>
-              <given-names>Andreas</given-names>
-            </name>
-            <name>
-              <surname>Soo</surname>
-              <given-names>Yuhwen</given-names>
-            </name>
-            <name>
-              <surname>Graham</surname>
-              <given-names>Neil M. H.</given-names>
-            </name>
-            <name>
-              <surname>Pirozzi</surname>
-              <given-names>Gianluca</given-names>
-            </name>
-            <name>
-              <surname>Akinlade</surname>
-              <given-names>Bolanle</given-names>
-            </name>
-            <name>
-              <surname>Staudinger</surname>
-              <given-names>Heribert</given-names>
-            </name>
-            <name>
-              <surname>Mastey</surname>
-              <given-names>Vera</given-names>
-            </name>
-            <name>
-              <surname>Eckert</surname>
-              <given-names>Laurent</given-names>
-            </name>
-            <name>
-              <surname>Gadkari</surname>
-              <given-names>Abhijit</given-names>
-            </name>
-            <name>
-              <surname>Stahl</surname>
-              <given-names>Neil</given-names>
-            </name>
-            <name>
-              <surname>Yancopoulos</surname>
-              <given-names>George D.</given-names>
-            </name>
-            <name>
-              <surname>Ardeleanu</surname>
-              <given-names>Marius</given-names>
-            </name>
-            <string-name>SOLO 1 and SOLO 2 Investigators</string-name>
-          </person-group>
-          <article-title>Two Phase 3 Trials of Dupilumab versus Placebo in Atopic Dermatitis</article-title>
-          <source>N Engl J Med</source>
-          <year iso-8601-date="2016-12">2016</year>
-          <month>12</month>
-          <volume>375</volume>
-          <issue>24</issue>
-          <issn>1533-4406</issn>
-          <pub-id pub-id-type="doi">10.1056/NEJMoa1610020</pub-id>
-          <pub-id pub-id-type="pmid">27690741</pub-id>
-          <fpage>2335</fpage>
-          <lpage>2348</lpage>
-        </element-citation>
-      </ref>
-      <ref id="ref-tackett_structural_2020">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>Tackett</surname>
-              <given-names>Kelly Jo</given-names>
-            </name>
-            <name>
-              <surname>Jenkins</surname>
-              <given-names>Frances</given-names>
-            </name>
-            <name>
-              <surname>Morrell</surname>
-              <given-names>Dean S.</given-names>
-            </name>
-            <name>
-              <surname>McShane</surname>
-              <given-names>Diana B.</given-names>
-            </name>
-            <name>
-              <surname>Burkhart</surname>
-              <given-names>Craig N.</given-names>
-            </name>
-          </person-group>
-          <article-title>Structural racism and its influence on the severity of atopic dermatitis in African American children</article-title>
-          <source>Pediatr Dermatol</source>
-          <year iso-8601-date="2020-01">2020</year>
-          <month>01</month>
-          <volume>37</volume>
-          <issue>1</issue>
-          <issn>1525-1470</issn>
-          <pub-id pub-id-type="doi">10.1111/pde.14058</pub-id>
-          <pub-id pub-id-type="pmid">31854003</pub-id>
-          <fpage>142</fpage>
-          <lpage>146</lpage>
-        </element-citation>
-      </ref>
-      <ref id="ref-vanderweele_sensitivity_2017">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>VanderWeele</surname>
-              <given-names>Tyler J.</given-names>
-            </name>
-            <name>
-              <surname>Ding</surname>
-              <given-names>Peng</given-names>
-            </name>
-          </person-group>
-          <article-title>Sensitivity Analysis in Observational Research: Introducing the E-Value</article-title>
-          <source>Ann Intern Med</source>
-          <year iso-8601-date="2017-08">2017</year>
-          <month>08</month>
-          <volume>167</volume>
-          <issue>4</issue>
-          <issn>1539-3704</issn>
-          <pub-id pub-id-type="doi">10.7326/M16-2607</pub-id>
-          <pub-id pub-id-type="pmid">28693043</pub-id>
-          <fpage>268</fpage>
-          <lpage>274</lpage>
-        </element-citation>
-      </ref>
-      <ref id="ref-yu_systematic_2018">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>Yu</surname>
-              <given-names>Sherry H.</given-names>
-            </name>
-            <name>
-              <surname>Drucker</surname>
-              <given-names>Aaron M.</given-names>
-            </name>
-            <name>
-              <surname>Lebwohl</surname>
-              <given-names>Mark</given-names>
-            </name>
-            <name>
-              <surname>Silverberg</surname>
-              <given-names>Jonathan I.</given-names>
-            </name>
-          </person-group>
-          <article-title>A systematic review of the safety and efficacy of systemic corticosteroids in atopic dermatitis</article-title>
-          <source>J Am Acad Dermatol</source>
-          <year iso-8601-date="2018-04">2018</year>
-          <month>04</month>
-          <volume>78</volume>
-          <issue>4</issue>
-          <issn>1097-6787</issn>
-          <pub-id pub-id-type="doi">10.1016/j.jaad.2017.09.074</pub-id>
-          <pub-id pub-id-type="pmid">29032119</pub-id>
-          <fpage>733</fpage>
-          <lpage>740.e11</lpage>
-        </element-citation>
-      </ref>
-      <ref id="ref-basra_determining_2015">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>Basra</surname>
-              <given-names>M. K. A.</given-names>
-            </name>
-            <name>
-              <surname>Salek</surname>
-              <given-names>M. S.</given-names>
-            </name>
-            <name>
-              <surname>Camilleri</surname>
-              <given-names>L.</given-names>
-            </name>
-            <name>
-              <surname>Sturkey</surname>
-              <given-names>R.</given-names>
-            </name>
-            <name>
-              <surname>Finlay</surname>
-              <given-names>A. Y.</given-names>
-            </name>
-          </person-group>
-          <article-title>Determining the minimal clinically important difference and responsiveness of the Dermatology Life Quality Index (DLQI): Further data</article-title>
-          <source>Dermatology</source>
-          <year iso-8601-date="2015">2015</year>
-          <volume>230</volume>
-          <issue>1</issue>
-          <pub-id pub-id-type="doi">10.1159/000365390</pub-id>
-          <fpage>27</fpage>
-          <lpage>33</lpage>
-        </element-citation>
-      </ref>
-      <ref id="ref-white_multiple_2011">
-        <element-citation publication-type="article-journal">
-          <person-group person-group-type="author">
-            <name>
-              <surname>White</surname>
-              <given-names>Ian R.</given-names>
-            </name>
-            <name>
-              <surname>Royston</surname>
-              <given-names>Patrick</given-names>
-            </name>
-            <name>
-              <surname>Wood</surname>
-              <given-names>Angela M.</given-names>
-            </name>
-          </person-group>
-          <article-title>Multiple imputation using chained equations: Issues and guidance for practice</article-title>
-          <source>Stat Med</source>
-          <year iso-8601-date="2011">2011</year>
-          <volume>30</volume>
-          <issue>4</issue>
-          <pub-id pub-id-type="doi">10.1002/sim.4067</pub-id>
-          <fpage>377</fpage>
-          <lpage>399</lpage>
-        </element-citation>
-      </ref>
-    </ref-list>
-  </back>
-  <sub-article article-type="notebook" id="nb-2-nb-article">
-    <front-stub>
-      <title-group>
-        <article-title>Comparing Patient-Reported Outcomes Between Dupilumab and
+    <sec id="study-timeline">
+      <title>2.3.9 Study timeline</title>
+      <fig id="tbl-timeline">
+        <caption><p>Table 3: Study timeline</p></caption>
+        <table-wrap>
+          <table>
+            <thead>
+              <tr>
+                <th>Activity</th>
+                <th align="center">Year 1 Q1-Q2</th>
+                <th align="center">Year 1 Q3-Q4</th>
+                <th align="center">Year 2 Q1-Q2</th>
+                <th align="center">Year 2 Q3-Q4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IRB approval and data access agreements</td>
+                <td align="center">✓</td>
+                <td align="center"></td>
+                <td align="center"></td>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td>Cohort identification and data extraction</td>
+                <td align="center">✓</td>
+                <td align="center">✓</td>
+                <td align="center"></td>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td>Propensity score estimation and balance
+                assessment</td>
+                <td align="center"></td>
+                <td align="center">✓</td>
+                <td align="center"></td>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td>Primary analyses (Aims 1 and 2)</td>
+                <td align="center"></td>
+                <td align="center">✓</td>
+                <td align="center">✓</td>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td>Effect modification analyses (Aim 3)</td>
+                <td align="center"></td>
+                <td align="center"></td>
+                <td align="center">✓</td>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td>Sensitivity analyses and robustness checks</td>
+                <td align="center"></td>
+                <td align="center"></td>
+                <td align="center">✓</td>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td>Manuscript preparation and dissemination</td>
+                <td align="center"></td>
+                <td align="center"></td>
+                <td align="center">✓</td>
+                <td align="center">✓</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </fig>
+      <p></p>
+    </sec>
+  </sec>
+</sec>
+</body>
+
+<back>
+<ref-list>
+  <title>3. References</title>
+  <ref id="ref-afshari_unraveling_2024">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Afshari</surname><given-names>Moeina</given-names></name>
+        <name><surname>Kolackova</surname><given-names>Martina</given-names></name>
+        <name><surname>Rosecka</surname><given-names>Michaela</given-names></name>
+        <name><surname>Čelakovská</surname><given-names>Jarmila</given-names></name>
+        <name><surname>Krejsek</surname><given-names>Jan</given-names></name>
+      </person-group>
+      <article-title>Unraveling the skin; a comprehensive review of atopic dermatitis, current understanding, and approaches</article-title>
+      <source>Front Immunol</source>
+      <year iso-8601-date="2024">2024</year>
+      <volume>15</volume>
+      <issn>1664-3224</issn>
+      <pub-id pub-id-type="doi">10.3389/fimmu.2024.1361005</pub-id>
+      <pub-id pub-id-type="pmid">38500882</pub-id>
+      <fpage>1361005</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-austin_introduction_2011">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Austin</surname><given-names>Peter C.</given-names></name>
+      </person-group>
+      <article-title>An Introduction to Propensity Score Methods for Reducing the Effects of Confounding in Observational Studies</article-title>
+      <source>Multivariate Behav Res</source>
+      <year iso-8601-date="2011-05">2011</year><month>05</month>
+      <volume>46</volume>
+      <issue>3</issue>
+      <issn>1532-7906</issn>
+      <pub-id pub-id-type="doi">10.1080/00273171.2011.568786</pub-id>
+      <pub-id pub-id-type="pmid">21818162</pub-id>
+      <fpage>399</fpage>
+      <lpage>424</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-chopra_assessing_2018">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Chopra</surname><given-names>Rishi</given-names></name>
+        <name><surname>Silverberg</surname><given-names>Jonathan I.</given-names></name>
+      </person-group>
+      <article-title>Assessing the severity of atopic dermatitis in clinical trials and practice</article-title>
+      <source>Clin Dermatol</source>
+      <year iso-8601-date="2018">2018</year>
+      <volume>36</volume>
+      <issue>5</issue>
+      <issn>1879-1131</issn>
+      <pub-id pub-id-type="doi">10.1016/j.clindermatol.2018.05.012</pub-id>
+      <pub-id pub-id-type="pmid">30217273</pub-id>
+      <fpage>606</fpage>
+      <lpage>615</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-drucker_burden_2017">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Drucker</surname><given-names>Aaron M.</given-names></name>
+        <name><surname>Wang</surname><given-names>Annie R.</given-names></name>
+        <name><surname>Li</surname><given-names>Wen-Qing</given-names></name>
+        <name><surname>Sevetson</surname><given-names>Erika</given-names></name>
+        <name><surname>Block</surname><given-names>Julie K.</given-names></name>
+        <name><surname>Qureshi</surname><given-names>Abrar A.</given-names></name>
+      </person-group>
+      <article-title>The Burden of Atopic Dermatitis: Summary of a Report for the National Eczema Association</article-title>
+      <source>J Invest Dermatol</source>
+      <year iso-8601-date="2017-01">2017</year><month>01</month>
+      <volume>137</volume>
+      <issue>1</issue>
+      <issn>1523-1747</issn>
+      <pub-id pub-id-type="doi">10.1016/j.jid.2016.07.012</pub-id>
+      <pub-id pub-id-type="pmid">27616422</pub-id>
+      <fpage>26</fpage>
+      <lpage>30</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-eckert_impact_2017">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Eckert</surname><given-names>Laurent</given-names></name>
+        <name><surname>Gupta</surname><given-names>Shaloo</given-names></name>
+        <name><surname>Amand</surname><given-names>Caroline</given-names></name>
+        <name><surname>Gadkari</surname><given-names>Abhijit</given-names></name>
+        <name><surname>Mahajan</surname><given-names>Puneet</given-names></name>
+        <name><surname>Gelfand</surname><given-names>Joel M.</given-names></name>
+      </person-group>
+      <article-title>Impact of atopic dermatitis on health-related quality of life and productivity in adults in the United States: An analysis using the National Health and Wellness Survey</article-title>
+      <source>J Am Acad Dermatol</source>
+      <year iso-8601-date="2017-08">2017</year><month>08</month>
+      <volume>77</volume>
+      <issue>2</issue>
+      <issn>1097-6787</issn>
+      <pub-id pub-id-type="doi">10.1016/j.jaad.2017.04.019</pub-id>
+      <pub-id pub-id-type="pmid">28606711</pub-id>
+      <fpage>274</fpage>
+      <lpage>279.e3</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-finlay_dermatology_1994">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Finlay</surname><given-names>A. Y.</given-names></name>
+        <name><surname>Khan</surname><given-names>G. K.</given-names></name>
+      </person-group>
+      <article-title>Dermatology Life Quality Index (DLQI)–a simple practical measure for routine clinical use</article-title>
+      <source>Clin Exp Dermatol</source>
+      <year iso-8601-date="1994-05">1994</year><month>05</month>
+      <volume>19</volume>
+      <issue>3</issue>
+      <issn>0307-6938</issn>
+      <pub-id pub-id-type="doi">10.1111/j.1365-2230.1994.tb01167.x</pub-id>
+      <pub-id pub-id-type="pmid">8033378</pub-id>
+      <fpage>210</fpage>
+      <lpage>216</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-kroenke_phq-9_2001">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Kroenke</surname><given-names>Kurt</given-names></name>
+        <name><surname>Spitzer</surname><given-names>Robert L.</given-names></name>
+        <name><surname>Williams</surname><given-names>Janet B. W.</given-names></name>
+      </person-group>
+      <article-title>The PHQ-9</article-title>
+      <source>J GEN INTERN MED</source>
+      <year iso-8601-date="2001-09">2001</year><month>09</month>
+      <date-in-citation content-type="access-date"><year iso-8601-date="2026-04-15">2026</year><month>04</month><day>15</day></date-in-citation>
+      <volume>16</volume>
+      <issue>9</issue>
+      <issn>1525-1497</issn>
+      <uri>https://doi.org/10.1046/j.1525-1497.2001.016009606.x</uri>
+      <pub-id pub-id-type="doi">10.1046/j.1525-1497.2001.016009606.x</pub-id>
+      <fpage>606</fpage>
+      <lpage>613</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-eichenfield_guidelines_2014">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Eichenfield</surname><given-names>Lawrence F.</given-names></name>
+        <name><surname>Tom</surname><given-names>Wynnis L.</given-names></name>
+        <name><surname>Berger</surname><given-names>Timothy G.</given-names></name>
+        <name><surname>Krol</surname><given-names>Alfons</given-names></name>
+        <name><surname>Paller</surname><given-names>Amy S.</given-names></name>
+        <name><surname>Schwarzenberger</surname><given-names>Kathryn</given-names></name>
+        <name><surname>Bergman</surname><given-names>James N.</given-names></name>
+        <name><surname>Chamlin</surname><given-names>Sarah L.</given-names></name>
+        <name><surname>Cohen</surname><given-names>David E.</given-names></name>
+        <name><surname>Cooper</surname><given-names>Kevin D.</given-names></name>
+        <name><surname>Cordoro</surname><given-names>Kelly M.</given-names></name>
+        <name><surname>Davis</surname><given-names>Dawn M.</given-names></name>
+        <name><surname>Feldman</surname><given-names>Steven R.</given-names></name>
+        <name><surname>Hanifin</surname><given-names>Jon M.</given-names></name>
+        <name><surname>Margolis</surname><given-names>David J.</given-names></name>
+        <name><surname>Silverman</surname><given-names>Robert A.</given-names></name>
+        <name><surname>Simpson</surname><given-names>Eric L.</given-names></name>
+        <name><surname>Williams</surname><given-names>Hywel C.</given-names></name>
+        <name><surname>Elmets</surname><given-names>Craig A.</given-names></name>
+        <name><surname>Block</surname><given-names>Julie</given-names></name>
+        <name><surname>Harrod</surname><given-names>Christopher G.</given-names></name>
+        <name><surname>Smith Begolka</surname><given-names>Wendy</given-names></name>
+        <name><surname>Sidbury</surname><given-names>Robert</given-names></name>
+      </person-group>
+      <article-title>Guidelines of care for the management of atopic dermatitis: Section 2. Management and treatment of atopic dermatitis with topical therapies</article-title>
+      <source>J Am Acad Dermatol</source>
+      <year iso-8601-date="2014-07">2014</year><month>07</month>
+      <volume>71</volume>
+      <issue>1</issue>
+      <issn>1097-6787</issn>
+      <pub-id pub-id-type="doi">10.1016/j.jaad.2014.03.023</pub-id>
+      <pub-id pub-id-type="pmid">24813302</pub-id>
+      <fpage>116</fpage>
+      <lpage>132</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-silverberg_adult_2013">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Silverberg</surname><given-names>Jonathan I.</given-names></name>
+        <name><surname>Hanifin</surname><given-names>Jon M.</given-names></name>
+      </person-group>
+      <article-title>Adult eczema prevalence and associations with asthma and other health and demographic factors: A US population-based study</article-title>
+      <source>J Allergy Clin Immunol</source>
+      <year iso-8601-date="2013-11">2013</year><month>11</month>
+      <volume>132</volume>
+      <issue>5</issue>
+      <issn>1097-6825</issn>
+      <pub-id pub-id-type="doi">10.1016/j.jaci.2013.08.031</pub-id>
+      <pub-id pub-id-type="pmid">24094544</pub-id>
+      <fpage>1132</fpage>
+      <lpage>1138</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-silverberg_patient_2018">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Silverberg</surname><given-names>Jonathan I.</given-names></name>
+        <name><surname>Gelfand</surname><given-names>Joel M.</given-names></name>
+        <name><surname>Margolis</surname><given-names>David J.</given-names></name>
+        <name><surname>Boguniewicz</surname><given-names>Mark</given-names></name>
+        <name><surname>Fonacier</surname><given-names>Luz</given-names></name>
+        <name><surname>Grayson</surname><given-names>Mitchell H.</given-names></name>
+        <name><surname>Simpson</surname><given-names>Eric L.</given-names></name>
+        <name><surname>Ong</surname><given-names>Peck Y.</given-names></name>
+        <name><surname>Chiesa Fuxench</surname><given-names>Zelma C.</given-names></name>
+      </person-group>
+      <article-title>Patient burden and quality of life in atopic dermatitis in US adults: A population-based cross-sectional study</article-title>
+      <source>Ann Allergy Asthma Immunol</source>
+      <year iso-8601-date="2018-09">2018</year><month>09</month>
+      <volume>121</volume>
+      <issue>3</issue>
+      <issn>1534-4436</issn>
+      <pub-id pub-id-type="doi">10.1016/j.anai.2018.07.006</pub-id>
+      <pub-id pub-id-type="pmid">30025911</pub-id>
+      <fpage>340</fpage>
+      <lpage>347</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-simpson_two_2016">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Simpson</surname><given-names>Eric L.</given-names></name>
+        <name><surname>Bieber</surname><given-names>Thomas</given-names></name>
+        <name><surname>Guttman-Yassky</surname><given-names>Emma</given-names></name>
+        <name><surname>Beck</surname><given-names>Lisa A.</given-names></name>
+        <name><surname>Blauvelt</surname><given-names>Andrew</given-names></name>
+        <name><surname>Cork</surname><given-names>Michael J.</given-names></name>
+        <name><surname>Silverberg</surname><given-names>Jonathan I.</given-names></name>
+        <name><surname>Deleuran</surname><given-names>Mette</given-names></name>
+        <name><surname>Kataoka</surname><given-names>Yoko</given-names></name>
+        <name><surname>Lacour</surname><given-names>Jean-Philippe</given-names></name>
+        <name><surname>Kingo</surname><given-names>Külli</given-names></name>
+        <name><surname>Worm</surname><given-names>Margitta</given-names></name>
+        <name><surname>Poulin</surname><given-names>Yves</given-names></name>
+        <name><surname>Wollenberg</surname><given-names>Andreas</given-names></name>
+        <name><surname>Soo</surname><given-names>Yuhwen</given-names></name>
+        <name><surname>Graham</surname><given-names>Neil M. H.</given-names></name>
+        <name><surname>Pirozzi</surname><given-names>Gianluca</given-names></name>
+        <name><surname>Akinlade</surname><given-names>Bolanle</given-names></name>
+        <name><surname>Staudinger</surname><given-names>Heribert</given-names></name>
+        <name><surname>Mastey</surname><given-names>Vera</given-names></name>
+        <name><surname>Eckert</surname><given-names>Laurent</given-names></name>
+        <name><surname>Gadkari</surname><given-names>Abhijit</given-names></name>
+        <name><surname>Stahl</surname><given-names>Neil</given-names></name>
+        <name><surname>Yancopoulos</surname><given-names>George D.</given-names></name>
+        <name><surname>Ardeleanu</surname><given-names>Marius</given-names></name>
+        <string-name>SOLO 1 and SOLO 2 Investigators</string-name>
+      </person-group>
+      <article-title>Two Phase 3 Trials of Dupilumab versus Placebo in Atopic Dermatitis</article-title>
+      <source>N Engl J Med</source>
+      <year iso-8601-date="2016-12">2016</year><month>12</month>
+      <volume>375</volume>
+      <issue>24</issue>
+      <issn>1533-4406</issn>
+      <pub-id pub-id-type="doi">10.1056/NEJMoa1610020</pub-id>
+      <pub-id pub-id-type="pmid">27690741</pub-id>
+      <fpage>2335</fpage>
+      <lpage>2348</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-tackett_structural_2020">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Tackett</surname><given-names>Kelly Jo</given-names></name>
+        <name><surname>Jenkins</surname><given-names>Frances</given-names></name>
+        <name><surname>Morrell</surname><given-names>Dean S.</given-names></name>
+        <name><surname>McShane</surname><given-names>Diana B.</given-names></name>
+        <name><surname>Burkhart</surname><given-names>Craig N.</given-names></name>
+      </person-group>
+      <article-title>Structural racism and its influence on the severity of atopic dermatitis in African American children</article-title>
+      <source>Pediatr Dermatol</source>
+      <year iso-8601-date="2020-01">2020</year><month>01</month>
+      <volume>37</volume>
+      <issue>1</issue>
+      <issn>1525-1470</issn>
+      <pub-id pub-id-type="doi">10.1111/pde.14058</pub-id>
+      <pub-id pub-id-type="pmid">31854003</pub-id>
+      <fpage>142</fpage>
+      <lpage>146</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-vanderweele_sensitivity_2017">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>VanderWeele</surname><given-names>Tyler J.</given-names></name>
+        <name><surname>Ding</surname><given-names>Peng</given-names></name>
+      </person-group>
+      <article-title>Sensitivity Analysis in Observational Research: Introducing the E-Value</article-title>
+      <source>Ann Intern Med</source>
+      <year iso-8601-date="2017-08">2017</year><month>08</month>
+      <volume>167</volume>
+      <issue>4</issue>
+      <issn>1539-3704</issn>
+      <pub-id pub-id-type="doi">10.7326/M16-2607</pub-id>
+      <pub-id pub-id-type="pmid">28693043</pub-id>
+      <fpage>268</fpage>
+      <lpage>274</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-yu_systematic_2018">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Yu</surname><given-names>Sherry H.</given-names></name>
+        <name><surname>Drucker</surname><given-names>Aaron M.</given-names></name>
+        <name><surname>Lebwohl</surname><given-names>Mark</given-names></name>
+        <name><surname>Silverberg</surname><given-names>Jonathan I.</given-names></name>
+      </person-group>
+      <article-title>A systematic review of the safety and efficacy of systemic corticosteroids in atopic dermatitis</article-title>
+      <source>J Am Acad Dermatol</source>
+      <year iso-8601-date="2018-04">2018</year><month>04</month>
+      <volume>78</volume>
+      <issue>4</issue>
+      <issn>1097-6787</issn>
+      <pub-id pub-id-type="doi">10.1016/j.jaad.2017.09.074</pub-id>
+      <pub-id pub-id-type="pmid">29032119</pub-id>
+      <fpage>733</fpage>
+      <lpage>740.e11</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-basra_determining_2015">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Basra</surname><given-names>M. K. A.</given-names></name>
+        <name><surname>Salek</surname><given-names>M. S.</given-names></name>
+        <name><surname>Camilleri</surname><given-names>L.</given-names></name>
+        <name><surname>Sturkey</surname><given-names>R.</given-names></name>
+        <name><surname>Finlay</surname><given-names>A. Y.</given-names></name>
+      </person-group>
+      <article-title>Determining the minimal clinically important difference and responsiveness of the Dermatology Life Quality Index (DLQI): Further data</article-title>
+      <source>Dermatology</source>
+      <year iso-8601-date="2015">2015</year>
+      <volume>230</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1159/000365390</pub-id>
+      <fpage>27</fpage>
+      <lpage>33</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-white_multiple_2011">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>White</surname><given-names>Ian R.</given-names></name>
+        <name><surname>Royston</surname><given-names>Patrick</given-names></name>
+        <name><surname>Wood</surname><given-names>Angela M.</given-names></name>
+      </person-group>
+      <article-title>Multiple imputation using chained equations: Issues and guidance for practice</article-title>
+      <source>Stat Med</source>
+      <year iso-8601-date="2011">2011</year>
+      <volume>30</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1002/sim.4067</pub-id>
+      <fpage>377</fpage>
+      <lpage>399</lpage>
+    </element-citation>
+  </ref>
+</ref-list>
+</back>
+
+<sub-article article-type="notebook" id="nb-4-nb-article">
+<front-stub>
+<title-group>
+<article-title>Comparing Patient-Reported Outcomes Between Dupilumab and
 Conventional Therapy in Adults with Moderate-to-Severe Atopic
 Dermatitis</article-title>
-        <subtitle>HPO 677 Final Project - NIH Grant Proposal
+<subtitle>HPO 677 Final Project - NIH Grant Proposal
 (PAR-24-280)</subtitle>
-      </title-group>
-      <contrib-group>
-        <contrib contrib-type="author" corresp="yes">
-          <name>
-            <surname>Neri</surname>
-            <given-names>Louie</given-names>
-          </name>
-          <string-name>Louie Neri</string-name>
-          <xref ref-type="corresp" rid="cor-1-nb-article">*</xref>
-        </contrib>
-      </contrib-group>
-      <author-notes>
-        <corresp id="cor-1-nb-article"/>
-      </author-notes>
-      <abstract>
-        <p>This grant proposal compares patient-reported outcomes between
+</title-group>
+<contrib-group>
+<contrib contrib-type="author" corresp="yes">
+<name>
+<surname>Neri</surname>
+<given-names>Louie</given-names>
+</name>
+<string-name>Louie Neri</string-name>
+
+<xref ref-type="corresp" rid="cor-1-nb-article">&#x002A;</xref>
+</contrib>
+</contrib-group>
+<author-notes>
+<corresp id="cor-1-nb-article"></corresp>
+</author-notes>
+<abstract>
+<p>This grant proposal compares patient-reported outcomes between
 dupilumab and conventional therapy in adults with moderate-to-severe
 atopic dermatitis using observational electronic health record data.</p>
-      </abstract>
-    </front-stub>
-    <body>
-      <sec specific-use="notebook-content">
-        <code language="r script">library(tidyverse)</code>
-        <boxed-text>
-          <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+</abstract>
+</front-stub>
+
+<body>
+<sec specific-use="notebook-content">
+<code language="r script">library(tidyverse)</code>
+<boxed-text>
+  <preformat>── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
 ✔ dplyr     1.1.4     ✔ readr     2.1.5
 ✔ forcats   1.0.0     ✔ stringr   1.5.1
 ✔ ggplot2   3.5.2     ✔ tibble    3.2.1
@@ -1469,20 +1166,20 @@ atopic dermatitis using observational electronic health record data.</p>
 ✖ dplyr::filter() masks stats::filter()
 ✖ dplyr::lag()    masks stats::lag()
 ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</preformat>
-        </boxed-text>
-        <code language="r script">library(ggdag)</code>
-        <boxed-text>
-          <preformat>
+</boxed-text>
+<code language="r script">library(ggdag)</code>
+<boxed-text>
+  <preformat>
 Attaching package: 'ggdag'
 
 The following object is masked from 'package:stats':
 
     filter</preformat>
-        </boxed-text>
-      </sec>
-      <sec id="specific-aims-nb-article">
-        <title>1. Specific Aims</title>
-        <p>Atopic dermatitis (AD) is a chronic inflammatory skin condition
+</boxed-text>
+</sec>
+<sec id="specific-aims-nb-article">
+  <title>1. Specific Aims</title>
+  <p>Atopic dermatitis (AD) is a chronic inflammatory skin condition
   affecting an estimated 7% to 10% of adults in the United States
   (<xref alt="Silverberg and Hanifin 2013" rid="ref-silverberg_adult_2013-nb-article" ref-type="bibr">Silverberg
   and Hanifin 2013</xref>). Moderate-to-severe AD produces persistent
@@ -1492,7 +1189,7 @@ The following object is masked from 'package:stats':
   (<xref alt="Silverberg et al. 2018" rid="ref-silverberg_patient_2018-nb-article" ref-type="bibr">Silverberg
   et al. 2018</xref>). The disease burden experienced by patients
   extends well beyond what clinical severity scores capture.</p>
-        <p>Dupilumab, a biologic therapy targeting IL-4 and IL-13 signaling,
+  <p>Dupilumab, a biologic therapy targeting IL-4 and IL-13 signaling,
   has reshaped the treatment landscape for moderate-to-severe AD since
   its FDA approval in 2017
   (<xref alt="Simpson et al. 2016" rid="ref-simpson_two_2016-nb-article" ref-type="bibr">Simpson
@@ -1506,7 +1203,7 @@ The following object is masked from 'package:stats':
   the 12-month time horizon relevant to clinical decision-making
   (<xref alt="Afshari et al. 2024" rid="ref-afshari_unraveling_2024-nb-article" ref-type="bibr">Afshari
   et al. 2024</xref>).</p>
-        <p>This gap matters for three reasons. First, clinicians and patients
+  <p>This gap matters for three reasons. First, clinicians and patients
   making treatment decisions lack robust comparative data on outcomes
   that reflect what patients actually experience. Second, cost
   differences between biologic and conventional therapies are
@@ -1519,7 +1216,7 @@ The following object is masked from 'package:stats':
   essential for shared decision-making that reflects both clinical
   effectiveness and the patient-centered consequences of treatment
   choice.</p>
-        <p>The long-term goal of this research is to generate real-world
+  <p>The long-term goal of this research is to generate real-world
   evidence on patient-centered outcomes that can inform treatment
   selection and health policy for adults with moderate-to-severe AD. The
   objective of this application is to compare changes in
@@ -1534,8 +1231,8 @@ The following object is masked from 'package:stats':
   Rheumatic, and Skin Diseases, which seeks well-designed observational
   research that improves understanding of disease symptoms and outcomes
   important to patients with skin conditions.</p>
-        <p>The specific aims are:</p>
-        <p><bold>Aim 1: Compare 12-month changes in disease-specific quality
+  <p>The specific aims are:</p>
+  <p><bold>Aim 1: Compare 12-month changes in disease-specific quality
   of life between dupilumab and conventional therapy.</bold> Changes in
   the Dermatology Life Quality Index (DLQI)
   (<xref alt="Finlay and Khan 1994" rid="ref-finlay_dermatology_1994-nb-article" ref-type="bibr">Finlay
@@ -1547,22 +1244,22 @@ The following object is masked from 'package:stats':
   clinically important difference (MCID) of 4 points
   (<xref alt="Basra et al. 2015" rid="ref-basra_determining_2015-nb-article" ref-type="bibr">Basra
   et al. 2015</xref>).</p>
-        <p><bold>Aim 2: Compare 12-month changes in depressive symptoms
+  <p><bold>Aim 2: Compare 12-month changes in depressive symptoms
   between dupilumab and conventional therapy.</bold> Changes in the
   Patient Health Questionnaire-9 (PHQ-9)
-  (<xref alt="Kroenke, Spitzer, and Williams 2001" rid="ref-kroenke_phq-9_2001-nb-article" ref-type="bibr">Kroenke,
-  Spitzer, and Williams 2001</xref>) will be evaluated between treatment
-  groups using the same IPTW approach. The hypothesis is that
-  dupilumab-treated patients will show greater reductions in depressive
-  symptoms, consistent with the established relationship between skin
-  disease burden and psychological well-being.</p>
-        <p><bold>Aim 3: Examine whether treatment effects vary by age, sex,
+  (<xref alt="Kroenke et al. 2001" rid="ref-kroenke_phq-9_2001-nb-article" ref-type="bibr">Kroenke
+  et al. 2001</xref>) will be evaluated between treatment groups using
+  the same IPTW approach. The hypothesis is that dupilumab-treated
+  patients will show greater reductions in depressive symptoms,
+  consistent with the established relationship between skin disease
+  burden and psychological well-being.</p>
+  <p><bold>Aim 3: Examine whether treatment effects vary by age, sex,
   and race.</bold> Prespecified interaction terms will test for effect
   modification by demographic characteristics. This aim will identify
   subgroups that may experience differential benefits and will surface
   potential disparities in treatment outcomes. Insurance status and
   socioeconomic factors will be examined as exploratory moderators.</p>
-        <p>The expected output is real-world comparative effectiveness
+  <p>The expected output is real-world comparative effectiveness
   evidence on patient-reported outcomes in AD that is directly relevant
   to clinical decision-making. Secondary contributions include
   characterizing disease symptom trajectories under routine care,
@@ -1571,15 +1268,15 @@ The following object is masked from 'package:stats':
   that can inform efforts to reduce disparities in AD care. This work
   aligns with the NIAMS mission to improve outcomes and function in
   patients with skin conditions.</p>
-        <p/>
-      </sec>
-      <sec id="research-strategy-nb-article">
-        <title>2. Research Strategy</title>
-        <sec id="significance-nb-article">
-          <title>2.1 Significance</title>
-          <sec id="burden-of-atopic-dermatitis-nb-article">
-            <title>2.1.1 Burden of atopic dermatitis</title>
-            <p>AD is the most common chronic inflammatory skin disease and
+  <p></p>
+</sec>
+<sec id="research-strategy-nb-article">
+  <title>2. Research Strategy</title>
+  <sec id="significance-nb-article">
+    <title>2.1 Significance</title>
+    <sec id="burden-of-atopic-dermatitis-nb-article">
+      <title>2.1.1 Burden of atopic dermatitis</title>
+      <p>AD is the most common chronic inflammatory skin disease and
       affects a substantial proportion of US adults
       (<xref alt="Silverberg and Hanifin 2013" rid="ref-silverberg_adult_2013-nb-article" ref-type="bibr">Silverberg
       and Hanifin 2013</xref>). The condition is characterized by
@@ -1596,11 +1293,11 @@ The following object is masked from 'package:stats':
       experiential: how the disease affects daily activities,
       relationships, and emotional well-being rather than the specific
       values on a clinical severity scale.</p>
-          </sec>
-          <sec id="treatment-options-and-the-limits-of-current-evidence-nb-article">
-            <title>2.1.2 Treatment options and the limits of current
+    </sec>
+    <sec id="treatment-options-and-the-limits-of-current-evidence-nb-article">
+      <title>2.1.2 Treatment options and the limits of current
       evidence</title>
-            <p>Conventional therapy includes topical corticosteroids,
+      <p>Conventional therapy includes topical corticosteroids,
       calcineurin inhibitors, and systemic immunosuppressants such as
       cyclosporine, methotrexate, and mycophenolate mofetil. These
       agents can reduce disease severity but carry risks of long-term
@@ -1614,10 +1311,10 @@ The following object is masked from 'package:stats':
       do not necessarily extend to the broader population seen in
       routine practice, where adherence is lower, comorbidities are
       common, and clinical monitoring is less frequent.</p>
-          </sec>
-          <sec id="gaps-in-patient-reported-outcomes-evidence-nb-article">
-            <title>2.1.3 Gaps in patient-reported outcomes evidence</title>
-            <p>Despite growing adoption of dupilumab, head-to-head
+    </sec>
+    <sec id="gaps-in-patient-reported-outcomes-evidence-nb-article">
+      <title>2.1.3 Gaps in patient-reported outcomes evidence</title>
+      <p>Despite growing adoption of dupilumab, head-to-head
       observational comparisons of patient-reported outcomes between
       biologic and conventional therapy in real-world settings remain
       limited. Most existing studies rely on clinician-assessed severity
@@ -1636,10 +1333,10 @@ The following object is masked from 'package:stats':
       these two instruments produces a more complete picture of how
       treatments affect patients than either clinical severity scores or
       generic health measures alone.</p>
-          </sec>
-          <sec id="financial-toxicity-and-access-disparities-nb-article">
-            <title>2.1.4 Financial toxicity and access disparities</title>
-            <p>Out-of-pocket costs for dupilumab vary widely depending on
+    </sec>
+    <sec id="financial-toxicity-and-access-disparities-nb-article">
+      <title>2.1.4 Financial toxicity and access disparities</title>
+      <p>Out-of-pocket costs for dupilumab vary widely depending on
       insurance coverage, ranging from minimal copayments to several
       thousand dollars annually
       (<xref alt="Drucker et al. 2017" rid="ref-drucker_burden_2017-nb-article" ref-type="bibr">Drucker
@@ -1652,21 +1349,21 @@ The following object is masked from 'package:stats':
       dynamics must be accounted for when interpreting PRO differences
       between treatment groups and when designing future studies that
       address economic barriers to care.</p>
-          </sec>
-          <sec id="importance-to-the-field-nb-article">
-            <title>2.1.5 Importance to the field</title>
-            <p>By generating the kind of observational evidence that
+    </sec>
+    <sec id="importance-to-the-field-nb-article">
+      <title>2.1.5 Importance to the field</title>
+      <p>By generating the kind of observational evidence that
       PAR-24-280 is designed to support, this project will provide data
       that directly inform the design of future clinical studies in AD,
       including identification of appropriate primary endpoints and
       characterization of the subgroups most likely to benefit from
       biologic therapy.</p>
-          </sec>
-        </sec>
-        <sec id="innovation-nb-article">
-          <title>2.2 Innovation</title>
-          <p>This proposal advances the field in five respects.</p>
-          <p><italic>Dual patient-reported outcome focus.</italic> Existing
+    </sec>
+  </sec>
+  <sec id="innovation-nb-article">
+    <title>2.2 Innovation</title>
+    <p>This proposal advances the field in five respects.</p>
+    <p><italic>Dual patient-reported outcome focus.</italic> Existing
     comparative studies of AD treatments have predominantly relied on
     clinician-assessed severity endpoints
     (<xref alt="Chopra and Silverberg 2018" rid="ref-chopra_assessing_2018-nb-article" ref-type="bibr">Chopra
@@ -1679,7 +1376,7 @@ The following object is masked from 'package:stats':
     assessment. Pairing a condition-specific instrument with a mental
     health instrument is uncommon in comparative AD research and
     reflects the multidimensional nature of disease impact.</p>
-          <p><italic>Integration of mental health outcomes in dermatology
+    <p><italic>Integration of mental health outcomes in dermatology
     research.</italic> Depression is a recognized comorbidity of AD
     (<xref alt="Yu et al. 2018" rid="ref-yu_systematic_2018-nb-article" ref-type="bibr">Yu
     et al. 2018</xref>), but few observational studies have
@@ -1687,7 +1384,7 @@ The following object is masked from 'package:stats':
     treatment strategies. Including PHQ-9 as a primary endpoint
     alongside DLQI makes the psychological dimension of treatment
     benefit testable rather than assumed.</p>
-          <p><italic>Systematic evaluation of treatment effect
+    <p><italic>Systematic evaluation of treatment effect
     heterogeneity.</italic> A single average treatment effect can mask
     substantial variation across subgroups. This study formally tests
     whether benefits differ by age, sex, and race. Given documented
@@ -1698,7 +1395,7 @@ The following object is masked from 'package:stats':
     assessed through formal interaction tests rather than side-by-side
     comparison of significance labels across strata, the latter being a
     common but invalid way to establish that effects truly differ.</p>
-          <p><italic>Methodological rigor in addressing confounding by
+    <p><italic>Methodological rigor in addressing confounding by
     indication.</italic> Patients receiving dupilumab typically have
     more severe, refractory disease than those on conventional therapy.
     IPTW will create a pseudo-population in which measured baseline
@@ -1711,26 +1408,26 @@ The following object is masked from 'package:stats':
     (<xref alt="VanderWeele and Ding 2017" rid="ref-vanderweele_sensitivity_2017-nb-article" ref-type="bibr">VanderWeele
     and Ding 2017</xref>). The combination provides a transparent
     framework for causal interpretation in an observational setting.</p>
-          <p><italic>Emphasis on clinical meaningfulness.</italic>
+    <p><italic>Emphasis on clinical meaningfulness.</italic>
     Interpretation will center on effect size, confidence interval
     width, and compatibility with established MCIDs (DLQI: 4 points,
     (<xref alt="Basra et al. 2015" rid="ref-basra_determining_2015-nb-article" ref-type="bibr">Basra
     et al. 2015</xref>); PHQ-9: 5 points,
-    (<xref alt="Kroenke, Spitzer, and Williams 2001" rid="ref-kroenke_phq-9_2001-nb-article" ref-type="bibr">Kroenke,
-    Spitzer, and Williams 2001</xref>)), rather than on whether a result
-    crosses a p-value threshold. Statistically significant findings do
-    not guarantee clinically important effects, particularly in large
+    (<xref alt="Kroenke et al. 2001" rid="ref-kroenke_phq-9_2001-nb-article" ref-type="bibr">Kroenke
+    et al. 2001</xref>)), rather than on whether a result crosses a
+    p-value threshold. Statistically significant findings do not
+    guarantee clinically important effects, particularly in large
     samples where small differences can produce low p-values.
     Nonsignificant findings in smaller samples may reflect imprecision
     rather than absence of effect. Interpretation grounded in effect
     magnitude and clinical thresholds is more useful for treatment
     decisions than a binary significance label.</p>
-        </sec>
-        <sec id="approach-nb-article">
-          <title>2.3 Approach</title>
-          <sec id="overview-and-conceptual-model-nb-article">
-            <title>2.3.1 Overview and conceptual model</title>
-            <p>This prospective cohort study will compare patient-reported
+  </sec>
+  <sec id="approach-nb-article">
+    <title>2.3 Approach</title>
+    <sec id="overview-and-conceptual-model-nb-article">
+      <title>2.3.1 Overview and conceptual model</title>
+      <p>This prospective cohort study will compare patient-reported
       outcomes between adults with moderate-to-severe AD initiating
       dupilumab versus conventional therapy. The conceptual model serves
       as the organizing framework: treatment type (the primary exposure)
@@ -1744,17 +1441,17 @@ The following object is masked from 'package:stats':
       analysis from devolving into a list of variables without rationale
       and ensures every analytic decision ties back to the hypothesized
       causal structure.</p>
-            <sec id="cell-fig-conceptual-model-nb-article" specific-use="notebook-content">
-              <code language="r script">library(tidyverse)
+      <sec id="cell-fig-conceptual-model-nb-article" specific-use="notebook-content">
+      <code language="r script">library(tidyverse)
 
 boxes &lt;- tibble(
   x = c(1, 4, 7, 4),
   y = c(1, 1, 1, 3),
   label = c(
-    "Treatment\nDupilumab vs. Conventional",
-    "Mediators\nDisease activity\nItch intensity\nSleep disturbance",
-    "Outcomes\nDLQI\nPHQ-9",
-    "Confounders\nBaseline severity\nTreatment history\nInsurance\nComorbidities\nSES\nAge\nSex\nRace"
+    &quot;Treatment\nDupilumab vs. Conventional&quot;,
+    &quot;Mediators\nDisease activity\nItch intensity\nSleep disturbance&quot;,
+    &quot;Outcomes\nDLQI\nPHQ-9&quot;,
+    &quot;Confounders\nBaseline severity\nTreatment history\nInsurance\nComorbidities\nSES\nAge\nSex\nRace&quot;
   )
 )
 
@@ -1769,43 +1466,41 @@ ggplot() +
   geom_segment(
     data = arrows,
     aes(x = x, y = y, xend = xend, yend = yend),
-    arrow = arrow(type = "closed"),
-    color = "gray50"
+    arrow = arrow(type = &quot;closed&quot;),
+    color = &quot;gray50&quot;
   ) +
   geom_curve(
     aes(x = 1.5, y = 0.6, xend = 6.5, yend = 0.6),
     curvature = 0.2,
-    arrow = arrow(type = "closed"),
-    color = "gray50"
+    arrow = arrow(type = &quot;closed&quot;),
+    color = &quot;gray50&quot;
   ) +
   geom_label(
     data = boxes,
     aes(x = x, y = y, label = label),
-    fill = "white"
+    fill = &quot;white&quot;
   ) +
   annotate(
-    "text",
+    &quot;text&quot;,
     x = 4,
     y = 0.35,
-    label = "direct effect",
+    label = &quot;direct effect&quot;,
     hjust = 0.5
   ) +
   coord_cartesian(xlim = c(0, 8), ylim = c(0, 4)) +
   theme_void()</code>
-              <fig id="fig-conceptual-model-nb-article">
-                <caption>
-                  <p>Figure 1: Conceptual model. The primary causal
+      <fig id="fig-conceptual-model-nb-article">
+        <caption><p>Figure 1: Conceptual model. The primary causal
         pathway runs from treatment through mediators to outcomes.
         Confounders influence both treatment selection and outcomes,
-        creating the need for propensity score adjustment.</p>
-                </caption>
-                <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-conceptual-model-1.png"/>
-              </fig>
-            </sec>
-          </sec>
-          <sec id="study-design-nb-article">
-            <title>2.3.2 Study design</title>
-            <p>A prospective cohort design is appropriate because randomizing
+        creating the need for propensity score adjustment.</p></caption>
+        <graphic mimetype="image" mime-subtype="png" xlink:href="index_files/figure-jats/fig-conceptual-model-1.png" />
+      </fig>
+      </sec>
+    </sec>
+    <sec id="study-design-nb-article">
+      <title>2.3.2 Study design</title>
+      <p>A prospective cohort design is appropriate because randomizing
       patients to dupilumab versus conventional therapy is neither
       practical nor ethical. Dupilumab is typically prescribed after
       conventional options have failed, and insurance authorization
@@ -1815,17 +1510,17 @@ ggplot() +
       baseline and at 3, 6, and 12 months. Prospective collection
       ensures standardized outcome measurement rather than reliance on
       inconsistently documented chart data.</p>
-            <p>The principal threat to validity is confounding by indication.
+      <p>The principal threat to validity is confounding by indication.
       Dupilumab recipients tend to have more severe disease, meaning
       baseline differences between groups could bias observed
       associations. This is a structural problem that propensity score
       methods partially address for measured confounders but cannot
       address for unmeasured ones, which is why sensitivity analyses are
       essential.</p>
-          </sec>
-          <sec id="study-population-and-data-source-nb-article">
-            <title>2.3.3 Study population and data source</title>
-            <p>EHR data from a large academic medical center with an active
+    </sec>
+    <sec id="study-population-and-data-source-nb-article">
+      <title>2.3.3 Study population and data source</title>
+      <p>EHR data from a large academic medical center with an active
       dermatology specialty clinic will be used. EHR data add clinical
       detail that administrative claims often lack, including laboratory
       values, disease severity markers, and clinical notes that are
@@ -1839,7 +1534,7 @@ ggplot() +
       agents, participation in interventional clinical trials during the
       study period, and diagnoses of other inflammatory skin conditions
       that could confound outcome assessment.</p>
-            <p>DLQI and PHQ-9 will be extracted from routine clinical
+      <p>DLQI and PHQ-9 will be extracted from routine clinical
       assessments documented at baseline and follow-up visits. Both
       instruments have established reliability, validity, and
       responsiveness, and both are widely used in clinical practice,
@@ -1849,119 +1544,117 @@ ggplot() +
       systemic therapies), comorbidities including prior
       depression/anxiety diagnoses, insurance type, and socioeconomic
       indicators.</p>
-          </sec>
-          <sec id="variables-and-measurement-nb-article">
-            <title>2.3.4 Variables and measurement</title>
-            <fig id="tbl-variables-nb-article">
-              <caption>
-                <p>Table 1: Study variables and
-        measurement</p>
-              </caption>
-              <table-wrap>
-                <table>
-                  <colgroup>
-                    <col width="20%"/>
-                    <col width="20%"/>
-                    <col width="20%"/>
-                    <col width="20%"/>
-                    <col width="20%"/>
-                  </colgroup>
-                  <thead>
-                    <tr>
-                      <th>Variable Type</th>
-                      <th>Variable</th>
-                      <th>Description</th>
-                      <th>Measurement</th>
-                      <th>Scale</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Primary Exposure</td>
-                      <td>Treatment group</td>
-                      <td>Dupilumab vs. conventional therapy</td>
-                      <td>EHR prescription records</td>
-                      <td>Categorical</td>
-                    </tr>
-                    <tr>
-                      <td>Primary Outcome</td>
-                      <td>Disease-specific QoL</td>
-                      <td>DLQI change score (baseline to 12 months)</td>
-                      <td>Range: 0-30</td>
-                      <td>Continuous</td>
-                    </tr>
-                    <tr>
-                      <td>Primary Outcome</td>
-                      <td>Depressive symptoms</td>
-                      <td>PHQ-9 change score (baseline to 12 months)</td>
-                      <td>Range: 0-27</td>
-                      <td>Continuous</td>
-                    </tr>
-                    <tr>
-                      <td>Confounder</td>
-                      <td>Age</td>
-                      <td>Patient age at enrollment</td>
-                      <td>Years</td>
-                      <td>Continuous</td>
-                    </tr>
-                    <tr>
-                      <td>Confounder</td>
-                      <td>Sex</td>
-                      <td>Male or female</td>
-                      <td>Self-report</td>
-                      <td>Categorical</td>
-                    </tr>
-                    <tr>
-                      <td>Confounder</td>
-                      <td>Race/ethnicity</td>
-                      <td>Race/ethnic group</td>
-                      <td>EHR demographics</td>
-                      <td>Categorical</td>
-                    </tr>
-                    <tr>
-                      <td>Confounder</td>
-                      <td>Baseline EASI score</td>
-                      <td>Disease severity at enrollment</td>
-                      <td>Range: 0-72</td>
-                      <td>Continuous</td>
-                    </tr>
-                    <tr>
-                      <td>Confounder</td>
-                      <td>Treatment history</td>
-                      <td>Prior systemic therapies</td>
-                      <td>Count</td>
-                      <td>Continuous</td>
-                    </tr>
-                    <tr>
-                      <td>Confounder</td>
-                      <td>Disease duration</td>
-                      <td>Years since AD diagnosis</td>
-                      <td>Years</td>
-                      <td>Continuous</td>
-                    </tr>
-                    <tr>
-                      <td>Confounder</td>
-                      <td>Insurance status</td>
-                      <td>Private, Medicare/Medicaid, or other</td>
-                      <td>EHR records</td>
-                      <td>Categorical</td>
-                    </tr>
-                    <tr>
-                      <td>Confounder</td>
-                      <td>Depression/anxiety history</td>
-                      <td>Documented prior diagnosis</td>
-                      <td>ICD codes</td>
-                      <td>Categorical</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </table-wrap>
-            </fig>
-          </sec>
-          <sec id="mediating-moderating-and-confounding-relationships-nb-article">
-            <title>2.3.5 Mediating, moderating, and confounding
+    </sec>
+    <sec id="variables-and-measurement-nb-article">
+      <title>2.3.4 Variables and measurement</title>
+      <fig id="tbl-variables-nb-article">
+        <caption><p>Table 1: Study variables and
+        measurement</p></caption>
+        <table-wrap>
+          <table>
+            <colgroup>
+              <col width="20%" />
+              <col width="20%" />
+              <col width="20%" />
+              <col width="20%" />
+              <col width="20%" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Variable Type</th>
+                <th>Variable</th>
+                <th>Description</th>
+                <th>Measurement</th>
+                <th>Scale</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Primary Exposure</td>
+                <td>Treatment group</td>
+                <td>Dupilumab vs. conventional therapy</td>
+                <td>EHR prescription records</td>
+                <td>Categorical</td>
+              </tr>
+              <tr>
+                <td>Primary Outcome</td>
+                <td>Disease-specific QoL</td>
+                <td>DLQI change score (baseline to 12 months)</td>
+                <td>Range: 0-30</td>
+                <td>Continuous</td>
+              </tr>
+              <tr>
+                <td>Primary Outcome</td>
+                <td>Depressive symptoms</td>
+                <td>PHQ-9 change score (baseline to 12 months)</td>
+                <td>Range: 0-27</td>
+                <td>Continuous</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Age</td>
+                <td>Patient age at enrollment</td>
+                <td>Years</td>
+                <td>Continuous</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Sex</td>
+                <td>Male or female</td>
+                <td>Self-report</td>
+                <td>Categorical</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Race/ethnicity</td>
+                <td>Race/ethnic group</td>
+                <td>EHR demographics</td>
+                <td>Categorical</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Baseline EASI score</td>
+                <td>Disease severity at enrollment</td>
+                <td>Range: 0-72</td>
+                <td>Continuous</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Treatment history</td>
+                <td>Prior systemic therapies</td>
+                <td>Count</td>
+                <td>Continuous</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Disease duration</td>
+                <td>Years since AD diagnosis</td>
+                <td>Years</td>
+                <td>Continuous</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Insurance status</td>
+                <td>Private, Medicare/Medicaid, or other</td>
+                <td>EHR records</td>
+                <td>Categorical</td>
+              </tr>
+              <tr>
+                <td>Confounder</td>
+                <td>Depression/anxiety history</td>
+                <td>Documented prior diagnosis</td>
+                <td>ICD codes</td>
+                <td>Categorical</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </fig>
+    </sec>
+    <sec id="mediating-moderating-and-confounding-relationships-nb-article">
+      <title>2.3.5 Mediating, moderating, and confounding
       relationships</title>
-            <p>These three variable roles are frequently conflated but require
+      <p>These three variable roles are frequently conflated but require
       different analytic strategies. A mediator is caused by the
       exposure and carries some portion of its effect to the outcome.
       Disease activity (EASI score change), itch intensity, and sleep
@@ -1970,24 +1663,24 @@ ggplot() +
       conditioning on a mediator blocks the causal pathway through which
       treatment produces its effect, biasing the estimate toward the
       null.</p>
-            <p>A moderator changes the strength or direction of the
+      <p>A moderator changes the strength or direction of the
       treatment-outcome relationship and is sometimes called an effect
       modifier. Age, sex, and baseline disease severity are the
       hypothesized moderators, examined through prespecified interaction
       terms in Aim 3. A moderator does not need to be associated with
       the exposure. It only needs to change the exposure’s effect on the
       outcome.</p>
-            <p>A confounder is associated with both treatment selection and
+      <p>A confounder is associated with both treatment selection and
       outcomes but does not lie on the causal pathway. Confounders must
       be measured before exposure to avoid conditioning on
       post-treatment variables that could introduce bias. Insurance
       status, disease duration, treatment history, depression/anxiety
       history, and socioeconomic status are all confounders and will be
       included in the propensity score model.</p>
-          </sec>
-          <sec id="statistical-analysis-plan-nb-article">
-            <title>2.3.6 Statistical analysis plan</title>
-            <p><bold>Propensity score estimation.</bold> A propensity score is
+    </sec>
+    <sec id="statistical-analysis-plan-nb-article">
+      <title>2.3.6 Statistical analysis plan</title>
+      <p><bold>Propensity score estimation.</bold> A propensity score is
       the probability that a patient received a particular treatment
       given their observed baseline characteristics. It compresses
       multiple confounders into a single score between zero and one and
@@ -2007,7 +1700,7 @@ ggplot() +
       receiving each treatment for every combination of covariates
       (<xref alt="Austin 2011" rid="ref-austin_introduction_2011-nb-article" ref-type="bibr">Austin
       2011</xref>).</p>
-            <p><bold>Primary analysis.</bold> The average treatment effect on
+      <p><bold>Primary analysis.</bold> The average treatment effect on
       the treated (ATT) will be estimated using IPTW in weighted linear
       regression models. IPTW creates a pseudo-population in which
       measured covariates are balanced across treatment groups,
@@ -2021,7 +1714,7 @@ ggplot() +
       reported, though a point estimate paired with its confidence
       interval is more informative for guiding treatment decisions than
       a binary significance label.</p>
-            <p><bold>Effect modification analysis (Aim 3).</bold> Prespecified
+      <p><bold>Effect modification analysis (Aim 3).</bold> Prespecified
       interaction terms for age, sex, and race will be included in
       regression models. Effect modification is established through the
       interaction test itself, not by comparing significance labels
@@ -2029,17 +1722,17 @@ ggplot() +
       intervals will be reported to characterize the pattern of
       heterogeneity. Insurance status and socioeconomic factors will be
       examined as exploratory moderators.</p>
-            <p><bold>Missing data.</bold> Missing data will be handled using
+      <p><bold>Missing data.</bold> Missing data will be handled using
       multiple imputation by chained equations (MICE), under the
       assumption that data are missing at random conditional on observed
       covariates
-      (<xref alt="White, Royston, and Wood 2011" rid="ref-white_multiple_2011-nb-article" ref-type="bibr">White,
-      Royston, and Wood 2011</xref>). Because EHR data often exhibit
-      missingness that is not completely at random, sensitivity analyses
-      will compare imputed results to complete-case analyses.
-      Substantial divergence between approaches will prompt more
-      cautious interpretation.</p>
-            <p><bold>Sensitivity and robustness analyses.</bold> Three
+      (<xref alt="White et al. 2011" rid="ref-white_multiple_2011-nb-article" ref-type="bibr">White
+      et al. 2011</xref>). Because EHR data often exhibit missingness
+      that is not completely at random, sensitivity analyses will
+      compare imputed results to complete-case analyses. Substantial
+      divergence between approaches will prompt more cautious
+      interpretation.</p>
+      <p><bold>Sensitivity and robustness analyses.</bold> Three
       robustness checks are planned: (1) propensity score matching (1:1
       nearest-neighbor with caliper of 0.2 standard deviations of the
       logit of the propensity score) as an alternative to weighting; (2)
@@ -2053,10 +1746,10 @@ ggplot() +
       and Ding 2017</xref>). The three assumptions underlying causal
       inference (exchangeability, positivity, and consistency) will be
       explicitly evaluated and discussed.</p>
-          </sec>
-          <sec id="influence-of-age-sex-and-race-nb-article">
-            <title>2.3.7 Influence of age, sex, and race</title>
-            <p>Demographic characteristics are likely to shape both treatment
+    </sec>
+    <sec id="influence-of-age-sex-and-race-nb-article">
+      <title>2.3.7 Influence of age, sex, and race</title>
+      <p>Demographic characteristics are likely to shape both treatment
       patterns and outcomes. Older versus younger adults may have
       different baseline quality of life and depressive symptom
       profiles, and age-related variation in insurance coverage and
@@ -2074,832 +1767,509 @@ ggplot() +
       subgroups. Stratum-specific results will be interpreted through
       effect sizes and confidence intervals rather than significance
       labels alone.</p>
-          </sec>
-          <sec id="potential-challenges-and-solutions-nb-article">
-            <title>2.3.8 Potential challenges and solutions</title>
-            <fig id="tbl-challenges-nb-article">
-              <caption>
-                <p>Table 2: Potential challenges and proposed
-        solutions</p>
-              </caption>
-              <table-wrap>
-                <table>
-                  <colgroup>
-                    <col width="38%"/>
-                    <col width="62%"/>
-                  </colgroup>
-                  <thead>
-                    <tr>
-                      <th>Challenge</th>
-                      <th>Proposed Solution</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>Confounding by indication: dupilumab patients have
+    </sec>
+    <sec id="potential-challenges-and-solutions-nb-article">
+      <title>2.3.8 Potential challenges and solutions</title>
+      <fig id="tbl-challenges-nb-article">
+        <caption><p>Table 2: Potential challenges and proposed
+        solutions</p></caption>
+        <table-wrap>
+          <table>
+            <colgroup>
+              <col width="38%" />
+              <col width="62%" />
+            </colgroup>
+            <thead>
+              <tr>
+                <th>Challenge</th>
+                <th>Proposed Solution</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Confounding by indication: dupilumab patients have
                 more severe, refractory disease</td>
-                      <td>IPTW with thorough covariate balance assessment (SMD
+                <td>IPTW with thorough covariate balance assessment (SMD
                 &lt; 0.1); doubly robust estimation as sensitivity
                 analysis; E-value calculations for unmeasured
                 confounding</td>
-                    </tr>
-                    <tr>
-                      <td>Missing PRO data from incomplete follow-up or
+              </tr>
+              <tr>
+                <td>Missing PRO data from incomplete follow-up or
                 inconsistent EHR documentation</td>
-                      <td>Multiple imputation by chained equations with
+                <td>Multiple imputation by chained equations with
                 sensitivity analyses comparing complete-case results;
                 evaluation of whether missingness patterns relate to
                 patient characteristics or outcome risk</td>
-                    </tr>
-                    <tr>
-                      <td>Selection bias from differential out-of-pocket costs
+              </tr>
+              <tr>
+                <td>Selection bias from differential out-of-pocket costs
                 affecting who receives dupilumab</td>
-                      <td>Include insurance status and socioeconomic
+                <td>Include insurance status and socioeconomic
                 indicators in propensity score model; assess residual
                 imbalance post-weighting</td>
-                    </tr>
-                    <tr>
-                      <td>Treatment switching or discontinuation during
+              </tr>
+              <tr>
+                <td>Treatment switching or discontinuation during
                 follow-up</td>
-                      <td>Intention-to-treat analysis as primary approach;
+                <td>Intention-to-treat analysis as primary approach;
                 per-protocol analysis as sensitivity check with
                 documented switching rates and reasons</td>
-                    </tr>
-                    <tr>
-                      <td>Insufficient sample size for subgroup analyses by
+              </tr>
+              <tr>
+                <td>Insufficient sample size for subgroup analyses by
                 race</td>
-                      <td>Report stratum-specific estimates with confidence
+                <td>Report stratum-specific estimates with confidence
                 intervals; acknowledge precision limitations
                 transparently; avoid interpreting nonsignificance as
                 absence of effect</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </table-wrap>
-            </fig>
-          </sec>
-          <sec id="study-timeline-nb-article">
-            <title>2.3.9 Study timeline</title>
-            <fig id="tbl-timeline-nb-article">
-              <caption>
-                <p>Table 3: Study timeline</p>
-              </caption>
-              <table-wrap>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Activity</th>
-                      <th align="center">Year 1 Q1-Q2</th>
-                      <th align="center">Year 1 Q3-Q4</th>
-                      <th align="center">Year 2 Q1-Q2</th>
-                      <th align="center">Year 2 Q3-Q4</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>IRB approval and data access agreements</td>
-                      <td align="center">✓</td>
-                      <td align="center"/>
-                      <td align="center"/>
-                      <td align="center"/>
-                    </tr>
-                    <tr>
-                      <td>Cohort identification and data extraction</td>
-                      <td align="center">✓</td>
-                      <td align="center">✓</td>
-                      <td align="center"/>
-                      <td align="center"/>
-                    </tr>
-                    <tr>
-                      <td>Propensity score estimation and balance
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </fig>
+    </sec>
+    <sec id="study-timeline-nb-article">
+      <title>2.3.9 Study timeline</title>
+      <fig id="tbl-timeline-nb-article">
+        <caption><p>Table 3: Study timeline</p></caption>
+        <table-wrap>
+          <table>
+            <thead>
+              <tr>
+                <th>Activity</th>
+                <th align="center">Year 1 Q1-Q2</th>
+                <th align="center">Year 1 Q3-Q4</th>
+                <th align="center">Year 2 Q1-Q2</th>
+                <th align="center">Year 2 Q3-Q4</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>IRB approval and data access agreements</td>
+                <td align="center">✓</td>
+                <td align="center"></td>
+                <td align="center"></td>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td>Cohort identification and data extraction</td>
+                <td align="center">✓</td>
+                <td align="center">✓</td>
+                <td align="center"></td>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td>Propensity score estimation and balance
                 assessment</td>
-                      <td align="center"/>
-                      <td align="center">✓</td>
-                      <td align="center"/>
-                      <td align="center"/>
-                    </tr>
-                    <tr>
-                      <td>Primary analyses (Aims 1 and 2)</td>
-                      <td align="center"/>
-                      <td align="center">✓</td>
-                      <td align="center">✓</td>
-                      <td align="center"/>
-                    </tr>
-                    <tr>
-                      <td>Effect modification analyses (Aim 3)</td>
-                      <td align="center"/>
-                      <td align="center"/>
-                      <td align="center">✓</td>
-                      <td align="center"/>
-                    </tr>
-                    <tr>
-                      <td>Sensitivity analyses and robustness checks</td>
-                      <td align="center"/>
-                      <td align="center"/>
-                      <td align="center">✓</td>
-                      <td align="center"/>
-                    </tr>
-                    <tr>
-                      <td>Manuscript preparation and dissemination</td>
-                      <td align="center"/>
-                      <td align="center"/>
-                      <td align="center">✓</td>
-                      <td align="center">✓</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </table-wrap>
-            </fig>
-            <p/>
-          </sec>
-        </sec>
-      </sec>
-    </body>
-    <back>
-      <ref-list>
-        <title>3. References</title>
-        <ref id="ref-afshari_unraveling_2024-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>Afshari</surname>
-                <given-names>Moeina</given-names>
-              </name>
-              <name>
-                <surname>Kolackova</surname>
-                <given-names>Martina</given-names>
-              </name>
-              <name>
-                <surname>Rosecka</surname>
-                <given-names>Michaela</given-names>
-              </name>
-              <name>
-                <surname>Čelakovská</surname>
-                <given-names>Jarmila</given-names>
-              </name>
-              <name>
-                <surname>Krejsek</surname>
-                <given-names>Jan</given-names>
-              </name>
-            </person-group>
-            <article-title>Unraveling the skin; a comprehensive review of atopic dermatitis, current understanding, and approaches</article-title>
-            <source>Front Immunol</source>
-            <year iso-8601-date="2024">2024</year>
-            <volume>15</volume>
-            <issn>1664-3224</issn>
-            <pub-id pub-id-type="doi">10.3389/fimmu.2024.1361005</pub-id>
-            <pub-id pub-id-type="pmid">38500882</pub-id>
-            <fpage>1361005</fpage>
-            <lpage/>
-          </element-citation>
-        </ref>
-        <ref id="ref-austin_introduction_2011-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>Austin</surname>
-                <given-names>Peter C.</given-names>
-              </name>
-            </person-group>
-            <article-title>An Introduction to Propensity Score Methods for Reducing the Effects of Confounding in Observational Studies</article-title>
-            <source>Multivariate Behav Res</source>
-            <year iso-8601-date="2011-05">2011</year>
-            <month>05</month>
-            <volume>46</volume>
-            <issue>3</issue>
-            <issn>1532-7906</issn>
-            <pub-id pub-id-type="doi">10.1080/00273171.2011.568786</pub-id>
-            <pub-id pub-id-type="pmid">21818162</pub-id>
-            <fpage>399</fpage>
-            <lpage>424</lpage>
-          </element-citation>
-        </ref>
-        <ref id="ref-chopra_assessing_2018-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>Chopra</surname>
-                <given-names>Rishi</given-names>
-              </name>
-              <name>
-                <surname>Silverberg</surname>
-                <given-names>Jonathan I.</given-names>
-              </name>
-            </person-group>
-            <article-title>Assessing the severity of atopic dermatitis in clinical trials and practice</article-title>
-            <source>Clin Dermatol</source>
-            <year iso-8601-date="2018">2018</year>
-            <volume>36</volume>
-            <issue>5</issue>
-            <issn>1879-1131</issn>
-            <pub-id pub-id-type="doi">10.1016/j.clindermatol.2018.05.012</pub-id>
-            <pub-id pub-id-type="pmid">30217273</pub-id>
-            <fpage>606</fpage>
-            <lpage>615</lpage>
-          </element-citation>
-        </ref>
-        <ref id="ref-drucker_burden_2017-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>Drucker</surname>
-                <given-names>Aaron M.</given-names>
-              </name>
-              <name>
-                <surname>Wang</surname>
-                <given-names>Annie R.</given-names>
-              </name>
-              <name>
-                <surname>Li</surname>
-                <given-names>Wen-Qing</given-names>
-              </name>
-              <name>
-                <surname>Sevetson</surname>
-                <given-names>Erika</given-names>
-              </name>
-              <name>
-                <surname>Block</surname>
-                <given-names>Julie K.</given-names>
-              </name>
-              <name>
-                <surname>Qureshi</surname>
-                <given-names>Abrar A.</given-names>
-              </name>
-            </person-group>
-            <article-title>The Burden of Atopic Dermatitis: Summary of a Report for the National Eczema Association</article-title>
-            <source>J Invest Dermatol</source>
-            <year iso-8601-date="2017-01">2017</year>
-            <month>01</month>
-            <volume>137</volume>
-            <issue>1</issue>
-            <issn>1523-1747</issn>
-            <pub-id pub-id-type="doi">10.1016/j.jid.2016.07.012</pub-id>
-            <pub-id pub-id-type="pmid">27616422</pub-id>
-            <fpage>26</fpage>
-            <lpage>30</lpage>
-          </element-citation>
-        </ref>
-        <ref id="ref-eckert_impact_2017-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>Eckert</surname>
-                <given-names>Laurent</given-names>
-              </name>
-              <name>
-                <surname>Gupta</surname>
-                <given-names>Shaloo</given-names>
-              </name>
-              <name>
-                <surname>Amand</surname>
-                <given-names>Caroline</given-names>
-              </name>
-              <name>
-                <surname>Gadkari</surname>
-                <given-names>Abhijit</given-names>
-              </name>
-              <name>
-                <surname>Mahajan</surname>
-                <given-names>Puneet</given-names>
-              </name>
-              <name>
-                <surname>Gelfand</surname>
-                <given-names>Joel M.</given-names>
-              </name>
-            </person-group>
-            <article-title>Impact of atopic dermatitis on health-related quality of life and productivity in adults in the United States: An analysis using the National Health and Wellness Survey</article-title>
-            <source>J Am Acad Dermatol</source>
-            <year iso-8601-date="2017-08">2017</year>
-            <month>08</month>
-            <volume>77</volume>
-            <issue>2</issue>
-            <issn>1097-6787</issn>
-            <pub-id pub-id-type="doi">10.1016/j.jaad.2017.04.019</pub-id>
-            <pub-id pub-id-type="pmid">28606711</pub-id>
-            <fpage>274</fpage>
-            <lpage>279.e3</lpage>
-          </element-citation>
-        </ref>
-        <ref id="ref-finlay_dermatology_1994-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>Finlay</surname>
-                <given-names>A. Y.</given-names>
-              </name>
-              <name>
-                <surname>Khan</surname>
-                <given-names>G. K.</given-names>
-              </name>
-            </person-group>
-            <article-title>Dermatology Life Quality Index (DLQI)–a simple practical measure for routine clinical use</article-title>
-            <source>Clin Exp Dermatol</source>
-            <year iso-8601-date="1994-05">1994</year>
-            <month>05</month>
-            <volume>19</volume>
-            <issue>3</issue>
-            <issn>0307-6938</issn>
-            <pub-id pub-id-type="doi">10.1111/j.1365-2230.1994.tb01167.x</pub-id>
-            <pub-id pub-id-type="pmid">8033378</pub-id>
-            <fpage>210</fpage>
-            <lpage>216</lpage>
-          </element-citation>
-        </ref>
-        <ref id="ref-kroenke_phq-9_2001-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>Kroenke</surname>
-                <given-names>Kurt</given-names>
-              </name>
-              <name>
-                <surname>Spitzer</surname>
-                <given-names>Robert L.</given-names>
-              </name>
-              <name>
-                <surname>Williams</surname>
-                <given-names>Janet B. W.</given-names>
-              </name>
-            </person-group>
-            <article-title>The PHQ-9</article-title>
-            <source>J GEN INTERN MED</source>
-            <year iso-8601-date="2001-09">2001</year>
-            <month>09</month>
-            <date-in-citation content-type="access-date">
-              <year iso-8601-date="2026-04-15">2026</year>
-              <month>04</month>
-              <day>15</day>
-            </date-in-citation>
-            <volume>16</volume>
-            <issue>9</issue>
-            <issn>1525-1497</issn>
-            <uri>https://doi.org/10.1046/j.1525-1497.2001.016009606.x</uri>
-            <pub-id pub-id-type="doi">10.1046/j.1525-1497.2001.016009606.x</pub-id>
-            <fpage>606</fpage>
-            <lpage>613</lpage>
-          </element-citation>
-        </ref>
-        <ref id="ref-eichenfield_guidelines_2014-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>Eichenfield</surname>
-                <given-names>Lawrence F.</given-names>
-              </name>
-              <name>
-                <surname>Tom</surname>
-                <given-names>Wynnis L.</given-names>
-              </name>
-              <name>
-                <surname>Berger</surname>
-                <given-names>Timothy G.</given-names>
-              </name>
-              <name>
-                <surname>Krol</surname>
-                <given-names>Alfons</given-names>
-              </name>
-              <name>
-                <surname>Paller</surname>
-                <given-names>Amy S.</given-names>
-              </name>
-              <name>
-                <surname>Schwarzenberger</surname>
-                <given-names>Kathryn</given-names>
-              </name>
-              <name>
-                <surname>Bergman</surname>
-                <given-names>James N.</given-names>
-              </name>
-              <name>
-                <surname>Chamlin</surname>
-                <given-names>Sarah L.</given-names>
-              </name>
-              <name>
-                <surname>Cohen</surname>
-                <given-names>David E.</given-names>
-              </name>
-              <name>
-                <surname>Cooper</surname>
-                <given-names>Kevin D.</given-names>
-              </name>
-              <name>
-                <surname>Cordoro</surname>
-                <given-names>Kelly M.</given-names>
-              </name>
-              <name>
-                <surname>Davis</surname>
-                <given-names>Dawn M.</given-names>
-              </name>
-              <name>
-                <surname>Feldman</surname>
-                <given-names>Steven R.</given-names>
-              </name>
-              <name>
-                <surname>Hanifin</surname>
-                <given-names>Jon M.</given-names>
-              </name>
-              <name>
-                <surname>Margolis</surname>
-                <given-names>David J.</given-names>
-              </name>
-              <name>
-                <surname>Silverman</surname>
-                <given-names>Robert A.</given-names>
-              </name>
-              <name>
-                <surname>Simpson</surname>
-                <given-names>Eric L.</given-names>
-              </name>
-              <name>
-                <surname>Williams</surname>
-                <given-names>Hywel C.</given-names>
-              </name>
-              <name>
-                <surname>Elmets</surname>
-                <given-names>Craig A.</given-names>
-              </name>
-              <name>
-                <surname>Block</surname>
-                <given-names>Julie</given-names>
-              </name>
-              <name>
-                <surname>Harrod</surname>
-                <given-names>Christopher G.</given-names>
-              </name>
-              <name>
-                <surname>Smith Begolka</surname>
-                <given-names>Wendy</given-names>
-              </name>
-              <name>
-                <surname>Sidbury</surname>
-                <given-names>Robert</given-names>
-              </name>
-            </person-group>
-            <article-title>Guidelines of care for the management of atopic dermatitis: Section 2. Management and treatment of atopic dermatitis with topical therapies</article-title>
-            <source>J Am Acad Dermatol</source>
-            <year iso-8601-date="2014-07">2014</year>
-            <month>07</month>
-            <volume>71</volume>
-            <issue>1</issue>
-            <issn>1097-6787</issn>
-            <pub-id pub-id-type="doi">10.1016/j.jaad.2014.03.023</pub-id>
-            <pub-id pub-id-type="pmid">24813302</pub-id>
-            <fpage>116</fpage>
-            <lpage>132</lpage>
-          </element-citation>
-        </ref>
-        <ref id="ref-silverberg_adult_2013-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>Silverberg</surname>
-                <given-names>Jonathan I.</given-names>
-              </name>
-              <name>
-                <surname>Hanifin</surname>
-                <given-names>Jon M.</given-names>
-              </name>
-            </person-group>
-            <article-title>Adult eczema prevalence and associations with asthma and other health and demographic factors: A US population-based study</article-title>
-            <source>J Allergy Clin Immunol</source>
-            <year iso-8601-date="2013-11">2013</year>
-            <month>11</month>
-            <volume>132</volume>
-            <issue>5</issue>
-            <issn>1097-6825</issn>
-            <pub-id pub-id-type="doi">10.1016/j.jaci.2013.08.031</pub-id>
-            <pub-id pub-id-type="pmid">24094544</pub-id>
-            <fpage>1132</fpage>
-            <lpage>1138</lpage>
-          </element-citation>
-        </ref>
-        <ref id="ref-silverberg_patient_2018-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>Silverberg</surname>
-                <given-names>Jonathan I.</given-names>
-              </name>
-              <name>
-                <surname>Gelfand</surname>
-                <given-names>Joel M.</given-names>
-              </name>
-              <name>
-                <surname>Margolis</surname>
-                <given-names>David J.</given-names>
-              </name>
-              <name>
-                <surname>Boguniewicz</surname>
-                <given-names>Mark</given-names>
-              </name>
-              <name>
-                <surname>Fonacier</surname>
-                <given-names>Luz</given-names>
-              </name>
-              <name>
-                <surname>Grayson</surname>
-                <given-names>Mitchell H.</given-names>
-              </name>
-              <name>
-                <surname>Simpson</surname>
-                <given-names>Eric L.</given-names>
-              </name>
-              <name>
-                <surname>Ong</surname>
-                <given-names>Peck Y.</given-names>
-              </name>
-              <name>
-                <surname>Chiesa Fuxench</surname>
-                <given-names>Zelma C.</given-names>
-              </name>
-            </person-group>
-            <article-title>Patient burden and quality of life in atopic dermatitis in US adults: A population-based cross-sectional study</article-title>
-            <source>Ann Allergy Asthma Immunol</source>
-            <year iso-8601-date="2018-09">2018</year>
-            <month>09</month>
-            <volume>121</volume>
-            <issue>3</issue>
-            <issn>1534-4436</issn>
-            <pub-id pub-id-type="doi">10.1016/j.anai.2018.07.006</pub-id>
-            <pub-id pub-id-type="pmid">30025911</pub-id>
-            <fpage>340</fpage>
-            <lpage>347</lpage>
-          </element-citation>
-        </ref>
-        <ref id="ref-simpson_two_2016-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>Simpson</surname>
-                <given-names>Eric L.</given-names>
-              </name>
-              <name>
-                <surname>Bieber</surname>
-                <given-names>Thomas</given-names>
-              </name>
-              <name>
-                <surname>Guttman-Yassky</surname>
-                <given-names>Emma</given-names>
-              </name>
-              <name>
-                <surname>Beck</surname>
-                <given-names>Lisa A.</given-names>
-              </name>
-              <name>
-                <surname>Blauvelt</surname>
-                <given-names>Andrew</given-names>
-              </name>
-              <name>
-                <surname>Cork</surname>
-                <given-names>Michael J.</given-names>
-              </name>
-              <name>
-                <surname>Silverberg</surname>
-                <given-names>Jonathan I.</given-names>
-              </name>
-              <name>
-                <surname>Deleuran</surname>
-                <given-names>Mette</given-names>
-              </name>
-              <name>
-                <surname>Kataoka</surname>
-                <given-names>Yoko</given-names>
-              </name>
-              <name>
-                <surname>Lacour</surname>
-                <given-names>Jean-Philippe</given-names>
-              </name>
-              <name>
-                <surname>Kingo</surname>
-                <given-names>Külli</given-names>
-              </name>
-              <name>
-                <surname>Worm</surname>
-                <given-names>Margitta</given-names>
-              </name>
-              <name>
-                <surname>Poulin</surname>
-                <given-names>Yves</given-names>
-              </name>
-              <name>
-                <surname>Wollenberg</surname>
-                <given-names>Andreas</given-names>
-              </name>
-              <name>
-                <surname>Soo</surname>
-                <given-names>Yuhwen</given-names>
-              </name>
-              <name>
-                <surname>Graham</surname>
-                <given-names>Neil M. H.</given-names>
-              </name>
-              <name>
-                <surname>Pirozzi</surname>
-                <given-names>Gianluca</given-names>
-              </name>
-              <name>
-                <surname>Akinlade</surname>
-                <given-names>Bolanle</given-names>
-              </name>
-              <name>
-                <surname>Staudinger</surname>
-                <given-names>Heribert</given-names>
-              </name>
-              <name>
-                <surname>Mastey</surname>
-                <given-names>Vera</given-names>
-              </name>
-              <name>
-                <surname>Eckert</surname>
-                <given-names>Laurent</given-names>
-              </name>
-              <name>
-                <surname>Gadkari</surname>
-                <given-names>Abhijit</given-names>
-              </name>
-              <name>
-                <surname>Stahl</surname>
-                <given-names>Neil</given-names>
-              </name>
-              <name>
-                <surname>Yancopoulos</surname>
-                <given-names>George D.</given-names>
-              </name>
-              <name>
-                <surname>Ardeleanu</surname>
-                <given-names>Marius</given-names>
-              </name>
-              <string-name>SOLO 1 and SOLO 2 Investigators</string-name>
-            </person-group>
-            <article-title>Two Phase 3 Trials of Dupilumab versus Placebo in Atopic Dermatitis</article-title>
-            <source>N Engl J Med</source>
-            <year iso-8601-date="2016-12">2016</year>
-            <month>12</month>
-            <volume>375</volume>
-            <issue>24</issue>
-            <issn>1533-4406</issn>
-            <pub-id pub-id-type="doi">10.1056/NEJMoa1610020</pub-id>
-            <pub-id pub-id-type="pmid">27690741</pub-id>
-            <fpage>2335</fpage>
-            <lpage>2348</lpage>
-          </element-citation>
-        </ref>
-        <ref id="ref-tackett_structural_2020-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>Tackett</surname>
-                <given-names>Kelly Jo</given-names>
-              </name>
-              <name>
-                <surname>Jenkins</surname>
-                <given-names>Frances</given-names>
-              </name>
-              <name>
-                <surname>Morrell</surname>
-                <given-names>Dean S.</given-names>
-              </name>
-              <name>
-                <surname>McShane</surname>
-                <given-names>Diana B.</given-names>
-              </name>
-              <name>
-                <surname>Burkhart</surname>
-                <given-names>Craig N.</given-names>
-              </name>
-            </person-group>
-            <article-title>Structural racism and its influence on the severity of atopic dermatitis in African American children</article-title>
-            <source>Pediatr Dermatol</source>
-            <year iso-8601-date="2020-01">2020</year>
-            <month>01</month>
-            <volume>37</volume>
-            <issue>1</issue>
-            <issn>1525-1470</issn>
-            <pub-id pub-id-type="doi">10.1111/pde.14058</pub-id>
-            <pub-id pub-id-type="pmid">31854003</pub-id>
-            <fpage>142</fpage>
-            <lpage>146</lpage>
-          </element-citation>
-        </ref>
-        <ref id="ref-vanderweele_sensitivity_2017-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>VanderWeele</surname>
-                <given-names>Tyler J.</given-names>
-              </name>
-              <name>
-                <surname>Ding</surname>
-                <given-names>Peng</given-names>
-              </name>
-            </person-group>
-            <article-title>Sensitivity Analysis in Observational Research: Introducing the E-Value</article-title>
-            <source>Ann Intern Med</source>
-            <year iso-8601-date="2017-08">2017</year>
-            <month>08</month>
-            <volume>167</volume>
-            <issue>4</issue>
-            <issn>1539-3704</issn>
-            <pub-id pub-id-type="doi">10.7326/M16-2607</pub-id>
-            <pub-id pub-id-type="pmid">28693043</pub-id>
-            <fpage>268</fpage>
-            <lpage>274</lpage>
-          </element-citation>
-        </ref>
-        <ref id="ref-yu_systematic_2018-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>Yu</surname>
-                <given-names>Sherry H.</given-names>
-              </name>
-              <name>
-                <surname>Drucker</surname>
-                <given-names>Aaron M.</given-names>
-              </name>
-              <name>
-                <surname>Lebwohl</surname>
-                <given-names>Mark</given-names>
-              </name>
-              <name>
-                <surname>Silverberg</surname>
-                <given-names>Jonathan I.</given-names>
-              </name>
-            </person-group>
-            <article-title>A systematic review of the safety and efficacy of systemic corticosteroids in atopic dermatitis</article-title>
-            <source>J Am Acad Dermatol</source>
-            <year iso-8601-date="2018-04">2018</year>
-            <month>04</month>
-            <volume>78</volume>
-            <issue>4</issue>
-            <issn>1097-6787</issn>
-            <pub-id pub-id-type="doi">10.1016/j.jaad.2017.09.074</pub-id>
-            <pub-id pub-id-type="pmid">29032119</pub-id>
-            <fpage>733</fpage>
-            <lpage>740.e11</lpage>
-          </element-citation>
-        </ref>
-        <ref id="ref-basra_determining_2015-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>Basra</surname>
-                <given-names>M. K. A.</given-names>
-              </name>
-              <name>
-                <surname>Salek</surname>
-                <given-names>M. S.</given-names>
-              </name>
-              <name>
-                <surname>Camilleri</surname>
-                <given-names>L.</given-names>
-              </name>
-              <name>
-                <surname>Sturkey</surname>
-                <given-names>R.</given-names>
-              </name>
-              <name>
-                <surname>Finlay</surname>
-                <given-names>A. Y.</given-names>
-              </name>
-            </person-group>
-            <article-title>Determining the minimal clinically important difference and responsiveness of the Dermatology Life Quality Index (DLQI): Further data</article-title>
-            <source>Dermatology</source>
-            <year iso-8601-date="2015">2015</year>
-            <volume>230</volume>
-            <issue>1</issue>
-            <pub-id pub-id-type="doi">10.1159/000365390</pub-id>
-            <fpage>27</fpage>
-            <lpage>33</lpage>
-          </element-citation>
-        </ref>
-        <ref id="ref-white_multiple_2011-nb-article">
-          <element-citation publication-type="article-journal">
-            <person-group person-group-type="author">
-              <name>
-                <surname>White</surname>
-                <given-names>Ian R.</given-names>
-              </name>
-              <name>
-                <surname>Royston</surname>
-                <given-names>Patrick</given-names>
-              </name>
-              <name>
-                <surname>Wood</surname>
-                <given-names>Angela M.</given-names>
-              </name>
-            </person-group>
-            <article-title>Multiple imputation using chained equations: Issues and guidance for practice</article-title>
-            <source>Stat Med</source>
-            <year iso-8601-date="2011">2011</year>
-            <volume>30</volume>
-            <issue>4</issue>
-            <pub-id pub-id-type="doi">10.1002/sim.4067</pub-id>
-            <fpage>377</fpage>
-            <lpage>399</lpage>
-          </element-citation>
-        </ref>
-      </ref-list>
-    </back>
-  </sub-article>
+                <td align="center"></td>
+                <td align="center">✓</td>
+                <td align="center"></td>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td>Primary analyses (Aims 1 and 2)</td>
+                <td align="center"></td>
+                <td align="center">✓</td>
+                <td align="center">✓</td>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td>Effect modification analyses (Aim 3)</td>
+                <td align="center"></td>
+                <td align="center"></td>
+                <td align="center">✓</td>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td>Sensitivity analyses and robustness checks</td>
+                <td align="center"></td>
+                <td align="center"></td>
+                <td align="center">✓</td>
+                <td align="center"></td>
+              </tr>
+              <tr>
+                <td>Manuscript preparation and dissemination</td>
+                <td align="center"></td>
+                <td align="center"></td>
+                <td align="center">✓</td>
+                <td align="center">✓</td>
+              </tr>
+            </tbody>
+          </table>
+        </table-wrap>
+      </fig>
+      <p></p>
+    </sec>
+  </sec>
+</sec>
+</body>
+
+
+
+<back>
+<ref-list>
+  <title>3. References</title>
+  <ref id="ref-afshari_unraveling_2024-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Afshari</surname><given-names>Moeina</given-names></name>
+        <name><surname>Kolackova</surname><given-names>Martina</given-names></name>
+        <name><surname>Rosecka</surname><given-names>Michaela</given-names></name>
+        <name><surname>Čelakovská</surname><given-names>Jarmila</given-names></name>
+        <name><surname>Krejsek</surname><given-names>Jan</given-names></name>
+      </person-group>
+      <article-title>Unraveling the skin; a comprehensive review of atopic dermatitis, current understanding, and approaches</article-title>
+      <source>Front Immunol</source>
+      <year iso-8601-date="2024">2024</year>
+      <volume>15</volume>
+      <issn>1664-3224</issn>
+      <pub-id pub-id-type="doi">10.3389/fimmu.2024.1361005</pub-id>
+      <pub-id pub-id-type="pmid">38500882</pub-id>
+      <fpage>1361005</fpage>
+      <lpage></lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-austin_introduction_2011-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Austin</surname><given-names>Peter C.</given-names></name>
+      </person-group>
+      <article-title>An Introduction to Propensity Score Methods for Reducing the Effects of Confounding in Observational Studies</article-title>
+      <source>Multivariate Behav Res</source>
+      <year iso-8601-date="2011-05">2011</year><month>05</month>
+      <volume>46</volume>
+      <issue>3</issue>
+      <issn>1532-7906</issn>
+      <pub-id pub-id-type="doi">10.1080/00273171.2011.568786</pub-id>
+      <pub-id pub-id-type="pmid">21818162</pub-id>
+      <fpage>399</fpage>
+      <lpage>424</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-chopra_assessing_2018-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Chopra</surname><given-names>Rishi</given-names></name>
+        <name><surname>Silverberg</surname><given-names>Jonathan I.</given-names></name>
+      </person-group>
+      <article-title>Assessing the severity of atopic dermatitis in clinical trials and practice</article-title>
+      <source>Clin Dermatol</source>
+      <year iso-8601-date="2018">2018</year>
+      <volume>36</volume>
+      <issue>5</issue>
+      <issn>1879-1131</issn>
+      <pub-id pub-id-type="doi">10.1016/j.clindermatol.2018.05.012</pub-id>
+      <pub-id pub-id-type="pmid">30217273</pub-id>
+      <fpage>606</fpage>
+      <lpage>615</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-drucker_burden_2017-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Drucker</surname><given-names>Aaron M.</given-names></name>
+        <name><surname>Wang</surname><given-names>Annie R.</given-names></name>
+        <name><surname>Li</surname><given-names>Wen-Qing</given-names></name>
+        <name><surname>Sevetson</surname><given-names>Erika</given-names></name>
+        <name><surname>Block</surname><given-names>Julie K.</given-names></name>
+        <name><surname>Qureshi</surname><given-names>Abrar A.</given-names></name>
+      </person-group>
+      <article-title>The Burden of Atopic Dermatitis: Summary of a Report for the National Eczema Association</article-title>
+      <source>J Invest Dermatol</source>
+      <year iso-8601-date="2017-01">2017</year><month>01</month>
+      <volume>137</volume>
+      <issue>1</issue>
+      <issn>1523-1747</issn>
+      <pub-id pub-id-type="doi">10.1016/j.jid.2016.07.012</pub-id>
+      <pub-id pub-id-type="pmid">27616422</pub-id>
+      <fpage>26</fpage>
+      <lpage>30</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-eckert_impact_2017-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Eckert</surname><given-names>Laurent</given-names></name>
+        <name><surname>Gupta</surname><given-names>Shaloo</given-names></name>
+        <name><surname>Amand</surname><given-names>Caroline</given-names></name>
+        <name><surname>Gadkari</surname><given-names>Abhijit</given-names></name>
+        <name><surname>Mahajan</surname><given-names>Puneet</given-names></name>
+        <name><surname>Gelfand</surname><given-names>Joel M.</given-names></name>
+      </person-group>
+      <article-title>Impact of atopic dermatitis on health-related quality of life and productivity in adults in the United States: An analysis using the National Health and Wellness Survey</article-title>
+      <source>J Am Acad Dermatol</source>
+      <year iso-8601-date="2017-08">2017</year><month>08</month>
+      <volume>77</volume>
+      <issue>2</issue>
+      <issn>1097-6787</issn>
+      <pub-id pub-id-type="doi">10.1016/j.jaad.2017.04.019</pub-id>
+      <pub-id pub-id-type="pmid">28606711</pub-id>
+      <fpage>274</fpage>
+      <lpage>279.e3</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-finlay_dermatology_1994-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Finlay</surname><given-names>A. Y.</given-names></name>
+        <name><surname>Khan</surname><given-names>G. K.</given-names></name>
+      </person-group>
+      <article-title>Dermatology Life Quality Index (DLQI)–a simple practical measure for routine clinical use</article-title>
+      <source>Clin Exp Dermatol</source>
+      <year iso-8601-date="1994-05">1994</year><month>05</month>
+      <volume>19</volume>
+      <issue>3</issue>
+      <issn>0307-6938</issn>
+      <pub-id pub-id-type="doi">10.1111/j.1365-2230.1994.tb01167.x</pub-id>
+      <pub-id pub-id-type="pmid">8033378</pub-id>
+      <fpage>210</fpage>
+      <lpage>216</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-kroenke_phq-9_2001-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Kroenke</surname><given-names>Kurt</given-names></name>
+        <name><surname>Spitzer</surname><given-names>Robert L.</given-names></name>
+        <name><surname>Williams</surname><given-names>Janet B. W.</given-names></name>
+      </person-group>
+      <article-title>The PHQ-9</article-title>
+      <source>J GEN INTERN MED</source>
+      <year iso-8601-date="2001-09">2001</year><month>09</month>
+      <date-in-citation content-type="access-date"><year iso-8601-date="2026-04-15">2026</year><month>04</month><day>15</day></date-in-citation>
+      <volume>16</volume>
+      <issue>9</issue>
+      <issn>1525-1497</issn>
+      <uri>https://doi.org/10.1046/j.1525-1497.2001.016009606.x</uri>
+      <pub-id pub-id-type="doi">10.1046/j.1525-1497.2001.016009606.x</pub-id>
+      <fpage>606</fpage>
+      <lpage>613</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-eichenfield_guidelines_2014-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Eichenfield</surname><given-names>Lawrence F.</given-names></name>
+        <name><surname>Tom</surname><given-names>Wynnis L.</given-names></name>
+        <name><surname>Berger</surname><given-names>Timothy G.</given-names></name>
+        <name><surname>Krol</surname><given-names>Alfons</given-names></name>
+        <name><surname>Paller</surname><given-names>Amy S.</given-names></name>
+        <name><surname>Schwarzenberger</surname><given-names>Kathryn</given-names></name>
+        <name><surname>Bergman</surname><given-names>James N.</given-names></name>
+        <name><surname>Chamlin</surname><given-names>Sarah L.</given-names></name>
+        <name><surname>Cohen</surname><given-names>David E.</given-names></name>
+        <name><surname>Cooper</surname><given-names>Kevin D.</given-names></name>
+        <name><surname>Cordoro</surname><given-names>Kelly M.</given-names></name>
+        <name><surname>Davis</surname><given-names>Dawn M.</given-names></name>
+        <name><surname>Feldman</surname><given-names>Steven R.</given-names></name>
+        <name><surname>Hanifin</surname><given-names>Jon M.</given-names></name>
+        <name><surname>Margolis</surname><given-names>David J.</given-names></name>
+        <name><surname>Silverman</surname><given-names>Robert A.</given-names></name>
+        <name><surname>Simpson</surname><given-names>Eric L.</given-names></name>
+        <name><surname>Williams</surname><given-names>Hywel C.</given-names></name>
+        <name><surname>Elmets</surname><given-names>Craig A.</given-names></name>
+        <name><surname>Block</surname><given-names>Julie</given-names></name>
+        <name><surname>Harrod</surname><given-names>Christopher G.</given-names></name>
+        <name><surname>Smith Begolka</surname><given-names>Wendy</given-names></name>
+        <name><surname>Sidbury</surname><given-names>Robert</given-names></name>
+      </person-group>
+      <article-title>Guidelines of care for the management of atopic dermatitis: Section 2. Management and treatment of atopic dermatitis with topical therapies</article-title>
+      <source>J Am Acad Dermatol</source>
+      <year iso-8601-date="2014-07">2014</year><month>07</month>
+      <volume>71</volume>
+      <issue>1</issue>
+      <issn>1097-6787</issn>
+      <pub-id pub-id-type="doi">10.1016/j.jaad.2014.03.023</pub-id>
+      <pub-id pub-id-type="pmid">24813302</pub-id>
+      <fpage>116</fpage>
+      <lpage>132</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-silverberg_adult_2013-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Silverberg</surname><given-names>Jonathan I.</given-names></name>
+        <name><surname>Hanifin</surname><given-names>Jon M.</given-names></name>
+      </person-group>
+      <article-title>Adult eczema prevalence and associations with asthma and other health and demographic factors: A US population-based study</article-title>
+      <source>J Allergy Clin Immunol</source>
+      <year iso-8601-date="2013-11">2013</year><month>11</month>
+      <volume>132</volume>
+      <issue>5</issue>
+      <issn>1097-6825</issn>
+      <pub-id pub-id-type="doi">10.1016/j.jaci.2013.08.031</pub-id>
+      <pub-id pub-id-type="pmid">24094544</pub-id>
+      <fpage>1132</fpage>
+      <lpage>1138</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-silverberg_patient_2018-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Silverberg</surname><given-names>Jonathan I.</given-names></name>
+        <name><surname>Gelfand</surname><given-names>Joel M.</given-names></name>
+        <name><surname>Margolis</surname><given-names>David J.</given-names></name>
+        <name><surname>Boguniewicz</surname><given-names>Mark</given-names></name>
+        <name><surname>Fonacier</surname><given-names>Luz</given-names></name>
+        <name><surname>Grayson</surname><given-names>Mitchell H.</given-names></name>
+        <name><surname>Simpson</surname><given-names>Eric L.</given-names></name>
+        <name><surname>Ong</surname><given-names>Peck Y.</given-names></name>
+        <name><surname>Chiesa Fuxench</surname><given-names>Zelma C.</given-names></name>
+      </person-group>
+      <article-title>Patient burden and quality of life in atopic dermatitis in US adults: A population-based cross-sectional study</article-title>
+      <source>Ann Allergy Asthma Immunol</source>
+      <year iso-8601-date="2018-09">2018</year><month>09</month>
+      <volume>121</volume>
+      <issue>3</issue>
+      <issn>1534-4436</issn>
+      <pub-id pub-id-type="doi">10.1016/j.anai.2018.07.006</pub-id>
+      <pub-id pub-id-type="pmid">30025911</pub-id>
+      <fpage>340</fpage>
+      <lpage>347</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-simpson_two_2016-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Simpson</surname><given-names>Eric L.</given-names></name>
+        <name><surname>Bieber</surname><given-names>Thomas</given-names></name>
+        <name><surname>Guttman-Yassky</surname><given-names>Emma</given-names></name>
+        <name><surname>Beck</surname><given-names>Lisa A.</given-names></name>
+        <name><surname>Blauvelt</surname><given-names>Andrew</given-names></name>
+        <name><surname>Cork</surname><given-names>Michael J.</given-names></name>
+        <name><surname>Silverberg</surname><given-names>Jonathan I.</given-names></name>
+        <name><surname>Deleuran</surname><given-names>Mette</given-names></name>
+        <name><surname>Kataoka</surname><given-names>Yoko</given-names></name>
+        <name><surname>Lacour</surname><given-names>Jean-Philippe</given-names></name>
+        <name><surname>Kingo</surname><given-names>Külli</given-names></name>
+        <name><surname>Worm</surname><given-names>Margitta</given-names></name>
+        <name><surname>Poulin</surname><given-names>Yves</given-names></name>
+        <name><surname>Wollenberg</surname><given-names>Andreas</given-names></name>
+        <name><surname>Soo</surname><given-names>Yuhwen</given-names></name>
+        <name><surname>Graham</surname><given-names>Neil M. H.</given-names></name>
+        <name><surname>Pirozzi</surname><given-names>Gianluca</given-names></name>
+        <name><surname>Akinlade</surname><given-names>Bolanle</given-names></name>
+        <name><surname>Staudinger</surname><given-names>Heribert</given-names></name>
+        <name><surname>Mastey</surname><given-names>Vera</given-names></name>
+        <name><surname>Eckert</surname><given-names>Laurent</given-names></name>
+        <name><surname>Gadkari</surname><given-names>Abhijit</given-names></name>
+        <name><surname>Stahl</surname><given-names>Neil</given-names></name>
+        <name><surname>Yancopoulos</surname><given-names>George D.</given-names></name>
+        <name><surname>Ardeleanu</surname><given-names>Marius</given-names></name>
+        <string-name>SOLO 1 and SOLO 2 Investigators</string-name>
+      </person-group>
+      <article-title>Two Phase 3 Trials of Dupilumab versus Placebo in Atopic Dermatitis</article-title>
+      <source>N Engl J Med</source>
+      <year iso-8601-date="2016-12">2016</year><month>12</month>
+      <volume>375</volume>
+      <issue>24</issue>
+      <issn>1533-4406</issn>
+      <pub-id pub-id-type="doi">10.1056/NEJMoa1610020</pub-id>
+      <pub-id pub-id-type="pmid">27690741</pub-id>
+      <fpage>2335</fpage>
+      <lpage>2348</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-tackett_structural_2020-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Tackett</surname><given-names>Kelly Jo</given-names></name>
+        <name><surname>Jenkins</surname><given-names>Frances</given-names></name>
+        <name><surname>Morrell</surname><given-names>Dean S.</given-names></name>
+        <name><surname>McShane</surname><given-names>Diana B.</given-names></name>
+        <name><surname>Burkhart</surname><given-names>Craig N.</given-names></name>
+      </person-group>
+      <article-title>Structural racism and its influence on the severity of atopic dermatitis in African American children</article-title>
+      <source>Pediatr Dermatol</source>
+      <year iso-8601-date="2020-01">2020</year><month>01</month>
+      <volume>37</volume>
+      <issue>1</issue>
+      <issn>1525-1470</issn>
+      <pub-id pub-id-type="doi">10.1111/pde.14058</pub-id>
+      <pub-id pub-id-type="pmid">31854003</pub-id>
+      <fpage>142</fpage>
+      <lpage>146</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-vanderweele_sensitivity_2017-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>VanderWeele</surname><given-names>Tyler J.</given-names></name>
+        <name><surname>Ding</surname><given-names>Peng</given-names></name>
+      </person-group>
+      <article-title>Sensitivity Analysis in Observational Research: Introducing the E-Value</article-title>
+      <source>Ann Intern Med</source>
+      <year iso-8601-date="2017-08">2017</year><month>08</month>
+      <volume>167</volume>
+      <issue>4</issue>
+      <issn>1539-3704</issn>
+      <pub-id pub-id-type="doi">10.7326/M16-2607</pub-id>
+      <pub-id pub-id-type="pmid">28693043</pub-id>
+      <fpage>268</fpage>
+      <lpage>274</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-yu_systematic_2018-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Yu</surname><given-names>Sherry H.</given-names></name>
+        <name><surname>Drucker</surname><given-names>Aaron M.</given-names></name>
+        <name><surname>Lebwohl</surname><given-names>Mark</given-names></name>
+        <name><surname>Silverberg</surname><given-names>Jonathan I.</given-names></name>
+      </person-group>
+      <article-title>A systematic review of the safety and efficacy of systemic corticosteroids in atopic dermatitis</article-title>
+      <source>J Am Acad Dermatol</source>
+      <year iso-8601-date="2018-04">2018</year><month>04</month>
+      <volume>78</volume>
+      <issue>4</issue>
+      <issn>1097-6787</issn>
+      <pub-id pub-id-type="doi">10.1016/j.jaad.2017.09.074</pub-id>
+      <pub-id pub-id-type="pmid">29032119</pub-id>
+      <fpage>733</fpage>
+      <lpage>740.e11</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-basra_determining_2015-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>Basra</surname><given-names>M. K. A.</given-names></name>
+        <name><surname>Salek</surname><given-names>M. S.</given-names></name>
+        <name><surname>Camilleri</surname><given-names>L.</given-names></name>
+        <name><surname>Sturkey</surname><given-names>R.</given-names></name>
+        <name><surname>Finlay</surname><given-names>A. Y.</given-names></name>
+      </person-group>
+      <article-title>Determining the minimal clinically important difference and responsiveness of the Dermatology Life Quality Index (DLQI): Further data</article-title>
+      <source>Dermatology</source>
+      <year iso-8601-date="2015">2015</year>
+      <volume>230</volume>
+      <issue>1</issue>
+      <pub-id pub-id-type="doi">10.1159/000365390</pub-id>
+      <fpage>27</fpage>
+      <lpage>33</lpage>
+    </element-citation>
+  </ref>
+  <ref id="ref-white_multiple_2011-nb-article">
+    <element-citation publication-type="article-journal">
+      <person-group person-group-type="author">
+        <name><surname>White</surname><given-names>Ian R.</given-names></name>
+        <name><surname>Royston</surname><given-names>Patrick</given-names></name>
+        <name><surname>Wood</surname><given-names>Angela M.</given-names></name>
+      </person-group>
+      <article-title>Multiple imputation using chained equations: Issues and guidance for practice</article-title>
+      <source>Stat Med</source>
+      <year iso-8601-date="2011">2011</year>
+      <volume>30</volume>
+      <issue>4</issue>
+      <pub-id pub-id-type="doi">10.1002/sim.4067</pub-id>
+      <fpage>377</fpage>
+      <lpage>399</lpage>
+    </element-citation>
+  </ref>
+</ref-list>
+</back>
+
+
+</sub-article>
+
 </article>
