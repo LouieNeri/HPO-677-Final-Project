@@ -1,0 +1,872 @@
+% Options for packages loaded elsewhere
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\PassOptionsToPackage{dvipsnames,svgnames,x11names}{xcolor}
+%
+\documentclass[
+]{agujournal2019}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+% Make \paragraph and \subparagraph free-standing
+\makeatletter
+\ifx\paragraph\undefined\else
+  \let\oldparagraph\paragraph
+  \renewcommand{\paragraph}{
+    \@ifstar
+      \xxxParagraphStar
+      \xxxParagraphNoStar
+  }
+  \newcommand{\xxxParagraphStar}[1]{\oldparagraph*{#1}\mbox{}}
+  \newcommand{\xxxParagraphNoStar}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+  \let\oldsubparagraph\subparagraph
+  \renewcommand{\subparagraph}{
+    \@ifstar
+      \xxxSubParagraphStar
+      \xxxSubParagraphNoStar
+  }
+  \newcommand{\xxxSubParagraphStar}[1]{\oldsubparagraph*{#1}\mbox{}}
+  \newcommand{\xxxSubParagraphNoStar}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+\makeatother
+
+
+\usepackage{longtable,booktabs,array}
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+
+
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newlength{\csllabelwidth}
+\setlength{\csllabelwidth}{3em}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
+  % turn on hanging indent if param 1 is 1
+  \ifodd #1
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
+  \fi
+  % set entry spacing
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
+\usepackage{calc}
+\newcommand{\CSLBlock}[1]{\hfill\break\parbox[t]{\linewidth}{\strut\ignorespaces#1\strut}}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
+
+
+
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+
+
+ 
+
+
+\usepackage{url} %this package should fix any errors with URLs in refs.
+\usepackage{lineno}
+\usepackage[inline]{trackchanges} %for better track changes. finalnew option will compile document with changes incorporated.
+\usepackage{soul}
+\linenumbers
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\AtBeginDocument{%
+\ifdefined\contentsname
+  \renewcommand*\contentsname{Table of contents}
+\else
+  \newcommand\contentsname{Table of contents}
+\fi
+\ifdefined\listfigurename
+  \renewcommand*\listfigurename{List of Figures}
+\else
+  \newcommand\listfigurename{List of Figures}
+\fi
+\ifdefined\listtablename
+  \renewcommand*\listtablename{List of Tables}
+\else
+  \newcommand\listtablename{List of Tables}
+\fi
+\ifdefined\figurename
+  \renewcommand*\figurename{Figure}
+\else
+  \newcommand\figurename{Figure}
+\fi
+\ifdefined\tablename
+  \renewcommand*\tablename{Table}
+\else
+  \newcommand\tablename{Table}
+\fi
+}
+\@ifpackageloaded{float}{}{\usepackage{float}}
+\floatstyle{ruled}
+\@ifundefined{c@chapter}{\newfloat{codelisting}{h}{lop}}{\newfloat{codelisting}{h}{lop}[chapter]}
+\floatname{codelisting}{Listing}
+\newcommand*\listoflistings{\listof{codelisting}{List of Listings}}
+\makeatother
+\makeatletter
+\makeatother
+\makeatletter
+\@ifpackageloaded{caption}{}{\usepackage{caption}}
+\@ifpackageloaded{subcaption}{}{\usepackage{subcaption}}
+\makeatother
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Comparing Patient-Reported Outcomes Between Dupilumab and Conventional Therapy in Adults with Moderate-to-Severe Atopic Dermatitis},
+  pdfauthor={Louie Neri},
+  pdfkeywords={Atopic dermatitis, Dupilumab, Patient-reported
+outcomes, Comparative effectiveness, Grant proposal},
+  colorlinks=true,
+  linkcolor={blue},
+  filecolor={Maroon},
+  citecolor={Blue},
+  urlcolor={Blue},
+  pdfcreator={LaTeX via pandoc}}
+
+
+\journalname{NIH Grant Proposal}
+
+\draftfalse
+
+\begin{document}
+\title{Comparing Patient-Reported Outcomes Between Dupilumab and
+Conventional Therapy in Adults with Moderate-to-Severe Atopic
+Dermatitis}
+
+\authors{Louie Neri\affil{}}
+
+\correspondingauthor{Louie Neri}{}
+
+
+\begin{abstract}
+This grant proposal compares patient-reported outcomes between dupilumab
+and conventional therapy in adults with moderate-to-severe atopic
+dermatitis using observational electronic health record data.
+\end{abstract}
+
+\section*{Plain Language Summary}
+This project examines whether adults with moderate-to-severe atopic
+dermatitis report better quality of life and fewer depressive symptoms
+after starting dupilumab than after starting conventional therapy.
+
+
+
+
+\section{Specific Aims}\label{specific-aims}
+
+Atopic dermatitis (AD) is a chronic inflammatory skin condition
+affecting an estimated 7\% to 10\% of adults in the United States
+(Silverberg \& Hanifin, 2013). Moderate-to-severe AD produces persistent
+pruritus, sleep disturbance, visible skin changes, and psychological
+distress, which together reduce quality of life and elevate the risk of
+depression and anxiety (Silverberg et al., 2018). The disease burden
+experienced by patients extends well beyond what clinical severity
+scores capture.
+
+Dupilumab, a biologic therapy targeting IL-4 and IL-13 signaling, has
+reshaped the treatment landscape for moderate-to-severe AD since its FDA
+approval in 2017 (Simpson et al., 2016). The evidence supporting its
+use, however, comes largely from randomized controlled trials with
+restrictive eligibility criteria. These trials typically exclude older
+adults, patients with multiple comorbidities, and those on concurrent
+medications, which limits how well their findings translate to routine
+clinical practice. Real-world data comparing patient-reported outcomes
+(PROs) between dupilumab and conventional therapy remain sparse,
+particularly over the 12-month time horizon relevant to clinical
+decision-making (Afshari et al., 2024).
+
+This gap matters for three reasons. First, clinicians and patients
+making treatment decisions lack robust comparative data on outcomes that
+reflect what patients actually experience. Second, cost differences
+between biologic and conventional therapies are substantial.
+Out-of-pocket costs for dupilumab can reach several thousand dollars per
+year depending on insurance coverage, and the resulting financial burden
+can independently worsen depressive symptoms even when skin symptoms
+improve (Drucker et al., 2017). Third, understanding these trade-offs is
+essential for shared decision-making that reflects both clinical
+effectiveness and the patient-centered consequences of treatment choice.
+
+The long-term goal of this research is to generate real-world evidence
+on patient-centered outcomes that can inform treatment selection and
+health policy for adults with moderate-to-severe AD. The objective of
+this application is to compare changes in disease-specific quality of
+life and depressive symptoms between patients initiating dupilumab
+versus conventional therapy over 12 months, using electronic health
+record (EHR) data from a large academic medical center. The underlying
+rationale is that observational data reflecting real-world clinical
+pathways complement trial evidence and identify outcomes meaningful to
+patients, which supports the design of future clinical studies. This
+proposal responds to PAR-24-280, Clinical Observational Studies in
+Musculoskeletal, Rheumatic, and Skin Diseases, which seeks well-designed
+observational research that improves understanding of disease symptoms
+and outcomes important to patients with skin conditions.
+
+The specific aims are:
+
+\textbf{Aim 1: Compare 12-month changes in disease-specific quality of
+life between dupilumab and conventional therapy.} Changes in the
+Dermatology Life Quality Index (DLQI) (Finlay \& Khan, 1994) will be
+evaluated between treatment groups, with confounding by indication
+addressed through inverse probability of treatment weighting (IPTW). The
+working hypothesis is that dupilumab-treated patients will show greater
+DLQI improvement than those on conventional therapy, with differences
+exceeding the minimal clinically important difference (MCID) of 4 points
+(Basra et al., 2015).
+
+\textbf{Aim 2: Compare 12-month changes in depressive symptoms between
+dupilumab and conventional therapy.} Changes in the Patient Health
+Questionnaire-9 (PHQ-9) (Kroenke et al., 2001) will be evaluated between
+treatment groups using the same IPTW approach. The hypothesis is that
+dupilumab-treated patients will show greater reductions in depressive
+symptoms, consistent with the established relationship between skin
+disease burden and psychological well-being.
+
+\textbf{Aim 3: Examine whether treatment effects vary by age, sex, and
+race.} Prespecified interaction terms will test for effect modification
+by demographic characteristics. This aim will identify subgroups that
+may experience differential benefits and will surface potential
+disparities in treatment outcomes. Insurance status and socioeconomic
+factors will be examined as exploratory moderators.
+
+The expected output is real-world comparative effectiveness evidence on
+patient-reported outcomes in AD that is directly relevant to clinical
+decision-making. Secondary contributions include characterizing disease
+symptom trajectories under routine care, supporting the use of DLQI and
+PHQ-9 as endpoints in future clinical studies, and identifying sources
+of treatment effect heterogeneity that can inform efforts to reduce
+disparities in AD care. This work aligns with the NIAMS mission to
+improve outcomes and function in patients with skin conditions.
+
+\newpage{}
+
+\section{Research Strategy}\label{research-strategy}
+
+\subsection{Significance}\label{significance}
+
+\subsubsection{Burden of atopic
+dermatitis}\label{burden-of-atopic-dermatitis}
+
+AD is the most common chronic inflammatory skin disease and affects a
+substantial proportion of US adults (Silverberg \& Hanifin, 2013). The
+condition is characterized by intense pruritus, erythematous and
+excoriated lesions, and a relapsing-remitting course that meaningfully
+diminishes quality of life. The associated sleep disturbance, social
+stigma, impaired work productivity, and elevated rates of depression and
+anxiety amplify this burden considerably (Yu et al., 2018). The
+psychosocial impact of moderate-to-severe AD can be comparable to that
+of asthma and diabetes (Eckert et al., 2017), and the outcomes patients
+care about most are experiential: how the disease affects daily
+activities, relationships, and emotional well-being rather than the
+specific values on a clinical severity scale.
+
+\subsubsection{Treatment options and the limits of current
+evidence}\label{treatment-options-and-the-limits-of-current-evidence}
+
+Conventional therapy includes topical corticosteroids, calcineurin
+inhibitors, and systemic immunosuppressants such as cyclosporine,
+methotrexate, and mycophenolate mofetil. These agents can reduce disease
+severity but carry risks of long-term toxicity and yield variable
+efficacy (Eichenfield et al., 2014). Dupilumab, the first FDA-approved
+biologic for AD, has demonstrated efficacy in pivotal randomized trials
+(Simpson et al., 2016). Those trials, however, enrolled highly selected
+populations under controlled conditions. Their findings do not
+necessarily extend to the broader population seen in routine practice,
+where adherence is lower, comorbidities are common, and clinical
+monitoring is less frequent.
+
+\subsubsection{Gaps in patient-reported outcomes
+evidence}\label{gaps-in-patient-reported-outcomes-evidence}
+
+Despite growing adoption of dupilumab, head-to-head observational
+comparisons of patient-reported outcomes between biologic and
+conventional therapy in real-world settings remain limited. Most
+existing studies rely on clinician-assessed severity scores such as EASI
+and SCORAD (Chopra \& Silverberg, 2018). Clinical severity captures
+important biological information but does not reflect the full scope of
+what patients experience. DLQI was chosen for this study because it is a
+condition-specific instrument that captures the particular impact of
+skin disease on daily life, and because condition-specific measures tend
+to be more responsive to treatment-related change than generic measures
+when a real treatment effect is present. PHQ-9 adds a complementary
+dimension by capturing depressive symptom burden, which is a recognized
+comorbidity that amplifies overall disease impact. The pairing of these
+two instruments produces a more complete picture of how treatments
+affect patients than either clinical severity scores or generic health
+measures alone.
+
+\subsubsection{Financial toxicity and access
+disparities}\label{financial-toxicity-and-access-disparities}
+
+Out-of-pocket costs for dupilumab vary widely depending on insurance
+coverage, ranging from minimal copayments to several thousand dollars
+annually (Drucker et al., 2017). This variation creates selection
+effects in who receives biologic therapy, with implications for both the
+internal validity of observational comparisons and for health equity.
+Financial burden can also independently worsen depression scores and
+reduce adherence, potentially attenuating treatment benefits regardless
+of pharmacologic efficacy. These cost-related dynamics must be accounted
+for when interpreting PRO differences between treatment groups and when
+designing future studies that address economic barriers to care.
+
+\subsubsection{Importance to the field}\label{importance-to-the-field}
+
+By generating the kind of observational evidence that PAR-24-280 is
+designed to support, this project will provide data that directly inform
+the design of future clinical studies in AD, including identification of
+appropriate primary endpoints and characterization of the subgroups most
+likely to benefit from biologic therapy.
+
+\subsection{Innovation}\label{innovation}
+
+This proposal advances the field in five respects.
+
+\emph{Dual patient-reported outcome focus.} Existing comparative studies
+of AD treatments have predominantly relied on clinician-assessed
+severity endpoints (Chopra \& Silverberg, 2018). Centering this study on
+two validated patient-reported instruments as co-primary outcomes shifts
+the evidentiary focus toward what patients experience. DLQI captures
+disease-specific impact on daily life and has strong responsiveness in
+dermatology populations; PHQ-9 captures psychological burden and is
+widely established for depression screening and severity assessment.
+Pairing a condition-specific instrument with a mental health instrument
+is uncommon in comparative AD research and reflects the multidimensional
+nature of disease impact.
+
+\emph{Integration of mental health outcomes in dermatology research.}
+Depression is a recognized comorbidity of AD (Yu et al., 2018), but few
+observational studies have systematically tracked depressive symptom
+trajectories across treatment strategies. Including PHQ-9 as a primary
+endpoint alongside DLQI makes the psychological dimension of treatment
+benefit testable rather than assumed.
+
+\emph{Systematic evaluation of treatment effect heterogeneity.} A single
+average treatment effect can mask substantial variation across
+subgroups. This study formally tests whether benefits differ by age,
+sex, and race. Given documented disparities in AD treatment access
+across demographic groups (Tackett et al., 2020), this approach
+identifies subgroups that may experience differential benefits. Effect
+modification will be assessed through formal interaction tests rather
+than side-by-side comparison of significance labels across strata, the
+latter being a common but invalid way to establish that effects truly
+differ.
+
+\emph{Methodological rigor in addressing confounding by indication.}
+Patients receiving dupilumab typically have more severe, refractory
+disease than those on conventional therapy. IPTW will create a
+pseudo-population in which measured baseline covariates are balanced
+across treatment groups, and covariate balance will be verified through
+standardized mean differences (threshold: SMD \textless{} 0.1) and
+propensity score overlap to evaluate positivity. E-value sensitivity
+analyses will quantify how strong an unmeasured confounder would need to
+be to explain away observed effects (VanderWeele \& Ding, 2017). The
+combination provides a transparent framework for causal interpretation
+in an observational setting.
+
+\emph{Emphasis on clinical meaningfulness.} Interpretation will center
+on effect size, confidence interval width, and compatibility with
+established MCIDs (DLQI: 4 points, (Basra et al., 2015); PHQ-9: 5
+points, (Kroenke et al., 2001)), rather than on whether a result crosses
+a p-value threshold. Statistically significant findings do not guarantee
+clinically important effects, particularly in large samples where small
+differences can produce low p-values. Nonsignificant findings in smaller
+samples may reflect imprecision rather than absence of effect.
+Interpretation grounded in effect magnitude and clinical thresholds is
+more useful for treatment decisions than a binary significance label.
+
+\subsection{Approach}\label{approach}
+
+\subsubsection{Overview and conceptual
+model}\label{overview-and-conceptual-model}
+
+This prospective cohort study will compare patient-reported outcomes
+between adults with moderate-to-severe AD initiating dupilumab versus
+conventional therapy. The conceptual model serves as the organizing
+framework: treatment type (the primary exposure) affects disease
+activity, itch intensity, and sleep disturbance, which in turn influence
+DLQI and PHQ-9. Confounders including baseline disease severity,
+treatment history, insurance status, comorbidities, and socioeconomic
+factors affect both treatment selection and outcomes and must be
+addressed through propensity score methods. The model assigns each
+variable an explicit role as exposure, mediator, moderator, or
+confounder, which prevents the analysis from devolving into a list of
+variables without rationale and ensures every analytic decision ties
+back to the hypothesized causal structure.
+
+\subsubsection{Study design}\label{study-design}
+
+A prospective cohort design is appropriate because randomizing patients
+to dupilumab versus conventional therapy is neither practical nor
+ethical. Dupilumab is typically prescribed after conventional options
+have failed, and insurance authorization creates natural treatment
+pathways that a research protocol cannot easily override. Two cohorts
+will be enrolled at treatment initiation and followed for 12 months,
+with PROs collected at baseline and at 3, 6, and 12 months. Prospective
+collection ensures standardized outcome measurement rather than reliance
+on inconsistently documented chart data.
+
+The principal threat to validity is confounding by indication. Dupilumab
+recipients tend to have more severe disease, meaning baseline
+differences between groups could bias observed associations. This is a
+structural problem that propensity score methods partially address for
+measured confounders but cannot address for unmeasured ones, which is
+why sensitivity analyses are essential.
+
+\subsubsection{Study population and data
+source}\label{study-population-and-data-source}
+
+EHR data from a large academic medical center with an active dermatology
+specialty clinic will be used. EHR data add clinical detail that
+administrative claims often lack, including laboratory values, disease
+severity markers, and clinical notes that are essential when outcome
+ascertainment depends on timing and clinical context. The study
+population includes adults (age 18 and older) with moderate-to-severe AD
+confirmed by ICD-10 diagnostic codes and baseline EASI scores of 16 or
+higher, who initiated either dupilumab or conventional systemic therapy
+between 2020 and 2025. At least one baseline and one follow-up PRO
+assessment are required. Exclusion criteria are concurrent use of other
+biologic agents, participation in interventional clinical trials during
+the study period, and diagnoses of other inflammatory skin conditions
+that could confound outcome assessment.
+
+DLQI and PHQ-9 will be extracted from routine clinical assessments
+documented at baseline and follow-up visits. Both instruments have
+established reliability, validity, and responsiveness, and both are
+widely used in clinical practice, which helps maximize data availability
+and minimize respondent burden. Additional data elements include
+demographics (age, sex, race/ethnicity), EASI scores, treatment history
+(number of prior systemic therapies), comorbidities including prior
+depression/anxiety diagnoses, insurance type, and socioeconomic
+indicators.
+
+\subsubsection{Variables and
+measurement}\label{variables-and-measurement}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2586}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1724}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2241}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.2241}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 8\tabcolsep) * \real{0.1207}}@{}}
+\caption{Study variables and
+measurement}\label{tbl-variables}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Variable Type
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Variable
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Measurement
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Scale
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Variable Type
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Variable
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Description
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Measurement
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Scale
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Primary Exposure & Treatment group & Dupilumab vs.~conventional therapy
+& EHR prescription records & Categorical \\
+Primary Outcome & Disease-specific QoL & DLQI change score (baseline to
+12 months) & Range: 0-30 & Continuous \\
+Primary Outcome & Depressive symptoms & PHQ-9 change score (baseline to
+12 months) & Range: 0-27 & Continuous \\
+Confounder & Age & Patient age at enrollment & Years & Continuous \\
+Confounder & Sex & Male or female & Self-report & Categorical \\
+Confounder & Race/ethnicity & Race/ethnic group & EHR demographics &
+Categorical \\
+Confounder & Baseline EASI score & Disease severity at enrollment &
+Range: 0-72 & Continuous \\
+Confounder & Treatment history & Prior systemic therapies & Count &
+Continuous \\
+Confounder & Disease duration & Years since AD diagnosis & Years &
+Continuous \\
+Confounder & Insurance status & Private, Medicare/Medicaid, or other &
+EHR records & Categorical \\
+Confounder & Depression/anxiety history & Documented prior diagnosis &
+ICD codes & Categorical \\
+\end{longtable}
+
+\subsubsection{Mediating, moderating, and confounding
+relationships}\label{mediating-moderating-and-confounding-relationships}
+
+These three variable roles are frequently conflated but require
+different analytic strategies. A mediator is caused by the exposure and
+carries some portion of its effect to the outcome. Disease activity
+(EASI score change), itch intensity, and sleep disturbance are the
+hypothesized mediators in this framework. These will not be adjusted for
+in the primary analysis because conditioning on a mediator blocks the
+causal pathway through which treatment produces its effect, biasing the
+estimate toward the null.
+
+A moderator changes the strength or direction of the treatment-outcome
+relationship and is sometimes called an effect modifier. Age, sex, and
+baseline disease severity are the hypothesized moderators, examined
+through prespecified interaction terms in Aim 3. A moderator does not
+need to be associated with the exposure. It only needs to change the
+exposure's effect on the outcome.
+
+A confounder is associated with both treatment selection and outcomes
+but does not lie on the causal pathway. Confounders must be measured
+before exposure to avoid conditioning on post-treatment variables that
+could introduce bias. Insurance status, disease duration, treatment
+history, depression/anxiety history, and socioeconomic status are all
+confounders and will be included in the propensity score model.
+
+\subsubsection{Statistical analysis
+plan}\label{statistical-analysis-plan}
+
+\textbf{Propensity score estimation.} A propensity score is the
+probability that a patient received a particular treatment given their
+observed baseline characteristics. It compresses multiple confounders
+into a single score between zero and one and functions as a balancing
+score: patients with similar scores have, on average, similar
+distributions of observed covariates regardless of which treatment they
+received. Propensity scores will be estimated via logistic regression
+with treatment group as the dependent variable and the following
+baseline covariates as predictors: age, sex, race/ethnicity, baseline
+EASI score, number of prior systemic therapy failures, disease duration,
+insurance type, depression/anxiety history, and relevant comorbidities.
+Variable selection is based on subject matter knowledge of likely
+confounders. After weighting, covariate balance will be assessed using
+standardized mean differences (threshold: SMD \textless{} 0.1) and
+propensity score overlap will be inspected visually to evaluate the
+positivity assumption, which requires a nonzero probability of receiving
+each treatment for every combination of covariates (Austin, 2011).
+
+\textbf{Primary analysis.} The average treatment effect on the treated
+(ATT) will be estimated using IPTW in weighted linear regression models.
+IPTW creates a pseudo-population in which measured covariates are
+balanced across treatment groups, approximating what randomization would
+achieve. Primary outcomes are 12-month change scores for DLQI and PHQ-9.
+Point estimates will be reported with 95\% confidence intervals, and
+clinical significance will be evaluated against established MCIDs (DLQI:
+4 points; PHQ-9: 5 points), focusing on whether confidence intervals
+exclude these thresholds and what effect sizes remain compatible with
+the data. Hypothesis testing at alpha = 0.05 will be reported, though a
+point estimate paired with its confidence interval is more informative
+for guiding treatment decisions than a binary significance label.
+
+\textbf{Effect modification analysis (Aim 3).} Prespecified interaction
+terms for age, sex, and race will be included in regression models.
+Effect modification is established through the interaction test itself,
+not by comparing significance labels across subgroups. Stratum-specific
+effect sizes and confidence intervals will be reported to characterize
+the pattern of heterogeneity. Insurance status and socioeconomic factors
+will be examined as exploratory moderators.
+
+\textbf{Missing data.} Missing data will be handled using multiple
+imputation by chained equations (MICE), under the assumption that data
+are missing at random conditional on observed covariates (White et al.,
+2011). Because EHR data often exhibit missingness that is not completely
+at random, sensitivity analyses will compare imputed results to
+complete-case analyses. Substantial divergence between approaches will
+prompt more cautious interpretation.
+
+\textbf{Sensitivity and robustness analyses.} Three robustness checks
+are planned: (1) propensity score matching (1:1 nearest-neighbor with
+caliper of 0.2 standard deviations of the logit of the propensity score)
+as an alternative to weighting; (2) doubly robust estimation combining
+IPTW with outcome regression, which remains consistent as long as at
+least one of the two models is correctly specified; and (3) E-value
+calculations to quantify the minimum strength of association that an
+unmeasured confounder would need to have with both treatment and outcome
+to explain away observed effects (VanderWeele \& Ding, 2017). The three
+assumptions underlying causal inference (exchangeability, positivity,
+and consistency) will be explicitly evaluated and discussed.
+
+\subsubsection{Influence of age, sex, and
+race}\label{influence-of-age-sex-and-race}
+
+Demographic characteristics are likely to shape both treatment patterns
+and outcomes. Older versus younger adults may have different baseline
+quality of life and depressive symptom profiles, and age-related
+variation in insurance coverage and formulary restrictions may affect
+the probability of receiving dupilumab. Sex differences may emerge in
+how patients perceive and report quality of life and mood symptoms over
+follow-up. Race may relate to disparities in treatment access, with
+differences in insurance coverage, referral patterns, and prior
+authorization requirements creating selection effects in who receives
+biologic versus conventional therapy (Tackett et al., 2020). All three
+variables will enter the propensity score model as covariates, and
+interaction analyses (Aim 3) will evaluate whether treatment effects
+differ across demographic subgroups. Stratum-specific results will be
+interpreted through effect sizes and confidence intervals rather than
+significance labels alone.
+
+\subsubsection{Potential challenges and
+solutions}\label{potential-challenges-and-solutions}
+
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.3667}}
+  >{\raggedright\arraybackslash}p{(\linewidth - 2\tabcolsep) * \real{0.6333}}@{}}
+\caption{Potential challenges and proposed
+solutions}\label{tbl-challenges}\tabularnewline
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Challenge
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Proposed Solution
+\end{minipage} \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Challenge
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Proposed Solution
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Confounding by indication: dupilumab patients have more severe,
+refractory disease & IPTW with thorough covariate balance assessment
+(SMD \textless{} 0.1); doubly robust estimation as sensitivity analysis;
+E-value calculations for unmeasured confounding \\
+Missing PRO data from incomplete follow-up or inconsistent EHR
+documentation & Multiple imputation by chained equations with
+sensitivity analyses comparing complete-case results; evaluation of
+whether missingness patterns relate to patient characteristics or
+outcome risk \\
+Selection bias from differential out-of-pocket costs affecting who
+receives dupilumab & Include insurance status and socioeconomic
+indicators in propensity score model; assess residual imbalance
+post-weighting \\
+Treatment switching or discontinuation during follow-up &
+Intention-to-treat analysis as primary approach; per-protocol analysis
+as sensitivity check with documented switching rates and reasons \\
+Insufficient sample size for subgroup analyses by race & Report
+stratum-specific estimates with confidence intervals; acknowledge
+precision limitations transparently; avoid interpreting nonsignificance
+as absence of effect \\
+\end{longtable}
+
+\subsubsection{Study timeline}\label{study-timeline}
+
+\begin{longtable}[]{@{}lcccc@{}}
+\caption{Study timeline}\label{tbl-timeline}\tabularnewline
+\toprule\noalign{}
+Activity & Year 1 Q1-Q2 & Year 1 Q3-Q4 & Year 2 Q1-Q2 & Year 2 Q3-Q4 \\
+\midrule\noalign{}
+\endfirsthead
+\toprule\noalign{}
+Activity & Year 1 Q1-Q2 & Year 1 Q3-Q4 & Year 2 Q1-Q2 & Year 2 Q3-Q4 \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+IRB approval and data access agreements & ✓ & & & \\
+Cohort identification and data extraction & ✓ & ✓ & & \\
+Propensity score estimation and balance assessment & & ✓ & & \\
+Primary analyses (Aims 1 and 2) & & ✓ & ✓ & \\
+Effect modification analyses (Aim 3) & & & ✓ & \\
+Sensitivity analyses and robustness checks & & & ✓ & \\
+Manuscript preparation and dissemination & & & ✓ & ✓ \\
+\end{longtable}
+
+\newpage{}
+
+\section{References}\label{references}
+
+\phantomsection\label{refs}
+\begin{CSLReferences}{1}{0}
+\vspace{1em}
+
+\bibitem[\citeproctext]{ref-afshari_unraveling_2024}
+Afshari, M., Kolackova, M., Rosecka, M., Čelakovská, J., \& Krejsek, J.
+(2024). Unraveling the skin; a comprehensive review of atopic
+dermatitis, current understanding, and approaches. \emph{Front Immunol},
+\emph{15}, 1361005. \url{https://doi.org/10.3389/fimmu.2024.1361005}
+
+\bibitem[\citeproctext]{ref-austin_introduction_2011}
+Austin, P. C. (2011). An {Introduction} to {Propensity} {Score}
+{Methods} for {Reducing} the {Effects} of {Confounding} in
+{Observational} {Studies}. \emph{Multivariate Behav Res}, \emph{46}(3),
+399--424. \url{https://doi.org/10.1080/00273171.2011.568786}
+
+\bibitem[\citeproctext]{ref-basra_determining_2015}
+Basra, M. K. A., Salek, M. S., Camilleri, L., Sturkey, R., \& Finlay, A.
+Y. (2015). Determining the minimal clinically important difference and
+responsiveness of the {Dermatology} {Life} {Quality} {Index} ({DLQI}):
+Further data. \emph{Dermatology}, \emph{230}(1), 27--33.
+\url{https://doi.org/10.1159/000365390}
+
+\bibitem[\citeproctext]{ref-chopra_assessing_2018}
+Chopra, R., \& Silverberg, J. I. (2018). Assessing the severity of
+atopic dermatitis in clinical trials and practice. \emph{Clin Dermatol},
+\emph{36}(5), 606--615.
+\url{https://doi.org/10.1016/j.clindermatol.2018.05.012}
+
+\bibitem[\citeproctext]{ref-drucker_burden_2017}
+Drucker, A. M., Wang, A. R., Li, W.-Q., Sevetson, E., Block, J. K., \&
+Qureshi, A. A. (2017). The {Burden} of {Atopic} {Dermatitis}: {Summary}
+of a {Report} for the {National} {Eczema} {Association}. \emph{J Invest
+Dermatol}, \emph{137}(1), 26--30.
+\url{https://doi.org/10.1016/j.jid.2016.07.012}
+
+\bibitem[\citeproctext]{ref-eckert_impact_2017}
+Eckert, L., Gupta, S., Amand, C., Gadkari, A., Mahajan, P., \& Gelfand,
+J. M. (2017). Impact of atopic dermatitis on health-related quality of
+life and productivity in adults in the {United} {States}: {An} analysis
+using the {National} {Health} and {Wellness} {Survey}. \emph{J Am Acad
+Dermatol}, \emph{77}(2), 274--279.e3.
+\url{https://doi.org/10.1016/j.jaad.2017.04.019}
+
+\bibitem[\citeproctext]{ref-eichenfield_guidelines_2014}
+Eichenfield, L. F., Tom, W. L., Berger, T. G., Krol, A., Paller, A. S.,
+Schwarzenberger, K., et al. (2014). Guidelines of care for the
+management of atopic dermatitis: Section 2. {Management} and treatment
+of atopic dermatitis with topical therapies. \emph{J Am Acad Dermatol},
+\emph{71}(1), 116--132. \url{https://doi.org/10.1016/j.jaad.2014.03.023}
+
+\bibitem[\citeproctext]{ref-finlay_dermatology_1994}
+Finlay, A. Y., \& Khan, G. K. (1994). Dermatology {Life} {Quality}
+{Index} ({DLQI})--a simple practical measure for routine clinical use.
+\emph{Clin Exp Dermatol}, \emph{19}(3), 210--216.
+\url{https://doi.org/10.1111/j.1365-2230.1994.tb01167.x}
+
+\bibitem[\citeproctext]{ref-kroenke_phq-9_2001}
+Kroenke, K., Spitzer, R. L., \& Williams, J. B. W. (2001). The {PHQ}-9.
+\emph{J GEN INTERN MED}, \emph{16}(9), 606--613.
+\url{https://doi.org/10.1046/j.1525-1497.2001.016009606.x}
+
+\bibitem[\citeproctext]{ref-silverberg_adult_2013}
+Silverberg, J. I., \& Hanifin, J. M. (2013). Adult eczema prevalence and
+associations with asthma and other health and demographic factors: A
+{US} population-based study. \emph{J Allergy Clin Immunol},
+\emph{132}(5), 1132--1138.
+\url{https://doi.org/10.1016/j.jaci.2013.08.031}
+
+\bibitem[\citeproctext]{ref-silverberg_patient_2018}
+Silverberg, J. I., Gelfand, J. M., Margolis, D. J., Boguniewicz, M.,
+Fonacier, L., Grayson, M. H., et al. (2018). Patient burden and quality
+of life in atopic dermatitis in {US} adults: {A} population-based
+cross-sectional study. \emph{Ann Allergy Asthma Immunol}, \emph{121}(3),
+340--347. \url{https://doi.org/10.1016/j.anai.2018.07.006}
+
+\bibitem[\citeproctext]{ref-simpson_two_2016}
+Simpson, E. L., Bieber, T., Guttman-Yassky, E., Beck, L. A., Blauvelt,
+A., Cork, M. J., et al. (2016). Two {Phase} 3 {Trials} of {Dupilumab}
+versus {Placebo} in {Atopic} {Dermatitis}. \emph{N Engl J Med},
+\emph{375}(24), 2335--2348. \url{https://doi.org/10.1056/NEJMoa1610020}
+
+\bibitem[\citeproctext]{ref-tackett_structural_2020}
+Tackett, K. J., Jenkins, F., Morrell, D. S., McShane, D. B., \&
+Burkhart, C. N. (2020). Structural racism and its influence on the
+severity of atopic dermatitis in {African} {American} children.
+\emph{Pediatr Dermatol}, \emph{37}(1), 142--146.
+\url{https://doi.org/10.1111/pde.14058}
+
+\bibitem[\citeproctext]{ref-vanderweele_sensitivity_2017}
+VanderWeele, T. J., \& Ding, P. (2017). Sensitivity {Analysis} in
+{Observational} {Research}: {Introducing} the {E}-{Value}. \emph{Ann
+Intern Med}, \emph{167}(4), 268--274.
+\url{https://doi.org/10.7326/M16-2607}
+
+\bibitem[\citeproctext]{ref-white_multiple_2011}
+White, I. R., Royston, P., \& Wood, A. M. (2011). Multiple imputation
+using chained equations: Issues and guidance for practice. \emph{Stat
+Med}, \emph{30}(4), 377--399. \url{https://doi.org/10.1002/sim.4067}
+
+\bibitem[\citeproctext]{ref-yu_systematic_2018}
+Yu, S. H., Drucker, A. M., Lebwohl, M., \& Silverberg, J. I. (2018). A
+systematic review of the safety and efficacy of systemic corticosteroids
+in atopic dermatitis. \emph{J Am Acad Dermatol}, \emph{78}(4),
+733--740.e11. \url{https://doi.org/10.1016/j.jaad.2017.09.074}
+
+\end{CSLReferences}
+
+
+
+
+\end{document}
